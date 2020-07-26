@@ -1,0 +1,3 @@
+(executable
+  (name pkgjson)
+  (libraries str yojson opam-file-format))

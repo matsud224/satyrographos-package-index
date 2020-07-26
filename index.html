@@ -1,0 +1,109 @@
+<html>
+  <head>
+    <title>Satyrographos Packages (2020/07/27)</title>
+    <meta charset="utf-8">
+    <link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/1.10.21/css/jquery.dataTables.min.css" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="./style.css">
+    <script type="text/javascript" language="javascript" src="https://code.jquery.com/jquery-3.5.1.js" crossorigin="anonymous"></script>
+    <script type="text/javascript" language="javascript" src="https://cdn.datatables.net/1.10.21/js/jquery.dataTables.min.js" crossorigin="anonymous"></script>
+    <script type="text/javascript">
+      function escapeHTML(html) {
+        return jQuery('<div>').text(html).html();
+      }
+      function format ( d ) {
+        let new_line = function (description, content) {
+          if (content == "") return '';
+          return '<tr>'+
+              '<td>'+escapeHTML(description)+':</td>'+
+              '<td>'+escapeHTML(content)+'</td>'+
+              '</tr>';
+        };
+        let new_line_a = function (description, content) {
+          if (content == "") return '';
+          return '<tr>'+
+              '<td>'+escapeHTML(description)+':</td>'+
+                  '<td><a target="_blank" href="'+
+                  escapeHTML(content)+
+                  '">'+escapeHTML(content)+'</a></td>'+
+              '</tr>';
+        };
+        let basename = function (path) {
+          var lst = path.split('/');
+          return lst[lst.length-1];
+        };
+        let new_line_doc = function (description, content) {
+          if (content == "") return '';
+          var doclist = "";
+          var title = escapeHTML(description)+':';
+          for (const doc of content) {
+            doclist += '<tr>'+
+              '<td>'+title+'</td>'+
+              '<td><a target="_blank" href="'+
+              escapeHTML(doc)+
+              '">'+basename(escapeHTML(doc))+'</a></td>'+
+              '</tr>';
+              title = '';
+          }
+          return doclist;
+        };
+              console.log(d.document);
+        return '<table cellpadding="5" cellspacing="0" border="0" style="padding-left:50px;">'
+            + new_line('Description', d.description)
+            + new_line('Maintainer', d.maintainer)
+            + new_line('License', d.license)
+            + new_line_a('Homepage', d.homepage)
+            + new_line('Dependencies', d.dependencies)
+            + new_line_doc('Documents', d.document)
+        +'</table>';
+      }
+
+      $(document).ready(function() {
+        var table = $('#example').DataTable({
+          lengthMenu: [ [50, 100, -1], [50, 100, "All"] ],
+          ajax: "./data.json",
+          columns: [
+            {
+              className: "details-control",
+              orderable: false,
+              data:      null,
+              defaultContent: ""
+            },
+            { data: "name", render: $.fn.dataTable.render.text() },
+            { data: "synopsis", render: $.fn.dataTable.render.text() },
+            { data: "type", render: $.fn.dataTable.render.text() },
+            { data: "latest_version", render: $.fn.dataTable.render.text() }
+          ],
+          order: [[1, 'asc']]
+        });
+
+        $('#example tbody').on('click', 'td.details-control', function(){
+          var tr = $(this).closest('tr');
+          var row = table.row( tr );
+
+          if ( row.child.isShown() ) {
+            // This row is already open - close it
+            row.child.hide();
+            tr.removeClass('shown');
+          } else {
+            // Open this row
+            row.child( format(row.data()) ).show();
+            tr.addClass('shown');
+          }
+        });
+      });
+    </script>
+  </head>
+  <body>
+    <table id="example" class="display" style="width:100%">
+      <thead>
+        <tr>
+          <th></th>
+          <th>Name</th>
+          <th>Synopsis</th>
+          <th>Type</th>
+          <th>Latest version</th>
+        </tr>
+      </thead>
+    </table>
+  </body>
+</html>
