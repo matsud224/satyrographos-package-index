@@ -18,7 +18,7 @@ jobs:
           eval $(opam env)
           opam update
           opam upgrade
-          opam install satyrographos-snapshot-stable
+          opam install satyrographos-snapshot-stable || true
           satyrographos install
           #| - run: rm -rf docs
           #- run: cp -rL ~/.satysfi/dist/docs .
