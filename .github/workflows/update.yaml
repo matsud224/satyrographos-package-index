@@ -11,7 +11,6 @@ jobs:
     container:
       image: amutake/satysfi:latest
     steps:
-      - uses: actions/checkout@v2
       - run: export HOME=/root
       - run: eval $(opam env)
       - run: apt install xz-utils
@@ -19,6 +18,7 @@ jobs:
       - run: opam upgrade
       - run: opam install satyrographos-snapshot-stable
       - run: satyrographos install
+      - uses: actions/checkout@v2
       - run: rm -rf docs
       - run: cp -rL ~/.satysfi/dist/docs .
       - run: git clone https://github.com/na4zagin3/satyrographos-repo.git
