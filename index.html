@@ -66,7 +66,7 @@
               </td>
               </tr>`;
         };
-        return '<table cellpadding="5" cellspacing="0" border="0" style="padding-left:50px;">'
+        return '<table class="table" cellpadding="5" cellspacing="0" border="0" style="padding-left:50px;"><tbody>'
             + new_line_installcmd(d.name)
             + new_line('Description', d.description)
             + new_line('Maintainer', d.maintainer)
@@ -74,7 +74,7 @@
             + new_line_a('Homepage', d.homepage)
             + new_line('Dependencies', d.dependencies)
             + new_line_doc('Documents', d.document)
-        +'</table>';
+        +'</tbody></table>';
       }
 
       $(document).ready(function() {
@@ -89,10 +89,18 @@
               data:      null,
               defaultContent: ""
             },
-            { data: "name", render: $.fn.dataTable.render.text() },
-            { data: "synopsis", render: $.fn.dataTable.render.text() },
+            {
+              data: "name", render: $.fn.dataTable.render.text()
+            },
+            {
+              data: "synopsis", render: $.fn.dataTable.render.text(),
+              orderable: false
+            },
             { data: "type", render: $.fn.dataTable.render.text() },
-            { data: "latest_version", render: $.fn.dataTable.render.text() }
+            {
+              data: "latest_version", render: $.fn.dataTable.render.text(),
+              orderable: false
+            }
           ],
           order: [[1, 'asc']]
         });
@@ -120,7 +128,7 @@
       <span class="badge badge-secondary">Last update: 2020/07/27</span>
     </nav>
     <div style="margin:2%">
-      <table id="example" class="table table-striped table-bordered" style="width:100%">
+      <table id="example" class="table" style="width:100%">
         <thead>
           <tr>
             <th></th>
