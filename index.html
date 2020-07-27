@@ -1,11 +1,17 @@
 <html>
   <head>
-    <title>Satyrographos Packages (2020/07/27)</title>
+    <title>Satyrographos Packages</title>
     <meta charset="utf-8">
-    <link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/1.10.21/css/jquery.dataTables.min.css" crossorigin="anonymous">
+
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/css/bootstrap.css">
+    <link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/1.10.21/css/dataTables.bootstrap4.min.css">
     <link rel="stylesheet" type="text/css" href="./style.css">
-    <script type="text/javascript" language="javascript" src="https://code.jquery.com/jquery-3.5.1.js" crossorigin="anonymous"></script>
-    <script type="text/javascript" language="javascript" src="https://cdn.datatables.net/1.10.21/js/jquery.dataTables.min.js" crossorigin="anonymous"></script>
+
+    <script type="text/javascript" language="javascript" src="https://code.jquery.com/jquery-3.5.1.js"></script>
+    <script type="text/javascript" language="javascript" src="https://cdn.datatables.net/1.10.21/js/jquery.dataTables.min.js"></script>
+    <script type="text/javascript" language="javascript" src="https://cdn.datatables.net/1.10.21/js/dataTables.bootstrap4.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/clipboard.js/2.0.4/clipboard.min.js"></script>
+
     <script type="text/javascript">
       function escapeHTML(html) {
         return jQuery('<div>').text(html).html();
@@ -46,8 +52,22 @@
           }
           return doclist;
         };
-              console.log(d.document);
+        let new_line_installcmd = function (pkg) {
+          if (pkg == "") return '';
+          return `<tr>
+              <td>Installation:</td>
+              <td>
+              <div class="input-group mb-3">
+                <input type="text" class="form-control" aria-label="Installation Command" id="installcmd-${pkg}" value="opam install ${escapeHTML(pkg)}">
+                <div class="input-group-append">
+                  <button class="btn btn-outline-secondary" type="button" data-clipboard-target="#installcmd-${pkg}">Copy</button>
+                </div>
+              </div>
+              </td>
+              </tr>`;
+        };
         return '<table cellpadding="5" cellspacing="0" border="0" style="padding-left:50px;">'
+            + new_line_installcmd(d.name)
             + new_line('Description', d.description)
             + new_line('Maintainer', d.maintainer)
             + new_line('License', d.license)
@@ -58,6 +78,7 @@
       }
 
       $(document).ready(function() {
+        var clipboard = new ClipboardJS('.btn');
         var table = $('#example').DataTable({
           lengthMenu: [ [50, 100, -1], [50, 100, "All"] ],
           ajax: "./data.json",
@@ -94,16 +115,22 @@
     </script>
   </head>
   <body>
-    <table id="example" class="display" style="width:100%">
-      <thead>
-        <tr>
-          <th></th>
-          <th>Name</th>
-          <th>Synopsis</th>
-          <th>Type</th>
-          <th>Latest version</th>
-        </tr>
-      </thead>
-    </table>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      <span class="navbar-brand mb-0 h1">Satyrographos Packages</span>
+      <span class="badge badge-secondary">Last update: 2020/07/27</span>
+    </nav>
+    <div style="margin:2%">
+      <table id="example" class="table table-striped table-bordered" style="width:100%">
+        <thead>
+          <tr>
+            <th></th>
+            <th>Name</th>
+            <th>Synopsis</th>
+            <th>Type</th>
+            <th>Latest version</th>
+          </tr>
+        </thead>
+      </table>
+    </div>
   </body>
 </html>
