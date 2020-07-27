@@ -1,6 +1,8 @@
 name: update-packege-data
 
-on: push
+on:
+  schedule:
+    - cron: 0/10 * * * *
 
 jobs:
   build:
