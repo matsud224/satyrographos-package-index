@@ -11,23 +11,24 @@ jobs:
     container:
       image: amutake/satysfi:latest
     steps:
-      - run: export HOME=/root
-      - run: eval $(opam env)
-      - run: apt install xz-utils
-      - run: opam update
-      - run: opam upgrade
-      - run: opam install satyrographos-snapshot-stable
-      - run: satyrographos install
       - uses: actions/checkout@v2
-      - run: rm -rf docs
-      - run: cp -rL ~/.satysfi/dist/docs .
-      - run: git clone https://github.com/na4zagin3/satyrographos-repo.git
-      - run: opam install opam-file-format yojson
-      - run: make run
-      - run: git config user.name github-actions
-      - run: git config user.email github-actions@github.com
-      - run: git add data.json
-      - run: git add docs/*
-      - run: git commit -m "update package data"
-      - run: git push
+      - run: apt install xz-utils
+      - run: |
+          export HOME=/root
+          eval $(opam env)
+          opam update
+          opam upgrade
+          opam install satyrographos-snapshot-stable
+          satyrographos install
+          #| - run: rm -rf docs
+          #- run: cp -rL ~/.satysfi/dist/docs .
+        #- run: git clone https://github.com/na4zagin3/satyrographos-repo.git
+        #- run: opam install opam-file-format yojson
+      #- run: make run
+      #- run: git config user.name github-actions
+      #- run: git config user.email github-actions@github.com
+      #- run: git add data.json
+      #- run: git add docs/*
+      #- run: git commit -m "update package data"
+      #- run: git push
 
