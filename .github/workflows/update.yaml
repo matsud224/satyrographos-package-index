@@ -14,7 +14,6 @@ jobs:
       - uses: actions/checkout@v2
       - run: apt install xz-utils
       - run: |
-        # workaround for 'https://github.com/actions/checkout/issues/126'
           add-apt-repository -y ppa:git-core/ppa
           apt update -y
           apt install -y git
