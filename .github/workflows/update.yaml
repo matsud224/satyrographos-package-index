@@ -32,5 +32,5 @@ jobs:
           git clone https://github.com/na4zagin3/satyrographos-repo.git
           make
           dune exec ./pkgjson.exe data_new.json
-          ./update_check.sh
+          ./update-check.sh
 
