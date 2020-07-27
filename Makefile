@@ -7,4 +7,4 @@ pkgjson.exe: pkgjson.ml
 
 .PHONY: run
 run: pkgjson.exe
-	$(DUNE) exec ./$<
+	$(DUNE) exec ./$< data.json

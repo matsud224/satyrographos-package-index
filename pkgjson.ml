@@ -8,7 +8,6 @@
 
 let package_root = "./satyrographos-repo/packages"
 let doc_root = "./docs"
-let out_file = "./data.json"
 
 type package_type =
   Library | Class | Font | Document | Satysfi | Satyrographos | Other
@@ -137,6 +136,7 @@ let get_docfile_list name =
     []
 
 let () =
+  let out_file = Sys.argv.(1) in
   let package_list = get_package_list () in
   let package_info_list = package_list |> List.map (fun name ->
     let version_list = get_version_list name in
@@ -155,7 +155,7 @@ let () =
       latest_version = latest_version;
       dependencies   = Option.value (get_depends_info_in_opamfile ofile) ~default:"(no dependencies)";
       documents      = get_docfile_list name;
-    })
+    }) |> List.sort (fun a b -> String.compare a.name b.name)
   in
   let json_root = json_of_package_info_list package_info_list in
   let ochan = open_out out_file in
