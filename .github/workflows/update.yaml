@@ -12,7 +12,7 @@ jobs:
       image: amutake/satysfi:latest
     steps:
       - uses: actions/checkout@v2
-      - run: export HOME=/root
+        #- run: export HOME=/root
       - run: eval $(opam env)
       - run: apt install xz-utils
       - run: opam update
