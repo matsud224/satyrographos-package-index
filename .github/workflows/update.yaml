@@ -25,6 +25,8 @@ jobs:
           cp -rL ~/.satysfi/dist/docs .
           git clone https://github.com/na4zagin3/satyrographos-repo.git
           make run
+          pwd
+          ls
           git config user.name github-actions
           git config user.email github-actions@github.com
           git add data.json
