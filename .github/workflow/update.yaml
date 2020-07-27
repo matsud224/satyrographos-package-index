@@ -1,0 +1,30 @@
+name: update-packege-data
+
+on: push
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    container:
+      image: amutake/satysfi:latest
+    steps:
+      - uses: actions/checkout@v2
+      - run: |
+        export HOME=/root
+        eval $(opam env)
+        apt install xz-utils
+        opam update
+        opam upgrade
+        opam install satyrographos-snapshot-stable
+        satyrographos install
+        rm -rf docs
+        cp -rL ~/.satysfi/dist/docs .
+        git clone https://github.com/na4zagin3/satyrographos-repo.git
+        opam install opam-file-format yojson
+        make run
+        git config user.name github-actions
+        git config user.email github-actions@github.com
+        git add data.json
+        git add docs/*
+        git commit -m "update package data"
+        git push
