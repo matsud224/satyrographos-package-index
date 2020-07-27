@@ -2,6 +2,7 @@ td.details-control {
   background: url('./resources/open.svg') no-repeat center center;
   cursor: pointer;
 }
+
 tr.shown td.details-control {
   background: url('./resources/close.svg') no-repeat center center;
 }

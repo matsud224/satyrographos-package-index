@@ -1,126 +1,17 @@
 <html>
   <head>
-    <title>Satyrographos Packages</title>
     <meta charset="utf-8">
+    <title>Satyrographos Packages</title>
 
     <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/css/bootstrap.css">
     <link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/1.10.21/css/dataTables.bootstrap4.min.css">
     <link rel="stylesheet" type="text/css" href="./style.css">
 
-    <script type="text/javascript" language="javascript" src="https://code.jquery.com/jquery-3.5.1.js"></script>
-    <script type="text/javascript" language="javascript" src="https://cdn.datatables.net/1.10.21/js/jquery.dataTables.min.js"></script>
-    <script type="text/javascript" language="javascript" src="https://cdn.datatables.net/1.10.21/js/dataTables.bootstrap4.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/clipboard.js/2.0.4/clipboard.min.js"></script>
-
-    <script type="text/javascript">
-      function escapeHTML(html) {
-        return jQuery('<div>').text(html).html();
-      }
-      function format ( d ) {
-        let new_line = function (description, content) {
-          if (content == "") return '';
-          return '<tr>'+
-              '<td>'+escapeHTML(description)+':</td>'+
-              '<td>'+escapeHTML(content)+'</td>'+
-              '</tr>';
-        };
-        let new_line_a = function (description, content) {
-          if (content == "") return '';
-          return '<tr>'+
-              '<td>'+escapeHTML(description)+':</td>'+
-                  '<td><a target="_blank" href="'+
-                  escapeHTML(content)+
-                  '">'+escapeHTML(content)+'</a></td>'+
-              '</tr>';
-        };
-        let basename = function (path) {
-          var lst = path.split('/');
-          return lst[lst.length-1];
-        };
-        let new_line_doc = function (description, content) {
-          if (content == "") return '';
-          var doclist = "";
-          var title = escapeHTML(description)+':';
-          for (const doc of content) {
-            doclist += '<tr>'+
-              '<td>'+title+'</td>'+
-              '<td><a target="_blank" href="'+
-              escapeHTML(doc)+
-              '">'+basename(escapeHTML(doc))+'</a></td>'+
-              '</tr>';
-              title = '';
-          }
-          return doclist;
-        };
-        let new_line_installcmd = function (pkg) {
-          if (pkg == "") return '';
-          return `<tr>
-              <td>Installation:</td>
-              <td>
-              <div class="input-group mb-3">
-                <input type="text" class="form-control" aria-label="Installation Command" id="installcmd-${pkg}" value="opam install ${escapeHTML(pkg)}">
-                <div class="input-group-append">
-                  <button class="btn btn-outline-secondary" type="button" data-clipboard-target="#installcmd-${pkg}">Copy</button>
-                </div>
-              </div>
-              </td>
-              </tr>`;
-        };
-        return '<table class="table" cellpadding="5" cellspacing="0" border="0" style="padding-left:50px;"><tbody>'
-            + new_line_installcmd(d.name)
-            + new_line('Description', d.description)
-            + new_line('Maintainer', d.maintainer)
-            + new_line('License', d.license)
-            + new_line_a('Homepage', d.homepage)
-            + new_line('Dependencies', d.dependencies)
-            + new_line_doc('Documents', d.document)
-        +'</tbody></table>';
-      }
-
-      $(document).ready(function() {
-        var clipboard = new ClipboardJS('.btn');
-        var table = $('#example').DataTable({
-          lengthMenu: [ [50, 100, -1], [50, 100, "All"] ],
-          ajax: "./data.json",
-          columns: [
-            {
-              className: "details-control",
-              orderable: false,
-              data:      null,
-              defaultContent: ""
-            },
-            {
-              data: "name", render: $.fn.dataTable.render.text()
-            },
-            {
-              data: "synopsis", render: $.fn.dataTable.render.text(),
-              orderable: false
-            },
-            { data: "type", render: $.fn.dataTable.render.text() },
-            {
-              data: "latest_version", render: $.fn.dataTable.render.text(),
-              orderable: false
-            }
-          ],
-          order: [[1, 'asc']]
-        });
-
-        $('#example tbody').on('click', 'td.details-control', function(){
-          var tr = $(this).closest('tr');
-          var row = table.row( tr );
-
-          if ( row.child.isShown() ) {
-            // This row is already open - close it
-            row.child.hide();
-            tr.removeClass('shown');
-          } else {
-            // Open this row
-            row.child( format(row.data()) ).show();
-            tr.addClass('shown');
-          }
-        });
-      });
-    </script>
+    <script type="text/javascript" src="https://code.jquery.com/jquery-3.5.1.js"></script>
+    <script type="text/javascript" src="https://cdn.datatables.net/1.10.21/js/jquery.dataTables.min.js"></script>
+    <script type="text/javascript" src="https://cdn.datatables.net/1.10.21/js/dataTables.bootstrap4.min.js"></script>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/clipboard.js/2.0.4/clipboard.min.js"></script>
+    <script type="text/javascript" src="./main.js"></script>
   </head>
   <body>
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
@@ -128,7 +19,7 @@
       <span class="badge badge-secondary">Last update: 2020/07/27</span>
     </nav>
     <div style="margin:2%">
-      <table id="example" class="table" style="width:100%">
+      <table id="main-table" class="table" style="width:100%">
         <thead>
           <tr>
             <th></th>
