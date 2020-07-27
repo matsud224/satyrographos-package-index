@@ -12,8 +12,9 @@ jobs:
       image: amutake/satysfi:latest
     steps:
       - uses: actions/checkout@v2
-      - run: apt install xz-utils
+      - run: apt install -y xz-utils
       - run: |
+          apt install -y software-properties-common
           add-apt-repository -y ppa:git-core/ppa
           apt update -y
           apt install -y git
