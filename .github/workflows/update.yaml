@@ -11,7 +11,6 @@ jobs:
     container:
       image: amutake/satysfi:latest
     steps:
-      - uses: actions/checkout@v2
       - run: apt update
       - run: apt install -y xz-utils
       - run: |
@@ -20,6 +19,7 @@ jobs:
           apt update -y
           apt install -y git
           git --version
+      - uses: actions/checkout@v2
       - run: |
           export HOME=/root
           eval $(opam env)
