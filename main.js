@@ -17,6 +17,17 @@ function emitDetailsTable(d) {
         <td colspan="2">${escapeHTML(content)}</td>
       </tr>`;
   };
+  let emitCardRow = function(content) {
+    if (content == '') return '';
+    return `
+      <tr>
+        <div class="card">
+          <div class="card-body">
+            ${escapeHTML(content)}
+          </div>
+        </div>
+      </tr>`;
+  };
   let emitLinkRow = function(description, content) {
     if (content == '') return '';
     return `
@@ -63,8 +74,8 @@ function emitDetailsTable(d) {
         </tr>`;
   };
   return '<table class="table" cellpadding="5" cellspacing="0" border="0" style="padding-left:50px;"><tbody>'
+      + emitCardRow(d.description)
       + emitInstallCmdRow(d.name)
-      + emitRow('Description', d.description)
       + emitRow('Maintainer', d.maintainer)
       + emitRow('License', d.license)
       + emitLinkRow('Homepage', d.homepage)
