@@ -14,7 +14,7 @@ function emitDetailsTable(d) {
     if (content == '') return '';
     return `
       <tr>
-        <td conspan="2">${escapeHTML(content)}</td>
+        <td colspan="2">${escapeHTML(content)}</td>
       </tr>`;
   };
   let emitLinkRow = function(description, content) {
