@@ -71,7 +71,6 @@ $(document).ready(function() {
   var table = $('#main-table').DataTable({
     lengthMenu: [ [50, 100, -1], [50, 100, "All"] ],
     ajax: "./data.json",
-    responsive: true,
     columns: [
       {
         className: "details-control",
