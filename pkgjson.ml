@@ -23,6 +23,7 @@ type package_info = {
   latest_version : string;
   dependencies   : string;
   documents      : string list;
+  has_docpackage : bool;
 }
 
 let string_of_package_type t =
@@ -101,7 +102,8 @@ let json_of_package_info info =
     ("homepage",       `String info.homepage);
     ("latest_version", `String info.latest_version);
     ("dependencies",   `String info.dependencies);
-    ("document",        `List (List.map (fun s -> `String s) info.documents));
+    ("document",       `List (List.map (fun s -> `String s) info.documents));
+    ("has_docpackage", `Bool info.has_docpackage);
   ]
 
 let json_of_package_info_list ilst =
@@ -135,6 +137,14 @@ let get_docfile_list name =
   else
     []
 
+let has_docpackage pkglst name =
+  let docpkg_name = name ^ "-doc" in
+  try
+    ignore (List.find (fun s -> (String.compare s docpkg_name) == 0) pkglst);
+    true
+  with
+    Not_found -> false
+
 let () =
   let out_file = Sys.argv.(1) in
   let package_list = get_package_list () in
@@ -155,6 +165,7 @@ let () =
       latest_version = latest_version;
       dependencies   = Option.value (get_depends_info_in_opamfile ofile) ~default:"(no dependencies)";
       documents      = get_docfile_list name;
+      has_docpackage = has_docpackage package_list name;
     }) |> List.sort (fun a b -> String.compare a.name b.name)
   in
   let json_root = json_of_package_info_list package_info_list in

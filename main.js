@@ -10,6 +10,13 @@ function emitDetailsTable(d) {
         <td>${escapeHTML(content)}</td>
       </tr>`;
   };
+  let emitMessageRow = function(content) {
+    if (content == '') return '';
+    return `
+      <tr>
+        <td conspan="2">${escapeHTML(content)}</td>
+      </tr>`;
+  };
   let emitLinkRow = function(description, content) {
     if (content == '') return '';
     return `
@@ -63,6 +70,7 @@ function emitDetailsTable(d) {
       + emitLinkRow('Homepage', d.homepage)
       + emitRow('Dependencies', d.dependencies)
       + emitDocsRow('Documents', d.document)
+      + emitMessageRow(d.has_docpackage ? `Document package '${d.name}-doc' is available.` : '')
   +'</tbody></table>';
 }
 
