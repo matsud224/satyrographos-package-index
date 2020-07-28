@@ -12,7 +12,8 @@
       "latest_version": "0.0.2.5",
       "dependencies":
         "\"ocaml\" {>= \"4.09.0\"}, \"dune\" {>= \"2\"}, \"fileutils\", \"json-derivers\", \"ppx_deriving\", \"opam-format\" {>= \"2.0\" & < \"2.1\"}, \"re\" {with-test}, \"stringext\" {with-test}, \"uri\" {>= \"3.0.0\"}, \"uri-sexp\" {>= \"3.0.0\"}, \"yojson\", \"core\" {>= \"v0.13\" & < \"v0.15\"}, \"ppx_jane\", \"shexp\"",
-      "document": []
+      "document": [],
+      "has_docpackage": false
     },
     {
       "name": "satyrographos-snapshot-stable",
@@ -25,7 +26,8 @@
       "latest_version": "0.0.5+2020.07.20",
       "dependencies":
         "\"dune\" {build}, \"ocaml\" {>= \"4.10.0\"}, \"satysfi\" {= \"0.0.5\"}, \"satysfi-dist\", \"satyrographos\" {= \"0.0.2.5\"}, \"satysfi-assert-eq\" {= \"0.1.1\"}, \"satysfi-base\" {= \"1.3.0\"}, \"satysfi-bibyfi\" {= \"0.0.2\"}, \"satysfi-bibyfi-doc\" {= \"0.0.2\"}, \"satysfi-cancel\" {= \"0.0.0\"}, \"satysfi-class-exdesign\" {= \"0.2\"}, \"satysfi-class-exdesign-doc\" {= \"0.2\"}, \"satysfi-class-slydifi\" {= \"0.1.0\"}, \"satysfi-class-stjarticle\" {= \"1.3.2\"}, \"satysfi-class-stjarticle-doc\" {= \"1.3.2\"}, \"satysfi-class-yabaitech\" {= \"0.0.1\"}, \"satysfi-debug-show-value\" {= \"0.1.1\"}, \"satysfi-easytable\" {= \"1.0.0\"}, \"satysfi-easytable-doc\" {= \"1.0.0\"}, \"satysfi-enumitem\" {= \"2.0.0\"}, \"satysfi-enumitem-doc\" {= \"2.0.0\"}, \"satysfi-fonts-asana-math\" {= \"000.958+1+satysfi0.0.4\"}, \"satysfi-fonts-asana-math-doc\" {= \"000.958+1+satysfi0.0.4\"}, \"satysfi-fonts-computer-modern-unicode\" {= \"0.7.0+satysfi0.0.4\"}, \"satysfi-fonts-computer-modern-unicode-doc\" {= \"0.7.0+satysfi0.0.4\"}, \"satysfi-fonts-dejavu\" {= \"2.37+satysfi0.0.4\"}, \"satysfi-fonts-dejavu-doc\" {= \"2.37+satysfi0.0.4\"}, \"satysfi-fonts-noto-emoji\" {= \"1.05+uh+2\"}, \"satysfi-fonts-noto-emoji-doc\" {= \"1.05+uh+2\"}, \"satysfi-fonts-noto-sans\" {= \"2.001+1+satysfi0.0.4\"}, \"satysfi-fonts-noto-sans-cjk-jp\" {= \"2.001+1+satysfi0.0.4\"}, \"satysfi-fonts-noto-sans-cjk-jp-doc\" {= \"2.001+1+satysfi0.0.4\"}, \"satysfi-fonts-noto-sans-doc\" {= \"2.001+1+satysfi0.0.4\"}, \"satysfi-fonts-noto-serif\" {= \"2.001+1+satysfi0.0.4\"}, \"satysfi-fonts-noto-serif-cjk-jp\" {= \"2.001+1+satysfi0.0.4\"}, \"satysfi-fonts-noto-serif-cjk-jp-doc\" {= \"2.001+1+satysfi0.0.4\"}, \"satysfi-fonts-noto-serif-doc\" {= \"2.001+1+satysfi0.0.4\"}, \"satysfi-fonts-theano\" {= \"2.0+satysfi0.0.3+satyrograhos0.0.2\"}, \"satysfi-fonts-theano-doc\" {= \"2.0+satysfi0.0.3+satyrograhos0.0.2\"}, \"satysfi-grcnum\" {= \"0.2\"}, \"satysfi-grcnum-doc\" {= \"0.2\"}, \"satysfi-karnaugh\" {= \"0.0.1\"}, \"satysfi-karnaugh-doc\" {= \"0.0.1\"}, \"satysfi-make-html\" {= \"0.1.0\"}, \"satysfi-make-markdown\" {= \"0.1.0\"}, \"satysfi-matrix\" {= \"0.0.1+dev2019.10.15\"}, \"satysfi-matrix-doc\" {= \"0.0.1+dev2019.10.15\"}, \"satysfi-musikui\" {= \"0.1.0\"}, \"satysfi-ncsq\" {= \"0.0.1\"}, \"satysfi-ncsq-doc\" {= \"0.0.1\"}, \"satysfi-num-conversion\" {= \"0.1.1\"}, \"satysfi-simple-itemize\" {= \"1.0.0\"}, \"satysfi-siunitx\" {= \"0.1\"}, \"satysfi-uline\" {= \"0.2.0\"}, \"satysfi-zrbase\" {= \"0.4.0\"}",
-      "document": []
+      "document": [],
+      "has_docpackage": false
     },
     {
       "name": "satysfi",
@@ -39,7 +41,8 @@
       "latest_version": "0.0.5",
       "dependencies":
         "\"ocaml\" {>= \"4.08.0\"}, \"batteries\", \"camlimages\" {>= \"5.0.1\"}, \"camlpdf\" {= \"2.3.1+satysfi\"}, \"core_kernel\" {>= \"v0.13\"}, \"cppo\" {build & >= \"1.6.4\" & < \"1.7.0\"}, \"depext\", \"dune\" {build}, \"menhir\", \"ocamlfind\" {build}, \"otfm\" {= \"0.3.7+satysfi\"}, \"ppx_deriving\", \"re\" {build}, \"uutf\", \"yojson-with-position\" {= \"1.4.2+satysfi\"}, \"omd\"",
-      "document": []
+      "document": [],
+      "has_docpackage": false
     },
     {
       "name": "satysfi-assert-eq",
@@ -52,7 +55,8 @@
       "latest_version": "0.1.1",
       "dependencies":
         "\"satysfi\" {>= \"0.0.3\" & < \"0.0.6\"}, \"satyrographos\" {>= \"0.0.2\" & < \"0.0.4\"}",
-      "document": []
+      "document": [],
+      "has_docpackage": false
     },
     {
       "name": "satysfi-base",
@@ -66,7 +70,8 @@
       "latest_version": "1.3.0",
       "dependencies":
         "\"satysfi\" {>= \"0.0.3\" & < \"0.0.6\"}, \"satyrographos\" {>= \"0.0.2.3\" & < \"0.0.3\"}, \"satysfi-fonts-dejavu\" {>= \"2.37\"}, \"satysfi-zrbase\" {>= \"0.4.0\"}",
-      "document": []
+      "document": [],
+      "has_docpackage": false
     },
     {
       "name": "satysfi-bibyfi",
@@ -80,7 +85,8 @@
       "latest_version": "0.0.2",
       "dependencies":
         "\"satysfi\" {>= \"0.0.4+dev2020.04.25\" & < \"0.0.6\"}, \"satyrographos\" {>= \"0.0.2.3\" & < \"0.0.3\"}",
-      "document": []
+      "document": [],
+      "has_docpackage": true
     },
     {
       "name": "satysfi-bibyfi-doc",
@@ -100,7 +106,8 @@
         "./docs/bibyfi-doc/examples/cite-with-name.saty",
         "./docs/bibyfi-doc/README.md", "./docs/bibyfi-doc/LICENSE",
         "./docs/bibyfi-doc/example-bib.satyh"
-      ]
+      ],
+      "has_docpackage": false
     },
     {
       "name": "satysfi-cancel",
@@ -114,7 +121,8 @@
       "latest_version": "0.0.0",
       "dependencies":
         "\"satysfi\" {>= \"0.0.3\" & < \"0.0.6\"}, \"satyrographos\" {>= \"0.0.2.3\" & < \"0.0.3\"}, \"satysfi-dist\"",
-      "document": []
+      "document": [],
+      "has_docpackage": false
     },
     {
       "name": "satysfi-class-exdesign",
@@ -127,7 +135,8 @@
       "latest_version": "0.2",
       "dependencies":
         "\"satysfi\" {>= \"0.0.3\" & < \"0.0.6\"}, \"satyrographos\" {>= \"0.0.2\" & < \"0.0.3\"}",
-      "document": []
+      "document": [],
+      "has_docpackage": true
     },
     {
       "name": "satysfi-class-exdesign-doc",
@@ -142,7 +151,8 @@
       "latest_version": "0.2",
       "dependencies":
         "\"satysfi\" {>= \"0.0.3\" & < \"0.0.6\"}, \"satyrographos\" {>= \"0.0.2\" & < \"0.0.3\"}, \"satysfi-dist\", \"satysfi-class-exdesign\" {= \"%{version}%\"}",
-      "document": [ "./docs/class-exdesign-doc/manual.pdf" ]
+      "document": [ "./docs/class-exdesign-doc/manual.pdf" ],
+      "has_docpackage": false
     },
     {
       "name": "satysfi-class-slydifi",
@@ -157,7 +167,8 @@
       "latest_version": "0.1.0",
       "dependencies":
         "\"satysfi\" {>= \"0.0.3\" & < \"0.0.6\"}, \"satyrographos\" {>= \"0.0.2\" & < \"0.0.3\"}",
-      "document": []
+      "document": [],
+      "has_docpackage": false
     },
     {
       "name": "satysfi-class-stjarticle",
@@ -171,7 +182,8 @@
       "latest_version": "1.3.2+satysfi0.0.3+satyrograhos0.0.1",
       "dependencies":
         "\"satysfi\" {>= \"0.0.3\" & < \"0.0.4\"}, \"satyrographos\" {>= \"0.0.1\" & < \"0.0.2\"}",
-      "document": []
+      "document": [],
+      "has_docpackage": true
     },
     {
       "name": "satysfi-class-stjarticle-doc",
@@ -188,7 +200,8 @@
       "document": [
         "./docs/class-stjarticle-doc/stjarticle-demo.saty",
         "./docs/class-stjarticle-doc/stjarticle-demo.pdf"
-      ]
+      ],
+      "has_docpackage": false
     },
     {
       "name": "satysfi-class-yabaitech",
@@ -202,7 +215,8 @@
       "latest_version": "0.0.1",
       "dependencies":
         "\"satysfi\" {>= \"0.0.4\" & < \"0.0.6\"}, \"satyrographos\" {>= \"0.0.2\" & < \"0.0.3\"}, \"satysfi-base\" {>= \"1.2.1\" & < \"2.0.0\"}, \"satysfi-fonts-noto-sans\" {>= \"2.001+1+satysfi0.0.4\"}, \"satysfi-fonts-noto-serif\" {>= \"2.001+1+satysfi0.0.4\"}, \"satysfi-fonts-noto-sans-cjk-jp\" {>= \"2.001+1+satysfi0.0.4\"}, \"satysfi-fonts-noto-serif-cjk-jp\" {>= \"2.001+1+satysfi0.0.4\"}, \"satysfi-fonts-asana-math\" {>= \"000.958+1+satysfi0.0.4\"}",
-      "document": []
+      "document": [],
+      "has_docpackage": true
     },
     {
       "name": "satysfi-class-yabaitech-doc",
@@ -216,7 +230,8 @@
       "latest_version": "0.0.1",
       "dependencies":
         "\"satysfi\" {>= \"0.0.4\" & < \"0.0.6\"}, \"satyrographos\" {>= \"0.0.2\" & < \"0.0.3\"}, \"satysfi-class-yabaitech\" {= \"0.0.1\"}",
-      "document": []
+      "document": [],
+      "has_docpackage": false
     },
     {
       "name": "satysfi-debug-show-value",
@@ -229,7 +244,8 @@
       "latest_version": "0.1.1",
       "dependencies":
         "\"satysfi\" {>= \"0.0.3\" & < \"0.0.6\"}, \"satyrographos\" {>= \"0.0.2\" & < \"0.0.4\"}",
-      "document": []
+      "document": [],
+      "has_docpackage": false
     },
     {
       "name": "satysfi-dist",
@@ -241,7 +257,8 @@
       "homepage": "https://github.com/gfngfn/SATySFi",
       "latest_version": "0.0.5",
       "dependencies": "\"satysfi\" {= \"%{version}%\"}",
-      "document": []
+      "document": [],
+      "has_docpackage": false
     },
     {
       "name": "satysfi-easytable",
@@ -254,7 +271,8 @@
       "latest_version": "1.0.0",
       "dependencies":
         "\"satysfi\" {>= \"0.0.5\" & < \"0.0.6\"}, \"satyrographos\" {>= \"0.0.2\" & < \"0.0.3\"}, \"satysfi-dist\"",
-      "document": []
+      "document": [],
+      "has_docpackage": true
     },
     {
       "name": "satysfi-easytable-doc",
@@ -267,7 +285,8 @@
       "latest_version": "1.0.0",
       "dependencies":
         "\"satysfi\" {>= \"0.0.5\" & < \"0.0.6\"}, \"satyrographos\" {>= \"0.0.2\" & < \"0.0.3\"}, \"satysfi-dist\", \"satysfi-easytable\" {= \"%{version}%\"}, \"satysfi-enumitem\" {>= \"2.0.0\"}",
-      "document": [ "./docs/easytable-doc/easytable.pdf" ]
+      "document": [ "./docs/easytable-doc/easytable.pdf" ],
+      "has_docpackage": false
     },
     {
       "name": "satysfi-enumitem",
@@ -280,7 +299,8 @@
       "latest_version": "2.0.0",
       "dependencies":
         "\"satysfi\" {>= \"0.0.4+dev2020.06.07\" & < \"0.0.6\"}, \"satyrographos\" {>= \"0.0.2\" & < \"0.0.3\"}, \"satysfi-dist\", \"satysfi-base\" {>= \"1.0.0\"}",
-      "document": []
+      "document": [],
+      "has_docpackage": true
     },
     {
       "name": "satysfi-enumitem-doc",
@@ -293,7 +313,8 @@
       "latest_version": "2.0.0",
       "dependencies":
         "\"satysfi\" {>= \"0.0.4+dev2020.06.07\" & < \"0.0.6\"}, \"satyrographos\" {>= \"0.0.2\" & < \"0.0.3\"}, \"satysfi-dist\", \"satysfi-enumitem\" {= \"%{version}%\"}",
-      "document": [ "./docs/enumitem-doc/enumitem.pdf" ]
+      "document": [ "./docs/enumitem-doc/enumitem.pdf" ],
+      "has_docpackage": false
     },
     {
       "name": "satysfi-fonts-asana-math",
@@ -307,7 +328,8 @@
       "latest_version": "000.958+1+satysfi0.0.4",
       "dependencies":
         "\"satysfi\" {>= \"0.0.4\" & < \"0.0.6\"}, \"satyrographos\" {>= \"0.0.2\" & < \"0.0.3\"}",
-      "document": []
+      "document": [],
+      "has_docpackage": true
     },
     {
       "name": "satysfi-fonts-asana-math-doc",
@@ -320,7 +342,8 @@
       "latest_version": "000.958+1+satysfi0.0.4",
       "dependencies":
         "\"satysfi\" {>= \"0.0.4\" & < \"0.0.6\"}, \"satyrographos\" {>= \"0.0.2\" & < \"0.0.3\"}, \"satysfi-fonts-asana-math\" {= \"000.958+1+satysfi0.0.4\"}",
-      "document": [ "./docs/fonts-asana-math-doc/doc-fonts-asana-math.pdf" ]
+      "document": [ "./docs/fonts-asana-math-doc/doc-fonts-asana-math.pdf" ],
+      "has_docpackage": false
     },
     {
       "name": "satysfi-fonts-computer-modern-unicode",
@@ -335,7 +358,8 @@
       "latest_version": "0.7.0+satysfi0.0.4",
       "dependencies":
         "\"satysfi\" {>= \"0.0.3+dev2019.02.12\" & < \"0.0.6\"}, \"satyrographos\" {>= \"0.0.2\" & < \"0.0.3\"}",
-      "document": []
+      "document": [],
+      "has_docpackage": true
     },
     {
       "name": "satysfi-fonts-computer-modern-unicode-doc",
@@ -353,7 +377,8 @@
         "\"satysfi\" {>= \"0.0.3+dev2019.02.12\" & < \"0.0.6\"}, \"satyrographos\" {>= \"0.0.2\" & < \"0.0.3\"}, \"satysfi-base\" {>= \"1.2.0\"}, \"satysfi-fonts-computer-modern-unicode\" {= \"0.7.0+satysfi0.0.4\"}",
       "document": [
         "./docs/fonts-computer-modern-unicode-doc/doc-fonts-computer-modern-unicode.pdf"
-      ]
+      ],
+      "has_docpackage": false
     },
     {
       "name": "satysfi-fonts-dejavu",
@@ -367,7 +392,8 @@
       "latest_version": "2.37+satysfi0.0.4",
       "dependencies":
         "\"satysfi\" {>= \"0.0.3+dev2019.02.12\" & < \"0.0.6\"}, \"satyrographos\" {>= \"0.0.2\" & < \"0.0.3\"}",
-      "document": []
+      "document": [],
+      "has_docpackage": true
     },
     {
       "name": "satysfi-fonts-dejavu-doc",
@@ -381,7 +407,8 @@
       "latest_version": "2.37+satysfi0.0.4",
       "dependencies":
         "\"satysfi\" {>= \"0.0.3+dev2019.02.12\" & < \"0.0.6\"}, \"satyrographos\" {>= \"0.0.2\" & < \"0.0.3\"}, \"satysfi-fonts-dejavu\" {= \"2.37+satysfi0.0.4\"}",
-      "document": [ "./docs/fonts-dejavu-doc/doc-fonts-dejavu.pdf" ]
+      "document": [ "./docs/fonts-dejavu-doc/doc-fonts-dejavu.pdf" ],
+      "has_docpackage": false
     },
     {
       "name": "satysfi-fonts-noto-emoji",
@@ -395,7 +422,8 @@
       "latest_version": "1.05+uh+2",
       "dependencies":
         "\"satysfi\" {>= \"0.0.3\" & < \"0.0.6\"}, \"satyrographos\" {>= \"0.0.2\" & < \"0.0.4\"}",
-      "document": []
+      "document": [],
+      "has_docpackage": true
     },
     {
       "name": "satysfi-fonts-noto-emoji-doc",
@@ -408,7 +436,8 @@
       "latest_version": "1.05+uh+2",
       "dependencies":
         "\"satysfi\" {>= \"0.0.3\" & < \"0.0.6\"}, \"satyrographos\" {>= \"0.0.2\" & < \"0.0.3\"}, \"satysfi-base\" {>= \"1.2.0\"}, \"satysfi-fonts-noto-emoji\" {>= \"1.05+uh+2\"}",
-      "document": [ "./docs/fonts-noto-emoji-doc/doc-fonts-emoji-serif.pdf" ]
+      "document": [ "./docs/fonts-noto-emoji-doc/doc-fonts-emoji-serif.pdf" ],
+      "has_docpackage": false
     },
     {
       "name": "satysfi-fonts-noto-sans",
@@ -422,7 +451,8 @@
       "latest_version": "2.001+1+satysfi0.0.4",
       "dependencies":
         "\"satysfi\" {>= \"0.0.4\" & < \"0.0.6\"}, \"satyrographos\" {>= \"0.0.2\" & < \"0.0.3\"}",
-      "document": []
+      "document": [],
+      "has_docpackage": true
     },
     {
       "name": "satysfi-fonts-noto-sans-cjk-jp",
@@ -437,7 +467,8 @@
       "latest_version": "2.001+1+satysfi0.0.4",
       "dependencies":
         "\"satysfi\" {>= \"0.0.4\" & < \"0.0.6\"}, \"satyrographos\" {>= \"0.0.2\" & < \"0.0.3\"}",
-      "document": []
+      "document": [],
+      "has_docpackage": true
     },
     {
       "name": "satysfi-fonts-noto-sans-cjk-jp-doc",
@@ -455,7 +486,8 @@
         "\"satysfi\" {>= \"0.0.4\" & < \"0.0.6\"}, \"satyrographos\" {>= \"0.0.2\" & < \"0.0.3\"}, \"satysfi-base\" {>= \"1.2.0\"}, \"satysfi-fonts-noto-sans-cjk-jp\" {= \"2.001+1+satysfi0.0.4\"}",
       "document": [
         "./docs/fonts-noto-sans-cjk-jp-doc/doc-fonts-noto-sans-cjk-jp.pdf"
-      ]
+      ],
+      "has_docpackage": false
     },
     {
       "name": "satysfi-fonts-noto-sans-doc",
@@ -468,7 +500,8 @@
       "latest_version": "2.001+1+satysfi0.0.4",
       "dependencies":
         "\"satysfi\" {>= \"0.0.4\" & < \"0.0.6\"}, \"satyrographos\" {>= \"0.0.2\" & < \"0.0.3\"}, \"satysfi-base\" {>= \"1.2.0\"}, \"satysfi-fonts-noto-sans\" {= \"2.001+1+satysfi0.0.4\"}",
-      "document": [ "./docs/fonts-noto-sans-doc/doc-fonts-noto-sans.pdf" ]
+      "document": [ "./docs/fonts-noto-sans-doc/doc-fonts-noto-sans.pdf" ],
+      "has_docpackage": false
     },
     {
       "name": "satysfi-fonts-noto-serif",
@@ -482,7 +515,8 @@
       "latest_version": "2.001+1+satysfi0.0.4",
       "dependencies":
         "\"satysfi\" {>= \"0.0.4\" & < \"0.0.6\"}, \"satyrographos\" {>= \"0.0.2\" & < \"0.0.3\"}",
-      "document": []
+      "document": [],
+      "has_docpackage": true
     },
     {
       "name": "satysfi-fonts-noto-serif-cjk-jp",
@@ -497,7 +531,8 @@
       "latest_version": "2.001+1+satysfi0.0.4",
       "dependencies":
         "\"satysfi\" {>= \"0.0.4\" & < \"0.0.6\"}, \"satyrographos\" {>= \"0.0.2\" & < \"0.0.3\"}",
-      "document": []
+      "document": [],
+      "has_docpackage": true
     },
     {
       "name": "satysfi-fonts-noto-serif-cjk-jp-doc",
@@ -515,7 +550,8 @@
         "\"satysfi\" {>= \"0.0.4\" & < \"0.0.6\"}, \"satyrographos\" {>= \"0.0.2\" & < \"0.0.3\"}, \"satysfi-base\" {>= \"1.2.0\"}, \"satysfi-fonts-noto-serif-cjk-jp\" {= \"2.001+1+satysfi0.0.4\"}",
       "document": [
         "./docs/fonts-noto-serif-cjk-jp-doc/doc-fonts-noto-serif-cjk-jp.pdf"
-      ]
+      ],
+      "has_docpackage": false
     },
     {
       "name": "satysfi-fonts-noto-serif-doc",
@@ -528,7 +564,8 @@
       "latest_version": "2.001+1+satysfi0.0.4",
       "dependencies":
         "\"satysfi\" {>= \"0.0.4\" & < \"0.0.6\"}, \"satyrographos\" {>= \"0.0.2\" & < \"0.0.3\"}, \"satysfi-base\" {>= \"1.2.0\"}, \"satysfi-fonts-noto-serif\" {= \"2.001+1+satysfi0.0.4\"}",
-      "document": [ "./docs/fonts-noto-serif-doc/doc-fonts-noto-serif.pdf" ]
+      "document": [ "./docs/fonts-noto-serif-doc/doc-fonts-noto-serif.pdf" ],
+      "has_docpackage": false
     },
     {
       "name": "satysfi-fonts-theano",
@@ -543,7 +580,8 @@
       "latest_version": "2.0+satysfi0.0.3+satyrograhos0.0.2",
       "dependencies":
         "\"satysfi\" {>= \"0.0.3\" & < \"0.0.6\"}, \"satyrographos\" {>= \"0.0.2\" & < \"0.0.3\"}",
-      "document": []
+      "document": [],
+      "has_docpackage": true
     },
     {
       "name": "satysfi-fonts-theano-doc",
@@ -558,7 +596,8 @@
       "latest_version": "2.0+satysfi0.0.3+satyrograhos0.0.2",
       "dependencies":
         "\"satysfi\" {>= \"0.0.3+dev2019.02.13\" & < \"0.0.6\"}, \"satyrographos\" {>= \"0.0.2\" & < \"0.0.3\"}, \"satysfi-dist\", \"satysfi-fonts-theano\"",
-      "document": [ "./docs/fonts-theano-doc/doc-fonts-theano-ja.pdf" ]
+      "document": [ "./docs/fonts-theano-doc/doc-fonts-theano-ja.pdf" ],
+      "has_docpackage": false
     },
     {
       "name": "satysfi-grcnum",
@@ -572,7 +611,8 @@
       "latest_version": "0.2",
       "dependencies":
         "\"satysfi\" {>= \"0.0.3+dev2019.02.13\" & < \"0.0.6\"}, \"satysfi-fonts-theano\" {>= \"2.0+satysfi0.0.3+satyrograhos0.0.2\"}, \"satyrographos\" {>= \"0.0.1\" & < \"0.0.3\"}",
-      "document": []
+      "document": [],
+      "has_docpackage": true
     },
     {
       "name": "satysfi-grcnum-doc",
@@ -586,7 +626,8 @@
       "latest_version": "0.2",
       "dependencies":
         "\"satysfi\" {>= \"0.0.3+dev2019.02.13\" & < \"0.0.6\"}, \"satyrographos\" {>= \"0.0.1\" & < \"0.0.3\"}, \"satysfi-fonts-theano\" {>= \"2.0+satysfi0.0.3+satyrograhos0.0.2\"}, \"satysfi-dist\", \"satysfi-grcnum\" {= \"0.2\"}",
-      "document": [ "./docs/grcnum-doc/doc-grcnum-ja.pdf" ]
+      "document": [ "./docs/grcnum-doc/doc-grcnum-ja.pdf" ],
+      "has_docpackage": false
     },
     {
       "name": "satysfi-karnaugh",
@@ -600,7 +641,8 @@
       "latest_version": "0.0.1",
       "dependencies":
         "\"satysfi\" {>= \"0.0.4\" & < \"0.0.6\"}, \"satyrographos\" {>= \"0.0.2\" & < \"0.0.3\"}",
-      "document": []
+      "document": [],
+      "has_docpackage": true
     },
     {
       "name": "satysfi-karnaugh-doc",
@@ -618,7 +660,8 @@
         "./docs/karnaugh-doc/local.satyh",
         "./docs/karnaugh-doc/examples.pdf",
         "./docs/karnaugh-doc/examples.saty"
-      ]
+      ],
+      "has_docpackage": false
     },
     {
       "name": "satysfi-lib",
@@ -633,7 +676,8 @@
       "latest_version": "0.0.0+dev2019.11.10",
       "dependencies":
         "\"satysfi\" {>= \"0.0.3\" & < \"0.0.4\"}, \"satyrographos\" {>= \"0.0.2\" & < \"0.0.3\"}",
-      "document": []
+      "document": [],
+      "has_docpackage": true
     },
     {
       "name": "satysfi-lib-dist",
@@ -646,7 +690,8 @@
       "homepage": "https://github.com/gfngfn/SATySFi",
       "latest_version": "0.0.3+dev2019.11.16",
       "dependencies": "\"satysfi-dist\" {= \"%{version}%\"}",
-      "document": []
+      "document": [],
+      "has_docpackage": false
     },
     {
       "name": "satysfi-lib-doc",
@@ -661,7 +706,8 @@
       "latest_version": "0.0.0+dev2019.11.10",
       "dependencies":
         "\"satysfi\" {>= \"0.0.3\" & < \"0.0.4\"}, \"satysfi-lib-dist\", \"satyrographos\" {>= \"0.0.2\" & < \"0.0.3\"}, \"satysfi-lib\" {= \"%{version}%\"}",
-      "document": []
+      "document": [],
+      "has_docpackage": false
     },
     {
       "name": "satysfi-make-html",
@@ -674,7 +720,8 @@
       "latest_version": "0.1.0",
       "dependencies":
         "\"satysfi\" {>= \"0.0.3\" & < \"0.0.6\"}, \"satyrographos\" {>= \"0.0.2\" & < \"0.0.4\"}",
-      "document": []
+      "document": [],
+      "has_docpackage": false
     },
     {
       "name": "satysfi-make-markdown",
@@ -687,7 +734,8 @@
       "latest_version": "0.1.0",
       "dependencies":
         "\"satysfi\" {>= \"0.0.3\" & < \"0.0.6\"}, \"satyrographos\" {>= \"0.0.2\" & < \"0.0.4\"}",
-      "document": []
+      "document": [],
+      "has_docpackage": false
     },
     {
       "name": "satysfi-matrix",
@@ -701,7 +749,8 @@
       "latest_version": "0.0.1+dev2019.10.15",
       "dependencies":
         "\"satysfi\" {>= \"0.0.3\" & < \"0.0.6\"}, \"satyrographos\" {>= \"0.0.2\" & < \"0.0.3\"}",
-      "document": []
+      "document": [],
+      "has_docpackage": true
     },
     {
       "name": "satysfi-matrix-doc",
@@ -721,7 +770,8 @@
         "./docs/matrix-doc/example/main.pdf", "./docs/matrix-doc/README.md",
         "./docs/matrix-doc/LICENSE", "./docs/matrix-doc/CHANGELOG.md",
         "./docs/matrix-doc/README-ja.md"
-      ]
+      ],
+      "has_docpackage": false
     },
     {
       "name": "satysfi-musikui",
@@ -735,7 +785,8 @@
       "latest_version": "0.1.0",
       "dependencies":
         "\"satysfi\" {>= \"0.0.4\" & < \"0.0.6\"}, \"satyrographos\" {>= \"0.0.2\" & < \"0.0.4\"}",
-      "document": []
+      "document": [],
+      "has_docpackage": false
     },
     {
       "name": "satysfi-ncsq",
@@ -749,7 +800,8 @@
       "latest_version": "0.1.0",
       "dependencies":
         "\"satysfi\" {>= \"0.0.5\" & < \"0.0.6\"}, \"satyrographos\" {>= \"0.0.2\" & < \"0.0.3\"}, \"satysfi-dist\" {>= \"0.0.5\" & < \"0.0.6\"}, \"satysfi-base\" {>= \"1.2.1\"}",
-      "document": []
+      "document": [],
+      "has_docpackage": true
     },
     {
       "name": "satysfi-ncsq-doc",
@@ -766,7 +818,8 @@
       "document": [
         "./docs/ncsq-doc/ncsq-example.pdf",
         "./docs/ncsq-doc/ncsq-example.saty"
-      ]
+      ],
+      "has_docpackage": false
     },
     {
       "name": "satysfi-num-conversion",
@@ -779,7 +832,8 @@
       "latest_version": "0.1.1",
       "dependencies":
         "\"satysfi\" {>= \"0.0.4+dev2020.02.22\" & < \"0.0.6\"}, \"satyrographos\" {>= \"0.0.2\" & < \"0.0.4\"}, \"base\" {>= \"1.0.0\"}",
-      "document": []
+      "document": [],
+      "has_docpackage": false
     },
     {
       "name": "satysfi-simple-itemize",
@@ -792,7 +846,8 @@
       "latest_version": "1.0.0",
       "dependencies":
         "\"satysfi\" {>= \"0.0.3\" & < \"0.0.6\"}, \"satyrographos\" {>= \"0.0.2\" & < \"0.0.4\"}, \"satysfi-base\" {>= \"1.0.0\"}",
-      "document": []
+      "document": [],
+      "has_docpackage": false
     },
     {
       "name": "satysfi-siunitx",
@@ -806,7 +861,8 @@
       "latest_version": "0.1",
       "dependencies":
         "\"satysfi\" {>= \"0.0.3\" & < \"0.0.6\"}, \"satyrographos\" {>= \"0.0.2\" & < \"0.0.4\"}",
-      "document": []
+      "document": [],
+      "has_docpackage": false
     },
     {
       "name": "satysfi-uline",
@@ -819,7 +875,8 @@
       "latest_version": "0.2.0",
       "dependencies":
         "\"satysfi\" {>= \"0.0.3\" & < \"0.0.6\"}, \"satyrographos\" {>= \"0.0.2\" & < \"0.0.4\"}",
-      "document": []
+      "document": [],
+      "has_docpackage": false
     },
     {
       "name": "satysfi-zrbase",
@@ -833,7 +890,8 @@
       "latest_version": "0.4.0",
       "dependencies":
         "\"satysfi\" {>= \"0.0.4\" & < \"0.0.6\"}, \"satyrographos\" {>= \"0.0.2\" & < \"0.0.3\"}",
-      "document": []
+      "document": [],
+      "has_docpackage": false
     }
   ]
 }
