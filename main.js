@@ -23,7 +23,7 @@ function emitDetailsTable(d) {
       <tr>
         <div class="card">
           <div class="card-body">
-            ${escapeHTML(content)}
+            ${marked(content)}
           </div>
         </div>
       </tr>`;

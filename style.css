@@ -6,3 +6,11 @@ td.details-control {
 tr.shown td.details-control {
   background: url('./resources/close.svg') no-repeat center center;
 }
+
+.card-body p {
+  margin-bottom: 0;
+}
+
+#main-table td {
+  vertical-align: middle;
+}
