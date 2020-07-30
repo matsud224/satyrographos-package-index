@@ -100,10 +100,10 @@
       "dependencies":
         "\"satysfi\" {>= \"0.0.4+dev2020.04.25\" & < \"0.0.6\"}, \"satyrographos\" {>= \"0.0.2.3\" & < \"0.0.3\"}, \"satysfi-dist\", \"satysfi-bibyfi\" {= \"%{version}%\"}",
       "document": [
-        "./docs/bibyfi-doc/examples/cite-as-number.pdf",
-        "./docs/bibyfi-doc/examples/cite-with-name.pdf",
         "./docs/bibyfi-doc/examples/cite-as-number.saty",
         "./docs/bibyfi-doc/examples/cite-with-name.saty",
+        "./docs/bibyfi-doc/examples/cite-as-number.pdf",
+        "./docs/bibyfi-doc/examples/cite-with-name.pdf",
         "./docs/bibyfi-doc/README.md", "./docs/bibyfi-doc/LICENSE",
         "./docs/bibyfi-doc/example-bib.satyh"
       ],
@@ -657,9 +657,9 @@
       "dependencies":
         "\"satysfi\" {>= \"0.0.4\" & < \"0.0.6\"}, \"satyrographos\" {>= \"0.0.2\" & < \"0.0.3\"}, \"satysfi-dist\", \"satysfi-karnaugh\" {= \"0.0.1\"}",
       "document": [
-        "./docs/karnaugh-doc/local.satyh",
         "./docs/karnaugh-doc/examples.pdf",
-        "./docs/karnaugh-doc/examples.saty"
+        "./docs/karnaugh-doc/examples.saty",
+        "./docs/karnaugh-doc/local.satyh"
       ],
       "has_docpackage": false
     },
@@ -766,10 +766,10 @@
         "\"satysfi\" {>= \"0.0.3\" & < \"0.0.6\"}, \"satyrographos\" {>= \"0.0.2\" & < \"0.0.3\"}, \"satysfi-matrix\" {= \"%{version}%\"}",
       "document": [
         "./docs/matrix-doc/doc/img/sample_matrix.png",
+        "./docs/matrix-doc/example/main.pdf",
         "./docs/matrix-doc/example/main.saty",
-        "./docs/matrix-doc/example/main.pdf", "./docs/matrix-doc/README.md",
-        "./docs/matrix-doc/LICENSE", "./docs/matrix-doc/CHANGELOG.md",
-        "./docs/matrix-doc/README-ja.md"
+        "./docs/matrix-doc/CHANGELOG.md", "./docs/matrix-doc/README.md",
+        "./docs/matrix-doc/LICENSE", "./docs/matrix-doc/README-ja.md"
       ],
       "has_docpackage": false
     },
@@ -816,8 +816,8 @@
       "dependencies":
         "\"satysfi\" {>= \"0.0.5\" & \"< 0.0.6\"}, \"satyrographos\" {>= \"0.0.2\" & < \"0.0.3\"}, \"satysfi-dist\" {>= \"0.0.5\" & \"< 0.0.6\"}, \"satysfi-ncsq\" {= \"%{version}%\"}",
       "document": [
-        "./docs/ncsq-doc/ncsq-example.pdf",
-        "./docs/ncsq-doc/ncsq-example.saty"
+        "./docs/ncsq-doc/ncsq-example.saty",
+        "./docs/ncsq-doc/ncsq-example.pdf"
       ],
       "has_docpackage": false
     },
