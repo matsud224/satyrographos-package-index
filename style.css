@@ -14,3 +14,7 @@ tr.shown td.details-control {
 #main-table td {
   vertical-align: middle;
 }
+
+#install-cmd {
+  margin-bottom: 0 !important;
+}

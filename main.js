@@ -64,7 +64,7 @@ function emitDetailsTable(d) {
         <tr>
         <td>Installation:</td>
         <td>
-        <div class="input-group mb-3">
+        <div id="install-cmd" class="input-group mb-3">
           <input type="text" class="form-control" aria-label="Installation Command" id="installcmd-${escaped}" value="opam install ${escaped} && satyrographos install" readonly>
           <div class="input-group-append">
             <button class="btn btn-outline-secondary" type="button" data-clipboard-target="#installcmd-${escaped}">Copy</button>
