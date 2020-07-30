@@ -131,7 +131,7 @@ let get_docfile_list name =
     let doc_dir_name = matched_group 1 name in
     let doc_path = doc_root ^ "/" ^ doc_dir_name in
     if Sys.file_exists doc_path && Sys.is_directory doc_path then
-      dir_contents doc_path
+      dir_contents doc_path |> List.sort String.compare
     else
       []
   else
