@@ -110,6 +110,10 @@ $(document).ready(function() {
         data: "latest_version",
         render: $.fn.dataTable.render.text(),
         orderable: false
+      },
+      {
+        data: "description",
+        visible: false
       }
     ],
     order: [[1, 'asc']]
