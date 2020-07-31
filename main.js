@@ -107,10 +107,6 @@ $(document).ready(function() {
         orderable: false
       },
       {
-        data: "type",
-        render: $.fn.dataTable.render.text()
-      },
-      {
         data: "latest_version",
         render: $.fn.dataTable.render.text(),
         orderable: false
