@@ -119,6 +119,14 @@ $(document).ready(function() {
     order: [[1, 'asc']]
   });
 
+  $('#tag-buttons ul').on('click', 'a.nav-link', function() {
+    let keyword = this.text;
+    if (this.text == 'all')
+      keyword = '';
+
+    table.search(keyword).draw();
+  });
+
   $('#main-table tbody').on('click', 'td.details-control', function() {
     var tr = $(this).closest('tr');
     var row = table.row(tr);
