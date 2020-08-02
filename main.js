@@ -59,7 +59,7 @@ function emitDetailsTable(d) {
   };
   let emitInstallCmdRow = function(pkgname) {
     if (pkgname == '') return '';
-    let escaped = escapeHTML(pkgname);
+    let escaped = escapeHTML('satysfi-' + pkgname);
     return `
         <tr>
         <td>Installation:</td>

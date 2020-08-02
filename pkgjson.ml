@@ -166,7 +166,12 @@ let () =
       dependencies   = Option.value (get_depends_info_in_opamfile ofile) ~default:"(no dependencies)";
       documents      = get_docfile_list name;
       has_docpackage = has_docpackage package_list name;
-    }) |> List.sort (fun a b -> String.compare a.name b.name)
+    })
+    |> List.filter (fun p -> match p.pkg_type with
+                             | Library | Class | Font | Document -> true
+                             | _ -> false)
+    |> List.map (fun p -> { p with name = remove_head (String.length "satysfi-") p.name })
+    |> List.sort (fun a b -> String.compare a.name b.name)
   in
   let json_root = json_of_package_info_list package_info_list in
   let ochan = open_out out_file in
