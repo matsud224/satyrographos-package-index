@@ -121,8 +121,17 @@ $(document).ready(function() {
 
   $('#tag-buttons ul').on('click', 'a.nav-link', function() {
     let keyword = this.text;
-    if (this.text == 'all')
-      keyword = '';
+    switch (this.text) {
+      case 'all':
+        keyword = '';
+        break;
+      case 'class':
+        keyword = 'class-';
+        break;
+      case 'font':
+        keyword = 'fonts-';
+        break;
+    }
 
     table.search(keyword).draw();
   });
