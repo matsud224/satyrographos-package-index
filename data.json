@@ -753,7 +753,7 @@
       "maintainer": "Taichi Uemura <t.uemura00@gmail.com>",
       "license": "MIT",
       "homepage": "https://github.com/uemurax/satysfi-ncsq",
-      "latest_version": "0.2.0",
+      "latest_version": "1.0.0",
       "dependencies":
         "\"satysfi\" {>= \"0.0.5\" & < \"0.0.6\"}, \"satyrographos\" {>= \"0.0.2\" & < \"0.0.3\"}, \"satysfi-dist\" {>= \"0.0.5\" & < \"0.0.6\"}, \"satysfi-base\" {>= \"1.2.1\"}",
       "document": [],
@@ -768,7 +768,7 @@
       "maintainer": "Taichi Uemura <t.uemura00@gmail.com>",
       "license": "MIT",
       "homepage": "https://github.com/uemurax/satysfi-ncsq",
-      "latest_version": "0.2.0",
+      "latest_version": "1.0.0",
       "dependencies":
         "\"satysfi\" {>= \"0.0.5\" & \"< 0.0.6\"}, \"satyrographos\" {>= \"0.0.2\" & < \"0.0.3\"}, \"satysfi-dist\" {>= \"0.0.5\" & \"< 0.0.6\"}, \"satysfi-ncsq\" {= \"%{version}%\"}, \"satysfi-easytable\" {>= \"1.0.0\"}, \"satysfi-matrix\" {>= \"0.0.1\" & \"< 0.0.2\"}, \"satysfi-bibyfi\" {>= \"0.0.2\" & \"< 0.0.3\"}",
       "document": [
