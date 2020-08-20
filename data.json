@@ -666,6 +666,20 @@
       "has_docpackage": false
     },
     {
+      "name": "lipsum",
+      "type": "Library",
+      "synopsis": "A SATySFi package of dummy text",
+      "description": "A SATySFi package of dummy text.",
+      "maintainer": "puripuri2100 <puripuri2100@gmail.com>",
+      "license": "MIT",
+      "homepage": "https://github.com/puripuri2100/SATySFi-lipsum",
+      "latest_version": "0.2.0",
+      "dependencies":
+        "\"satysfi\" {>= \"0.0.4\" & < \"0.0.6\"}, \"satyrographos\" {>= \"0.0.2\" & < \"0.0.3\"}, \"satysfi-dist\"",
+      "document": [],
+      "has_docpackage": false
+    },
+    {
       "name": "make-html",
       "type": "Library",
       "synopsis": "Outputting HTML file using SATySFi's text-mode",
