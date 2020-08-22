@@ -25,7 +25,7 @@ jobs:
           opam update
           opam upgrade
           opam install opam-file-format yojson
-          opam install satyrographos-snapshot-stable || true # workaround
+          opam install satyrographos-snapshot-develop || true # workaround
           satyrographos install
           rm -rf docs
           cp -rL ~/.satysfi/dist/docs .
