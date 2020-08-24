@@ -186,7 +186,7 @@
       "latest_version": "0.0.2",
       "dependencies":
         "\"satysfi\" {>= \"0.0.4\" & < \"0.0.6\"}, \"satyrographos\" {>= \"0.0.2\" & < \"0.0.3\"}, \"satysfi-class-yabaitech\" {= \"0.0.2\"}",
-      "document": [],
+      "document": [ "./docs/class-yabaitech-doc/yabaitech-demo.pdf" ],
       "has_docpackage": false
     },
     {
@@ -787,7 +787,7 @@
         "\"satysfi\" {>= \"0.0.5\" & \"< 0.0.6\"}, \"satyrographos\" {>= \"0.0.2\" & < \"0.0.3\"}, \"satysfi-dist\" {>= \"0.0.5\" & \"< 0.0.6\"}, \"satysfi-ncsq\" {= \"%{version}%\"}, \"satysfi-easytable\" {>= \"1.0.0\"}, \"satysfi-matrix\" {>= \"0.0.1\" & \"< 0.0.2\"}, \"satysfi-bibyfi\" {>= \"0.0.2\" & \"< 0.0.3\"}",
       "document": [
         "./docs/ncsq-doc/ncsq-example.pdf",
-        "./docs/ncsq-doc/ncsq-example.saty"
+        "./docs/ncsq-doc/ncsq-example.saty", "./docs/ncsq-doc/ncsq-notes.pdf"
       ],
       "has_docpackage": false
     },
