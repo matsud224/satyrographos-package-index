@@ -211,7 +211,7 @@
       "maintainer": "SAKAMOTO Noriaki <mrty.ityt.pt@gmail.com>",
       "license": "",
       "homepage": "https://github.com/gfngfn/SATySFi",
-      "latest_version": "0.0.5",
+      "latest_version": "0.0.5+dev2020.09.05",
       "dependencies": "\"satysfi\" {= \"%{version}%\"}",
       "document": [],
       "has_docpackage": false
