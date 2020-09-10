@@ -1,6 +1,36 @@
 {
   "data": [
     {
+      "name": "arrows",
+      "type": "Library",
+      "synopsis": "A SATySFi arrows library",
+      "description":
+        "\nA SATySFi library for drawing arrows.\n\nThis requires Satyrographos to install. See https://github.com/na4zagin3/satyrographos.\n",
+      "maintainer": "Taichi Uemura <t.uemura00@gmail.com>",
+      "license": "MIT",
+      "homepage": "https://github.com/uemurax/satysfi-arrows",
+      "latest_version": "0.1.0",
+      "dependencies":
+        "\"satysfi\" {>= \"0.0.5+dev2020.09.05\" & < \"0.0.6\"}, \"satyrographos\" {>= \"0.0.2\" & < \"0.0.3\"}, \"satysfi-dist\" {>= \"0.0.5\" & < \"0.0.6\"}, \"satysfi-base\" {>= \"1.3\"}",
+      "document": [],
+      "has_docpackage": true
+    },
+    {
+      "name": "arrows-doc",
+      "type": "Document",
+      "synopsis": "A SATySFi arrows library",
+      "description":
+        "\nA SATySFi library for drawing arrows.\nThis package provides documentation for the package.\n\nThis requires Satyrographos to install. See https://github.com/na4zagin3/satyrographos.\n",
+      "maintainer": "Taichi Uemura <t.uemura00@gmail.com>",
+      "license": "MIT",
+      "homepage": "https://github.com/uemurax/satysfi-arrows",
+      "latest_version": "0.1.0",
+      "dependencies":
+        "\"satysfi\" {>= \"0.0.5+dev2020.09.05\" & < \"0.0.6\"}, \"satyrographos\" {>= \"0.0.2\" & < \"0.0.3\"}, \"satysfi-dist\" {>= \"0.0.5\" & < \"0.0.6\"}, \"satysfi-arrows\" {= \"%{version}%\"}",
+      "document": [],
+      "has_docpackage": false
+    },
+    {
       "name": "assert-eq",
       "type": "Library",
       "synopsis": "Provides function as the Rust's assert_eq! macro",
