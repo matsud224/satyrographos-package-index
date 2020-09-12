@@ -25,6 +25,7 @@ type package_info = {
   last_update    : string;
   documents      : string list;
   has_docpackage : bool;
+  tags           : string;
 }
 
 let string_of_package_type t =
@@ -87,8 +88,8 @@ let find_string_variable_in_opamfile ofile name =
   | Some(String(_, strval)) -> Some(strval)
   | _                       -> None
 
-let get_depends_info_in_opamfile ofile =
-  match find_variable_in_opamfile ofile "depends" with
+let find_string_list_variable_in_opamfile ofile name =
+  match find_variable_in_opamfile ofile name with
   | Some(List(_, vallst)) -> Some(String.concat ", " (List.map OpamPrinter.value vallst))
   | _                     -> None
 
@@ -106,6 +107,7 @@ let json_of_package_info info =
     ("last_update",    `String info.last_update);
     ("document",       `List (List.map (fun s -> `String s) info.documents));
     ("has_docpackage", `Bool info.has_docpackage);
+    ("tags",           `String info.tags);
   ]
 
 let json_of_package_info_list ilst =
@@ -172,10 +174,11 @@ let () =
       license        = get_str_variable "license";
       homepage       = get_str_variable "homepage";
       latest_version = latest_version;
-      dependencies   = Option.value (get_depends_info_in_opamfile ofile) ~default:"(no dependencies)";
+      dependencies   = Option.value (find_string_list_variable_in_opamfile ofile "depends") ~default:"(no dependencies)";
       last_update    = get_package_updated_date name;
       documents      = get_docfile_list name;
       has_docpackage = has_docpackage package_list name;
+      tags           = Option.value (find_string_list_variable_in_opamfile ofile "tags") ~default:"";
     })
     |> List.filter (fun p -> match p.pkg_type with
                              | Library | Class | Font | Document -> true

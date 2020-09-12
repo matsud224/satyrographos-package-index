@@ -10,6 +10,20 @@ function emitDetailsTable(d) {
         <td>${escapeHTML(content)}</td>
       </tr>`;
   };
+  let emitTagsRow = function(description, tags) {
+    if (tags.length == 0) return '';
+    let badge = function(text) {
+      return `
+        <a href="#" class="badge badge-primary">${escapeHTML(text)}</a>
+      `;
+    };
+    let badges = tags.map(badge).join('');
+    return `
+      <tr>
+        <td>${escapeHTML(description)}:</td>
+        <td id="tag-badges">${badges}</td>
+      </tr>`;
+  };
   let emitMessageRow = function(content) {
     if (content == '') return '';
     return `
@@ -77,6 +91,7 @@ function emitDetailsTable(d) {
   return '<table class="table" cellpadding="5" cellspacing="0" border="0" style="padding-left:50px;"><tbody>'
       + emitCardRow(d.description)
       + emitInstallCmdRow(d.name)
+      + emitTagsRow('Tags', d.tags ? d.tags.split(', ') : [])
       + emitRow('Maintainer', d.maintainer)
       + emitRow('License', d.license)
       + emitLinkRow('Homepage', d.homepage)
@@ -116,6 +131,10 @@ $(document).ready(function() {
       {
         data: "description",
         visible: false
+      },
+      {
+        data: "tags",
+        visible: false
       }
     ],
     order: [[1, 'asc']]
@@ -150,6 +169,23 @@ $(document).ready(function() {
       // Open this row
       row.child(emitDetailsTable(row.data())).show();
       tr.addClass('shown');
+
+      $('#tag-badges').on('click', 'a', function() {
+        let keyword = this.text;
+        switch (this.text) {
+          case 'all':
+            keyword = '';
+            break;
+          case 'class':
+            keyword = 'class-';
+            break;
+          case 'font':
+            keyword = 'fonts-';
+            break;
+        }
+
+        table.search(keyword).draw();
+      });
     }
   });
 });
