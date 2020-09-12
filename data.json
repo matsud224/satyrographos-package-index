@@ -12,7 +12,7 @@
       "latest_version": "0.1.0",
       "dependencies":
         "\"satysfi\" {>= \"0.0.5+dev2020.09.05\" & < \"0.0.6\"}, \"satyrographos\" {>= \"0.0.2\" & < \"0.0.3\"}, \"satysfi-dist\" {>= \"0.0.5\" & < \"0.0.6\"}, \"satysfi-base\" {>= \"1.3\"}",
-      "last_update": "2020-09-10 12:53:28 +0200",
+      "last_update": "Thu, 10 Sep 2020 12:53:28 +0200",
       "document": [],
       "has_docpackage": true,
       "tags": ""
@@ -29,7 +29,7 @@
       "latest_version": "0.1.0",
       "dependencies":
         "\"satysfi\" {>= \"0.0.5+dev2020.09.05\" & < \"0.0.6\"}, \"satyrographos\" {>= \"0.0.2\" & < \"0.0.3\"}, \"satysfi-dist\" {>= \"0.0.5\" & < \"0.0.6\"}, \"satysfi-arrows\" {= \"%{version}%\"}",
-      "last_update": "2020-09-10 12:52:56 +0200",
+      "last_update": "Thu, 10 Sep 2020 12:52:56 +0200",
       "document": [],
       "has_docpackage": false,
       "tags": ""
@@ -45,7 +45,7 @@
       "latest_version": "0.1.1",
       "dependencies":
         "\"satysfi\" {>= \"0.0.3\" & < \"0.0.6\"}, \"satyrographos\" {>= \"0.0.2\" & < \"0.0.4\"}",
-      "last_update": "2020-07-11 23:10:27 +0900",
+      "last_update": "Sat, 11 Jul 2020 23:10:27 +0900",
       "document": [],
       "has_docpackage": false,
       "tags": ""
@@ -62,7 +62,7 @@
       "latest_version": "1.3.0",
       "dependencies":
         "\"satysfi\" {>= \"0.0.3\" & < \"0.0.6\"}, \"satyrographos\" {>= \"0.0.2.3\" & < \"0.0.3\"}, \"satysfi-fonts-dejavu\" {>= \"2.37\"}, \"satysfi-zrbase\" {>= \"0.4.0\"}",
-      "last_update": "2020-07-19 21:23:54 +0900",
+      "last_update": "Sun, 19 Jul 2020 21:23:54 +0900",
       "document": [],
       "has_docpackage": false,
       "tags": ""
@@ -79,7 +79,7 @@
       "latest_version": "0.0.2",
       "dependencies":
         "\"satysfi\" {>= \"0.0.4+dev2020.04.25\" & < \"0.0.6\"}, \"satyrographos\" {>= \"0.0.2.3\" & < \"0.0.3\"}",
-      "last_update": "2020-07-11 23:19:14 +0900",
+      "last_update": "Sat, 11 Jul 2020 23:19:14 +0900",
       "document": [],
       "has_docpackage": true,
       "tags": ""
@@ -95,7 +95,7 @@
       "latest_version": "0.0.2",
       "dependencies":
         "\"satysfi\" {>= \"0.0.4+dev2020.04.25\" & < \"0.0.6\"}, \"satyrographos\" {>= \"0.0.2.3\" & < \"0.0.3\"}, \"satysfi-dist\", \"satysfi-bibyfi\" {= \"%{version}%\"}",
-      "last_update": "2020-07-11 23:19:14 +0900",
+      "last_update": "Sat, 11 Jul 2020 23:19:14 +0900",
       "document": [
         "./docs/bibyfi-doc/LICENSE", "./docs/bibyfi-doc/README.md",
         "./docs/bibyfi-doc/example-bib.satyh",
@@ -119,7 +119,7 @@
       "latest_version": "0.0.0",
       "dependencies":
         "\"satysfi\" {>= \"0.0.3\" & < \"0.0.6\"}, \"satyrographos\" {>= \"0.0.2.3\" & < \"0.0.3\"}, \"satysfi-dist\"",
-      "last_update": "2020-07-11 23:10:27 +0900",
+      "last_update": "Sat, 11 Jul 2020 23:10:27 +0900",
       "document": [],
       "has_docpackage": false,
       "tags": ""
@@ -135,7 +135,7 @@
       "latest_version": "0.2",
       "dependencies":
         "\"satysfi\" {>= \"0.0.3\" & < \"0.0.6\"}, \"satyrographos\" {>= \"0.0.2\" & < \"0.0.3\"}",
-      "last_update": "2020-07-11 23:10:27 +0900",
+      "last_update": "Sat, 11 Jul 2020 23:10:27 +0900",
       "document": [],
       "has_docpackage": true,
       "tags": ""
@@ -153,7 +153,7 @@
       "latest_version": "0.2",
       "dependencies":
         "\"satysfi\" {>= \"0.0.3\" & < \"0.0.6\"}, \"satyrographos\" {>= \"0.0.2\" & < \"0.0.3\"}, \"satysfi-dist\", \"satysfi-class-exdesign\" {= \"%{version}%\"}",
-      "last_update": "2020-07-11 23:10:27 +0900",
+      "last_update": "Sat, 11 Jul 2020 23:10:27 +0900",
       "document": [ "./docs/class-exdesign-doc/manual.pdf" ],
       "has_docpackage": false,
       "tags": ""
@@ -171,7 +171,7 @@
       "latest_version": "0.2.0",
       "dependencies":
         "\"satysfi\" {>= \"0.0.5\" & < \"0.0.6\"}, \"satyrographos\" {>= \"0.0.2\" & < \"0.0.3\"}, \"satysfi-enumitem\" {>= \"2.0.0\"}, \"satysfi-base\" {>= \"1.0.0\"}",
-      "last_update": "2020-09-12 09:38:43 +0900",
+      "last_update": "Sat, 12 Sep 2020 09:38:43 +0900",
       "document": [],
       "has_docpackage": true,
       "tags": ""
@@ -189,7 +189,7 @@
       "latest_version": "0.2.0",
       "dependencies":
         "\"satysfi\" {>= \"0.0.5\" & < \"0.0.6\"}, \"satyrographos\" {>= \"0.0.2\" & < \"0.0.3\"}, \"satysfi-class-slydifi\" {= \"%{version}%\"}, \"satysfi-easytable\" {>= \"1.0.0\"}",
-      "last_update": "2020-09-12 09:38:43 +0900",
+      "last_update": "Sat, 12 Sep 2020 09:38:43 +0900",
       "document": [],
       "has_docpackage": false,
       "tags": ""
@@ -206,7 +206,7 @@
       "latest_version": "1.3.2+satysfi0.0.3+satyrograhos0.0.1",
       "dependencies":
         "\"satysfi\" {>= \"0.0.3\" & < \"0.0.4\"}, \"satyrographos\" {>= \"0.0.1\" & < \"0.0.2\"}",
-      "last_update": "2020-07-11 23:10:27 +0900",
+      "last_update": "Sat, 11 Jul 2020 23:10:27 +0900",
       "document": [],
       "has_docpackage": true,
       "tags": ""
@@ -223,7 +223,7 @@
       "latest_version": "1.3.2",
       "dependencies":
         "\"satysfi\" {>= \"0.0.3\" & < \"0.0.6\"}, \"satyrographos\" {>= \"0.0.2\" & < \"0.0.3\"}, \"satysfi-class-stjarticle\" {= \"1.3.2\"}, \"satysfi-dist\"",
-      "last_update": "2020-07-11 23:10:27 +0900",
+      "last_update": "Sat, 11 Jul 2020 23:10:27 +0900",
       "document": [
         "./docs/class-stjarticle-doc/stjarticle-demo.pdf",
         "./docs/class-stjarticle-doc/stjarticle-demo.saty"
@@ -243,7 +243,7 @@
       "latest_version": "0.0.4",
       "dependencies":
         "\"satysfi\" {>= \"0.0.5\" & < \"0.0.6\"}, \"satyrographos\" {>= \"0.0.2.6\" & < \"0.0.3\"}, \"satysfi-base\" {>= \"1.2.1\" & < \"2.0.0\"}, \"satysfi-fonts-noto-sans\" {>= \"2.001+1+satysfi0.0.4\"}, \"satysfi-fonts-noto-serif\" {>= \"2.001+1+satysfi0.0.4\"}, \"satysfi-fonts-noto-sans-cjk-jp\" {>= \"2.001+1+satysfi0.0.4\"}, \"satysfi-fonts-noto-serif-cjk-jp\" {>= \"2.001+1+satysfi0.0.4\"}, \"satysfi-fonts-asana-math\" {>= \"000.958+1+satysfi0.0.4\"}",
-      "last_update": "2020-09-08 20:07:56 +0900",
+      "last_update": "Tue, 8 Sep 2020 20:07:56 +0900",
       "document": [],
       "has_docpackage": true,
       "tags": ""
@@ -260,7 +260,7 @@
       "latest_version": "0.0.4",
       "dependencies":
         "\"satysfi\" {>= \"0.0.5\" & < \"0.0.6\"}, \"satyrographos\" {>= \"0.0.2.6\" & < \"0.0.3\"}, \"satysfi-class-yabaitech\" {= \"0.0.4\"}",
-      "last_update": "2020-09-08 20:07:56 +0900",
+      "last_update": "Tue, 8 Sep 2020 20:07:56 +0900",
       "document": [ "./docs/class-yabaitech-doc/yabaitech-demo.pdf" ],
       "has_docpackage": false,
       "tags": ""
@@ -276,7 +276,7 @@
       "latest_version": "0.1.1",
       "dependencies":
         "\"satysfi\" {>= \"0.0.3\" & < \"0.0.6\"}, \"satyrographos\" {>= \"0.0.2\" & < \"0.0.4\"}",
-      "last_update": "2020-07-11 23:10:27 +0900",
+      "last_update": "Sat, 11 Jul 2020 23:10:27 +0900",
       "document": [],
       "has_docpackage": false,
       "tags": ""
@@ -291,7 +291,7 @@
       "homepage": "https://github.com/gfngfn/SATySFi",
       "latest_version": "0.0.5+dev2020.09.05",
       "dependencies": "\"satysfi\" {= \"%{version}%\"}",
-      "last_update": "2020-09-05 22:52:46 +0900",
+      "last_update": "Sat, 5 Sep 2020 22:52:46 +0900",
       "document": [],
       "has_docpackage": false,
       "tags": ""
@@ -307,7 +307,7 @@
       "latest_version": "1.0.0",
       "dependencies":
         "\"satysfi\" {>= \"0.0.5\" & < \"0.0.6\"}, \"satyrographos\" {>= \"0.0.2\" & < \"0.0.3\"}, \"satysfi-dist\"",
-      "last_update": "2020-07-19 16:27:44 +0900",
+      "last_update": "Sun, 19 Jul 2020 16:27:44 +0900",
       "document": [],
       "has_docpackage": true,
       "tags": ""
@@ -323,7 +323,7 @@
       "latest_version": "1.0.0",
       "dependencies":
         "\"satysfi\" {>= \"0.0.5\" & < \"0.0.6\"}, \"satyrographos\" {>= \"0.0.2\" & < \"0.0.3\"}, \"satysfi-dist\", \"satysfi-easytable\" {= \"%{version}%\"}, \"satysfi-enumitem\" {>= \"2.0.0\"}",
-      "last_update": "2020-07-19 16:27:44 +0900",
+      "last_update": "Sun, 19 Jul 2020 16:27:44 +0900",
       "document": [ "./docs/easytable-doc/easytable.pdf" ],
       "has_docpackage": false,
       "tags": ""
@@ -339,7 +339,7 @@
       "latest_version": "2.0.0",
       "dependencies":
         "\"satysfi\" {>= \"0.0.4+dev2020.06.07\" & < \"0.0.6\"}, \"satyrographos\" {>= \"0.0.2\" & < \"0.0.3\"}, \"satysfi-dist\", \"satysfi-base\" {>= \"1.0.0\"}",
-      "last_update": "2020-07-11 23:19:14 +0900",
+      "last_update": "Sat, 11 Jul 2020 23:19:14 +0900",
       "document": [],
       "has_docpackage": true,
       "tags": ""
@@ -355,7 +355,7 @@
       "latest_version": "2.0.0",
       "dependencies":
         "\"satysfi\" {>= \"0.0.4+dev2020.06.07\" & < \"0.0.6\"}, \"satyrographos\" {>= \"0.0.2\" & < \"0.0.3\"}, \"satysfi-dist\", \"satysfi-enumitem\" {= \"%{version}%\"}",
-      "last_update": "2020-07-11 23:19:14 +0900",
+      "last_update": "Sat, 11 Jul 2020 23:19:14 +0900",
       "document": [ "./docs/enumitem-doc/enumitem.pdf" ],
       "has_docpackage": false,
       "tags": ""
@@ -372,7 +372,7 @@
       "latest_version": "000.958+1+satysfi0.0.4",
       "dependencies":
         "\"satysfi\" {>= \"0.0.4\" & < \"0.0.6\"}, \"satyrographos\" {>= \"0.0.2\" & < \"0.0.3\"}",
-      "last_update": "2020-07-11 23:10:27 +0900",
+      "last_update": "Sat, 11 Jul 2020 23:10:27 +0900",
       "document": [],
       "has_docpackage": true,
       "tags": ""
@@ -388,7 +388,7 @@
       "latest_version": "000.958+1+satysfi0.0.4",
       "dependencies":
         "\"satysfi\" {>= \"0.0.4\" & < \"0.0.6\"}, \"satyrographos\" {>= \"0.0.2\" & < \"0.0.3\"}, \"satysfi-fonts-asana-math\" {= \"000.958+1+satysfi0.0.4\"}",
-      "last_update": "2020-07-11 23:10:27 +0900",
+      "last_update": "Sat, 11 Jul 2020 23:10:27 +0900",
       "document": [ "./docs/fonts-asana-math-doc/doc-fonts-asana-math.pdf" ],
       "has_docpackage": false,
       "tags": ""
@@ -406,7 +406,7 @@
       "latest_version": "0.7.0+satysfi0.0.4",
       "dependencies":
         "\"satysfi\" {>= \"0.0.3+dev2019.02.12\" & < \"0.0.6\"}, \"satyrographos\" {>= \"0.0.2\" & < \"0.0.3\"}",
-      "last_update": "2020-07-11 23:10:27 +0900",
+      "last_update": "Sat, 11 Jul 2020 23:10:27 +0900",
       "document": [],
       "has_docpackage": true,
       "tags": ""
@@ -425,7 +425,7 @@
       "latest_version": "0.7.0+satysfi0.0.4",
       "dependencies":
         "\"satysfi\" {>= \"0.0.3+dev2019.02.12\" & < \"0.0.6\"}, \"satyrographos\" {>= \"0.0.2\" & < \"0.0.3\"}, \"satysfi-base\" {>= \"1.2.0\"}, \"satysfi-fonts-computer-modern-unicode\" {= \"0.7.0+satysfi0.0.4\"}",
-      "last_update": "2020-07-11 23:10:27 +0900",
+      "last_update": "Sat, 11 Jul 2020 23:10:27 +0900",
       "document": [
         "./docs/fonts-computer-modern-unicode-doc/doc-fonts-computer-modern-unicode.pdf"
       ],
@@ -444,7 +444,7 @@
       "latest_version": "2.37+satysfi0.0.4",
       "dependencies":
         "\"satysfi\" {>= \"0.0.3+dev2019.02.12\" & < \"0.0.6\"}, \"satyrographos\" {>= \"0.0.2\" & < \"0.0.3\"}",
-      "last_update": "2020-07-11 23:10:27 +0900",
+      "last_update": "Sat, 11 Jul 2020 23:10:27 +0900",
       "document": [],
       "has_docpackage": true,
       "tags": ""
@@ -461,7 +461,7 @@
       "latest_version": "2.37+satysfi0.0.4",
       "dependencies":
         "\"satysfi\" {>= \"0.0.3+dev2019.02.12\" & < \"0.0.6\"}, \"satyrographos\" {>= \"0.0.2\" & < \"0.0.3\"}, \"satysfi-fonts-dejavu\" {= \"2.37+satysfi0.0.4\"}",
-      "last_update": "2020-07-11 23:10:27 +0900",
+      "last_update": "Sat, 11 Jul 2020 23:10:27 +0900",
       "document": [ "./docs/fonts-dejavu-doc/doc-fonts-dejavu.pdf" ],
       "has_docpackage": false,
       "tags": ""
@@ -478,7 +478,7 @@
       "latest_version": "1.0002+satysfi0.0.5",
       "dependencies":
         "\"satysfi\" {>= \"0.0.5\" & < \"0.0.6\"}, \"satyrographos\" {>= \"0.0.2.6\" & < \"0.0.3\"}",
-      "last_update": "2020-09-12 20:27:44 +0900",
+      "last_update": "Sat, 12 Sep 2020 20:27:44 +0900",
       "document": [],
       "has_docpackage": true,
       "tags": ""
@@ -495,7 +495,7 @@
       "latest_version": "1.0002+satysfi0.0.5",
       "dependencies":
         "\"satysfi\" {>= \"0.0.5\" & < \"0.0.6\"}, \"satyrographos\" {>= \"0.0.2.6\" & < \"0.0.3\"}, \"satysfi-dist\", \"satysfi-fonts-junicode\" {= \"%{version}%\"}",
-      "last_update": "2020-09-12 20:27:44 +0900",
+      "last_update": "Sat, 12 Sep 2020 20:27:44 +0900",
       "document": [],
       "has_docpackage": false,
       "tags": ""
@@ -512,7 +512,7 @@
       "latest_version": "1.05+uh+2",
       "dependencies":
         "\"satysfi\" {>= \"0.0.3\" & < \"0.0.6\"}, \"satyrographos\" {>= \"0.0.2\" & < \"0.0.4\"}",
-      "last_update": "2020-07-11 23:10:27 +0900",
+      "last_update": "Sat, 11 Jul 2020 23:10:27 +0900",
       "document": [],
       "has_docpackage": true,
       "tags": ""
@@ -528,7 +528,7 @@
       "latest_version": "1.05+uh+2",
       "dependencies":
         "\"satysfi\" {>= \"0.0.3\" & < \"0.0.6\"}, \"satyrographos\" {>= \"0.0.2\" & < \"0.0.3\"}, \"satysfi-base\" {>= \"1.2.0\"}, \"satysfi-fonts-noto-emoji\" {>= \"1.05+uh+2\"}",
-      "last_update": "2020-07-11 23:10:27 +0900",
+      "last_update": "Sat, 11 Jul 2020 23:10:27 +0900",
       "document": [ "./docs/fonts-noto-emoji-doc/doc-fonts-emoji-serif.pdf" ],
       "has_docpackage": false,
       "tags": ""
@@ -545,7 +545,7 @@
       "latest_version": "2.001+1+satysfi0.0.4",
       "dependencies":
         "\"satysfi\" {>= \"0.0.4\" & < \"0.0.6\"}, \"satyrographos\" {>= \"0.0.2\" & < \"0.0.3\"}",
-      "last_update": "2020-07-11 23:10:27 +0900",
+      "last_update": "Sat, 11 Jul 2020 23:10:27 +0900",
       "document": [],
       "has_docpackage": true,
       "tags": ""
@@ -563,7 +563,7 @@
       "latest_version": "2.001+1+satysfi0.0.4",
       "dependencies":
         "\"satysfi\" {>= \"0.0.4\" & < \"0.0.6\"}, \"satyrographos\" {>= \"0.0.2\" & < \"0.0.3\"}",
-      "last_update": "2020-07-11 23:10:27 +0900",
+      "last_update": "Sat, 11 Jul 2020 23:10:27 +0900",
       "document": [],
       "has_docpackage": true,
       "tags": ""
@@ -582,7 +582,7 @@
       "latest_version": "2.001+1+satysfi0.0.4",
       "dependencies":
         "\"satysfi\" {>= \"0.0.4\" & < \"0.0.6\"}, \"satyrographos\" {>= \"0.0.2\" & < \"0.0.3\"}, \"satysfi-base\" {>= \"1.2.0\"}, \"satysfi-fonts-noto-sans-cjk-jp\" {= \"2.001+1+satysfi0.0.4\"}",
-      "last_update": "2020-07-11 23:10:27 +0900",
+      "last_update": "Sat, 11 Jul 2020 23:10:27 +0900",
       "document": [
         "./docs/fonts-noto-sans-cjk-jp-doc/doc-fonts-noto-sans-cjk-jp.pdf"
       ],
@@ -600,7 +600,7 @@
       "latest_version": "2.001+1+satysfi0.0.4",
       "dependencies":
         "\"satysfi\" {>= \"0.0.4\" & < \"0.0.6\"}, \"satyrographos\" {>= \"0.0.2\" & < \"0.0.3\"}, \"satysfi-base\" {>= \"1.2.0\"}, \"satysfi-fonts-noto-sans\" {= \"2.001+1+satysfi0.0.4\"}",
-      "last_update": "2020-07-11 23:10:27 +0900",
+      "last_update": "Sat, 11 Jul 2020 23:10:27 +0900",
       "document": [ "./docs/fonts-noto-sans-doc/doc-fonts-noto-sans.pdf" ],
       "has_docpackage": false,
       "tags": ""
@@ -617,7 +617,7 @@
       "latest_version": "2.001+1+satysfi0.0.4",
       "dependencies":
         "\"satysfi\" {>= \"0.0.4\" & < \"0.0.6\"}, \"satyrographos\" {>= \"0.0.2\" & < \"0.0.3\"}",
-      "last_update": "2020-07-11 23:10:27 +0900",
+      "last_update": "Sat, 11 Jul 2020 23:10:27 +0900",
       "document": [],
       "has_docpackage": true,
       "tags": ""
@@ -635,7 +635,7 @@
       "latest_version": "2.001+1+satysfi0.0.4",
       "dependencies":
         "\"satysfi\" {>= \"0.0.4\" & < \"0.0.6\"}, \"satyrographos\" {>= \"0.0.2\" & < \"0.0.3\"}",
-      "last_update": "2020-07-11 23:10:27 +0900",
+      "last_update": "Sat, 11 Jul 2020 23:10:27 +0900",
       "document": [],
       "has_docpackage": true,
       "tags": ""
@@ -654,7 +654,7 @@
       "latest_version": "2.001+1+satysfi0.0.4",
       "dependencies":
         "\"satysfi\" {>= \"0.0.4\" & < \"0.0.6\"}, \"satyrographos\" {>= \"0.0.2\" & < \"0.0.3\"}, \"satysfi-base\" {>= \"1.2.0\"}, \"satysfi-fonts-noto-serif-cjk-jp\" {= \"2.001+1+satysfi0.0.4\"}",
-      "last_update": "2020-07-11 23:10:27 +0900",
+      "last_update": "Sat, 11 Jul 2020 23:10:27 +0900",
       "document": [
         "./docs/fonts-noto-serif-cjk-jp-doc/doc-fonts-noto-serif-cjk-jp.pdf"
       ],
@@ -672,7 +672,7 @@
       "latest_version": "2.001+1+satysfi0.0.4",
       "dependencies":
         "\"satysfi\" {>= \"0.0.4\" & < \"0.0.6\"}, \"satyrographos\" {>= \"0.0.2\" & < \"0.0.3\"}, \"satysfi-base\" {>= \"1.2.0\"}, \"satysfi-fonts-noto-serif\" {= \"2.001+1+satysfi0.0.4\"}",
-      "last_update": "2020-07-11 23:10:27 +0900",
+      "last_update": "Sat, 11 Jul 2020 23:10:27 +0900",
       "document": [ "./docs/fonts-noto-serif-doc/doc-fonts-noto-serif.pdf" ],
       "has_docpackage": false,
       "tags": ""
@@ -690,7 +690,7 @@
       "latest_version": "2.0+satysfi0.0.3+satyrograhos0.0.2",
       "dependencies":
         "\"satysfi\" {>= \"0.0.3\" & < \"0.0.6\"}, \"satyrographos\" {>= \"0.0.2\" & < \"0.0.3\"}",
-      "last_update": "2020-07-11 23:10:27 +0900",
+      "last_update": "Sat, 11 Jul 2020 23:10:27 +0900",
       "document": [],
       "has_docpackage": true,
       "tags": ""
@@ -708,8 +708,40 @@
       "latest_version": "2.0+satysfi0.0.3+satyrograhos0.0.2",
       "dependencies":
         "\"satysfi\" {>= \"0.0.3+dev2019.02.13\" & < \"0.0.6\"}, \"satyrographos\" {>= \"0.0.2\" & < \"0.0.3\"}, \"satysfi-dist\", \"satysfi-fonts-theano\"",
-      "last_update": "2020-07-11 23:10:27 +0900",
+      "last_update": "Sat, 11 Jul 2020 23:10:27 +0900",
       "document": [ "./docs/fonts-theano-doc/doc-fonts-theano-ja.pdf" ],
+      "has_docpackage": false,
+      "tags": ""
+    },
+    {
+      "name": "fss",
+      "type": "Library",
+      "synopsis": "Font selection scheme",
+      "description": "\nDocument: Font selection scheme for SATySFi\n",
+      "maintainer": "SAKAMOTO Noriaki <mrty.ityt.pt@gmail.com>",
+      "license": "LGPL-3.0-or-later",
+      "homepage": "https://github.com/na4zagin3/satysfi-fss",
+      "latest_version": "0.0.1",
+      "dependencies":
+        "\"satysfi\" {>= \"0.0.5\" & < \"0.0.6\"}, \"satyrographos\" {>= \"0.0.2.6\" & < \"0.0.3\"}, \"satysfi-base\" {>= \"1.3.0\" & < \"2\"}, \"satysfi-fonts-junicode\" {>= \"1\" & < \"2\"}",
+      "last_update": "Sat, 12 Sep 2020 22:41:43 +0900",
+      "document": [],
+      "has_docpackage": true,
+      "tags": ""
+    },
+    {
+      "name": "fss-doc",
+      "type": "Document",
+      "synopsis": "Document: Font selection scheme",
+      "description": "\nDocument: Font selection scheme for SATySFi\n",
+      "maintainer": "SAKAMOTO Noriaki <mrty.ityt.pt@gmail.com>",
+      "license": "LGPL-3.0-or-later",
+      "homepage": "https://github.com/na4zagin3/satysfi-fss",
+      "latest_version": "0.0.1",
+      "dependencies":
+        "\"satysfi\" {>= \"0.0.5\" & < \"0.0.6\"}, \"satyrographos\" {>= \"0.0.2.6\" & < \"0.0.3\"}, \"satysfi-dist\", \"satysfi-fss\" {= \"%{version}%\"}",
+      "last_update": "Sat, 12 Sep 2020 22:26:18 +0900",
+      "document": [],
       "has_docpackage": false,
       "tags": ""
     },
@@ -725,7 +757,7 @@
       "latest_version": "0.2",
       "dependencies":
         "\"satysfi\" {>= \"0.0.3+dev2019.02.13\" & < \"0.0.6\"}, \"satysfi-fonts-theano\" {>= \"2.0+satysfi0.0.3+satyrograhos0.0.2\"}, \"satyrographos\" {>= \"0.0.1\" & < \"0.0.3\"}",
-      "last_update": "2020-07-11 23:10:27 +0900",
+      "last_update": "Sat, 11 Jul 2020 23:10:27 +0900",
       "document": [],
       "has_docpackage": true,
       "tags": ""
@@ -742,7 +774,7 @@
       "latest_version": "0.2",
       "dependencies":
         "\"satysfi\" {>= \"0.0.3+dev2019.02.13\" & < \"0.0.6\"}, \"satyrographos\" {>= \"0.0.1\" & < \"0.0.3\"}, \"satysfi-fonts-theano\" {>= \"2.0+satysfi0.0.3+satyrograhos0.0.2\"}, \"satysfi-dist\", \"satysfi-grcnum\" {= \"0.2\"}",
-      "last_update": "2020-07-11 23:10:27 +0900",
+      "last_update": "Sat, 11 Jul 2020 23:10:27 +0900",
       "document": [ "./docs/grcnum-doc/doc-grcnum-ja.pdf" ],
       "has_docpackage": false,
       "tags": ""
@@ -759,7 +791,7 @@
       "latest_version": "0.0.1",
       "dependencies":
         "\"satysfi\" {>= \"0.0.4\" & < \"0.0.6\"}, \"satyrographos\" {>= \"0.0.2\" & < \"0.0.3\"}",
-      "last_update": "2020-07-11 23:10:27 +0900",
+      "last_update": "Sat, 11 Jul 2020 23:10:27 +0900",
       "document": [],
       "has_docpackage": true,
       "tags": ""
@@ -776,7 +808,7 @@
       "latest_version": "0.0.1",
       "dependencies":
         "\"satysfi\" {>= \"0.0.4\" & < \"0.0.6\"}, \"satyrographos\" {>= \"0.0.2\" & < \"0.0.3\"}, \"satysfi-dist\", \"satysfi-karnaugh\" {= \"0.0.1\"}",
-      "last_update": "2020-07-11 23:10:27 +0900",
+      "last_update": "Sat, 11 Jul 2020 23:10:27 +0900",
       "document": [
         "./docs/karnaugh-doc/examples.pdf",
         "./docs/karnaugh-doc/examples.saty",
@@ -798,7 +830,7 @@
       "latest_version": "0.0.0+dev2019.11.10",
       "dependencies":
         "\"satysfi\" {>= \"0.0.3\" & < \"0.0.4\"}, \"satyrographos\" {>= \"0.0.2\" & < \"0.0.3\"}",
-      "last_update": "2019-12-23 22:11:50 +0900",
+      "last_update": "Mon, 23 Dec 2019 22:11:50 +0900",
       "document": [],
       "has_docpackage": true,
       "tags": ""
@@ -814,7 +846,7 @@
       "homepage": "https://github.com/gfngfn/SATySFi",
       "latest_version": "0.0.3+dev2019.11.16",
       "dependencies": "\"satysfi-dist\" {= \"%{version}%\"}",
-      "last_update": "2019-12-23 22:11:50 +0900",
+      "last_update": "Mon, 23 Dec 2019 22:11:50 +0900",
       "document": [],
       "has_docpackage": false,
       "tags": ""
@@ -832,7 +864,7 @@
       "latest_version": "0.0.0+dev2019.11.10",
       "dependencies":
         "\"satysfi\" {>= \"0.0.3\" & < \"0.0.4\"}, \"satysfi-lib-dist\", \"satyrographos\" {>= \"0.0.2\" & < \"0.0.3\"}, \"satysfi-lib\" {= \"%{version}%\"}",
-      "last_update": "2019-12-23 22:11:50 +0900",
+      "last_update": "Mon, 23 Dec 2019 22:11:50 +0900",
       "document": [],
       "has_docpackage": false,
       "tags": ""
@@ -848,7 +880,7 @@
       "latest_version": "0.2.0",
       "dependencies":
         "\"satysfi\" {>= \"0.0.4\" & < \"0.0.6\"}, \"satyrographos\" {>= \"0.0.2\" & < \"0.0.3\"}, \"satysfi-dist\"",
-      "last_update": "2020-08-20 17:01:08 +0900",
+      "last_update": "Thu, 20 Aug 2020 17:01:08 +0900",
       "document": [],
       "has_docpackage": false,
       "tags": ""
@@ -864,7 +896,7 @@
       "latest_version": "0.1.0",
       "dependencies":
         "\"satysfi\" {>= \"0.0.3\" & < \"0.0.6\"}, \"satyrographos\" {>= \"0.0.2\" & < \"0.0.4\"}",
-      "last_update": "2020-07-11 23:10:27 +0900",
+      "last_update": "Sat, 11 Jul 2020 23:10:27 +0900",
       "document": [],
       "has_docpackage": false,
       "tags": ""
@@ -880,7 +912,7 @@
       "latest_version": "0.1.0",
       "dependencies":
         "\"satysfi\" {>= \"0.0.3\" & < \"0.0.6\"}, \"satyrographos\" {>= \"0.0.2\" & < \"0.0.4\"}",
-      "last_update": "2020-07-11 23:10:27 +0900",
+      "last_update": "Sat, 11 Jul 2020 23:10:27 +0900",
       "document": [],
       "has_docpackage": false,
       "tags": ""
@@ -897,7 +929,7 @@
       "latest_version": "0.0.1+dev2019.10.15",
       "dependencies":
         "\"satysfi\" {>= \"0.0.3\" & < \"0.0.6\"}, \"satyrographos\" {>= \"0.0.2\" & < \"0.0.3\"}",
-      "last_update": "2020-07-11 23:10:27 +0900",
+      "last_update": "Sat, 11 Jul 2020 23:10:27 +0900",
       "document": [],
       "has_docpackage": true,
       "tags": ""
@@ -914,7 +946,7 @@
       "latest_version": "0.0.1+dev2019.10.15",
       "dependencies":
         "\"satysfi\" {>= \"0.0.3\" & < \"0.0.6\"}, \"satyrographos\" {>= \"0.0.2\" & < \"0.0.3\"}, \"satysfi-matrix\" {= \"%{version}%\"}",
-      "last_update": "2020-07-11 23:10:27 +0900",
+      "last_update": "Sat, 11 Jul 2020 23:10:27 +0900",
       "document": [
         "./docs/matrix-doc/CHANGELOG.md", "./docs/matrix-doc/LICENSE",
         "./docs/matrix-doc/README-ja.md", "./docs/matrix-doc/README.md",
@@ -937,7 +969,7 @@
       "latest_version": "0.1.0",
       "dependencies":
         "\"satysfi\" {>= \"0.0.4\" & < \"0.0.6\"}, \"satyrographos\" {>= \"0.0.2\" & < \"0.0.4\"}",
-      "last_update": "2020-07-11 23:10:27 +0900",
+      "last_update": "Sat, 11 Jul 2020 23:10:27 +0900",
       "document": [],
       "has_docpackage": false,
       "tags": ""
@@ -954,7 +986,7 @@
       "latest_version": "2.0.0",
       "dependencies":
         "\"satysfi\" {>= \"0.0.5\" & < \"0.0.6\"}, \"satyrographos\" {>= \"0.0.2\" & < \"0.0.3\"}, \"satysfi-dist\" {>= \"0.0.5\" & < \"0.0.6\"}, \"satysfi-base\" {>= \"1.2.1\"}, \"satysfi-zrbase\" {>= \"0.4.0\"}",
-      "last_update": "2020-08-23 16:27:34 +0200",
+      "last_update": "Sun, 23 Aug 2020 16:27:34 +0200",
       "document": [],
       "has_docpackage": true,
       "tags": ""
@@ -971,7 +1003,7 @@
       "latest_version": "2.0.0",
       "dependencies":
         "\"satysfi\" {>= \"0.0.5\" & \"< 0.0.6\"}, \"satyrographos\" {>= \"0.0.2\" & < \"0.0.3\"}, \"satysfi-dist\" {>= \"0.0.5\" & \"< 0.0.6\"}, \"satysfi-ncsq\" {= \"%{version}%\"}, \"satysfi-easytable\" {>= \"1.0.0\"}, \"satysfi-matrix\" {>= \"0.0.1\" & \"< 0.0.2\"}, \"satysfi-bibyfi\" {>= \"0.0.2\" & \"< 0.0.3\"}",
-      "last_update": "2020-08-23 16:27:34 +0200",
+      "last_update": "Sun, 23 Aug 2020 16:27:34 +0200",
       "document": [
         "./docs/ncsq-doc/ncsq-example.pdf",
         "./docs/ncsq-doc/ncsq-example.saty", "./docs/ncsq-doc/ncsq-notes.pdf"
@@ -990,7 +1022,7 @@
       "latest_version": "0.1.1",
       "dependencies":
         "\"satysfi\" {>= \"0.0.4+dev2020.02.22\" & < \"0.0.6\"}, \"satyrographos\" {>= \"0.0.2\" & < \"0.0.4\"}, \"base\" {>= \"1.0.0\"}",
-      "last_update": "2020-07-11 23:19:14 +0900",
+      "last_update": "Sat, 11 Jul 2020 23:19:14 +0900",
       "document": [],
       "has_docpackage": false,
       "tags": ""
@@ -1006,7 +1038,7 @@
       "latest_version": "1.0.0",
       "dependencies":
         "\"satysfi\" {>= \"0.0.3\" & < \"0.0.6\"}, \"satyrographos\" {>= \"0.0.2\" & < \"0.0.4\"}, \"satysfi-base\" {>= \"1.0.0\"}",
-      "last_update": "2020-07-11 23:10:27 +0900",
+      "last_update": "Sat, 11 Jul 2020 23:10:27 +0900",
       "document": [],
       "has_docpackage": false,
       "tags": ""
@@ -1023,7 +1055,7 @@
       "latest_version": "0.1",
       "dependencies":
         "\"satysfi\" {>= \"0.0.3\" & < \"0.0.6\"}, \"satyrographos\" {>= \"0.0.2\" & < \"0.0.4\"}",
-      "last_update": "2020-07-11 23:10:27 +0900",
+      "last_update": "Sat, 11 Jul 2020 23:10:27 +0900",
       "document": [],
       "has_docpackage": false,
       "tags": ""
@@ -1039,7 +1071,7 @@
       "latest_version": "0.2.0",
       "dependencies":
         "\"satysfi\" {>= \"0.0.3\" & < \"0.0.6\"}, \"satyrographos\" {>= \"0.0.2\" & < \"0.0.4\"}",
-      "last_update": "2020-07-11 23:10:27 +0900",
+      "last_update": "Sat, 11 Jul 2020 23:10:27 +0900",
       "document": [],
       "has_docpackage": false,
       "tags": ""
@@ -1056,7 +1088,7 @@
       "latest_version": "0.4.0",
       "dependencies":
         "\"satysfi\" {>= \"0.0.4\" & < \"0.0.6\"}, \"satyrographos\" {>= \"0.0.2\" & < \"0.0.3\"}",
-      "last_update": "2020-07-11 23:10:27 +0900",
+      "last_update": "Sat, 11 Jul 2020 23:10:27 +0900",
       "document": [],
       "has_docpackage": false,
       "tags": ""
