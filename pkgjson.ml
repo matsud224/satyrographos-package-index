@@ -22,6 +22,7 @@ type package_info = {
   homepage       : string;
   latest_version : string;
   dependencies   : string;
+  last_update    : string;
   documents      : string list;
   has_docpackage : bool;
 }
@@ -102,6 +103,7 @@ let json_of_package_info info =
     ("homepage",       `String info.homepage);
     ("latest_version", `String info.latest_version);
     ("dependencies",   `String info.dependencies);
+    ("last_update",    `String info.last_update);
     ("document",       `List (List.map (fun s -> `String s) info.documents));
     ("has_docpackage", `Bool info.has_docpackage);
   ]
@@ -145,6 +147,13 @@ let has_docpackage pkglst name =
   with
     Not_found -> false
 
+let get_package_updated_date name =
+  let cmd = "git --no-pager -C " ^ package_root ^ " --no-pager log --pretty=%ad -n1 --date=iso " ^ name in
+  let chan = Unix.open_process_in cmd in
+  let result = input_line chan in
+    ignore (Unix.close_process_in chan);
+    result
+
 let () =
   let out_file = Sys.argv.(1) in
   let package_list = get_package_list () in
@@ -164,6 +173,7 @@ let () =
       homepage       = get_str_variable "homepage";
       latest_version = latest_version;
       dependencies   = Option.value (get_depends_info_in_opamfile ofile) ~default:"(no dependencies)";
+      last_update    = get_package_updated_date name;
       documents      = get_docfile_list name;
       has_docpackage = has_docpackage package_list name;
     })

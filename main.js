@@ -73,6 +73,7 @@ function emitDetailsTable(d) {
         </td>
         </tr>`;
   };
+  var last_update = moment.parseZone(d.last_update);
   return '<table class="table" cellpadding="5" cellspacing="0" border="0" style="padding-left:50px;"><tbody>'
       + emitCardRow(d.description)
       + emitInstallCmdRow(d.name)
@@ -80,6 +81,7 @@ function emitDetailsTable(d) {
       + emitRow('License', d.license)
       + emitLinkRow('Homepage', d.homepage)
       + emitRow('Dependencies', d.dependencies)
+      + emitRow('Last update', last_update.format('ll') + ' (' + last_update.fromNow() + ')')
       + emitDocsRow('Documents', d.document)
       + emitMessageRow(d.has_docpackage ? `Document package '${d.name}-doc' is available.` : '')
   +'</tbody></table>';
