@@ -6,7 +6,7 @@ function emitDetailsTable(d) {
     if (content == '') return '';
     return `
       <tr>
-        <td>${escapeHTML(description)}:</td>
+        <td>${escapeHTML(description)}</td>
         <td>${escapeHTML(content)}</td>
       </tr>`;
   };
@@ -20,7 +20,7 @@ function emitDetailsTable(d) {
     let badges = tags.map(badge).join('');
     return `
       <tr>
-        <td>${escapeHTML(description)}:</td>
+        <td>${escapeHTML(description)}</td>
         <td id="tag-badges">${badges}</td>
       </tr>`;
   };
@@ -46,7 +46,7 @@ function emitDetailsTable(d) {
     if (content == '') return '';
     return `
       <tr>
-        <td>${escapeHTML(description)}:</td>
+        <td>${escapeHTML(description)}</td>
         <td><a target="_blank" href="${escapeHTML(content)}">${escapeHTML(content)}</a></td>
       </tr>`;
   };
@@ -59,7 +59,7 @@ function emitDetailsTable(d) {
     };
 
     let result = '';
-    let title = escapeHTML(description) + ':';
+    let title = escapeHTML(description);
     for (const doc of content) {
       let escaped_doc = escapeHTML(doc);
       result += `
@@ -76,7 +76,7 @@ function emitDetailsTable(d) {
     let escaped = escapeHTML('satysfi-' + pkgname);
     return `
         <tr>
-        <td>Installation:</td>
+        <td>Installation</td>
         <td>
         <div id="install-cmd" class="input-group mb-3">
           <input type="text" class="form-control" aria-label="Installation Command" id="installcmd-${escaped}" value="opam install ${escaped} && satyrographos install" readonly>
