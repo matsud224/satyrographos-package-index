@@ -150,7 +150,7 @@ let has_docpackage pkglst name =
     Not_found -> false
 
 let get_package_updated_date name =
-  let cmd = "git --no-pager -C " ^ package_root ^ " --no-pager log --pretty=%ad -n1 --date=iso " ^ name in
+  let cmd = "git --no-pager -C " ^ package_root ^ " log --pretty=%ad -n1 --date=rfc2822 " ^ name in
   let chan = Unix.open_process_in cmd in
   let result = input_line chan in
     ignore (Unix.close_process_in chan);
