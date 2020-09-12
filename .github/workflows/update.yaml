@@ -26,7 +26,7 @@ jobs:
           git --version
       - name: Checkout repository
         uses: actions/checkout@v2
-      - name: Install OPAM packages
+      - name: Check diffs and update
         run: |
           export HOME=/root
           eval $(opam env)
@@ -35,8 +35,6 @@ jobs:
           opam install opam-file-format yojson dune
           opam install satyrographos-snapshot-stable || true # workaround
           satyrographos install
-      - name: Check diffs and update
-        run: |
           rm -rf docs
           cp -rL $HOME/.satysfi/dist/docs .
           find ./docs -name "*.pdf" -type f -exec ./remove-pdf-id.rb {} \;
