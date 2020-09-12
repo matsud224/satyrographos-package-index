@@ -14,7 +14,9 @@ jobs:
       - name: Prepare apt
         run: apt update
       - name: Install packages
-        run: apt install -y xz-utils ruby ruby-origami
+        run: |
+          apt install -y xz-utils ruby
+          gem install origami
       - name: Install git
         run: |
           apt install -y software-properties-common
@@ -36,7 +38,7 @@ jobs:
       - name: Check diffs and update
         run: |
           rm -rf docs
-          cp -rL /root/.satysfi/dist/docs .
+          cp -rL $HOME/.satysfi/dist/docs .
           find ./docs -name "*.pdf" -type f -exec ./remove-pdf-id.rb {} \;
           git clone https://github.com/na4zagin3/satyrographos-repo.git
           make
