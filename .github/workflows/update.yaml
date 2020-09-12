@@ -10,16 +10,21 @@ jobs:
     container:
       image: amutake/satysfi:latest
     steps:
-      - run: apt update
-      - run: apt install -y xz-utils
-      - run: |
+      - name: Prepare apt
+        run: apt update
+      - name: Install packages
+        run: apt install -y xz-utils ruby ruby-origami
+      - name: Install git
+        run: |
           apt install -y software-properties-common
           add-apt-repository -y ppa:git-core/ppa
           apt update -y
           apt install -y git
           git --version
-      - uses: actions/checkout@v2
-      - run: |
+      - name: Checkout repository
+        uses: actions/checkout@v2
+      - name: Install OPAM packages
+        run: |
           export HOME=/root
           eval $(opam env)
           opam update
@@ -27,10 +32,12 @@ jobs:
           opam install opam-file-format yojson
           opam install satyrographos-snapshot-stable || true # workaround
           satyrographos install
+      - name: Check diffs and update
+        run: |
           rm -rf docs
           cp -rL ~/.satysfi/dist/docs .
+          find ./docs -name "*.pdf" -type f -exec ./remove-pdf-id.rb {} \;
           git clone https://github.com/na4zagin3/satyrographos-repo.git
           make
           dune exec ./pkgjson.exe data_new.json
           ./update-check.sh
-
