@@ -171,20 +171,7 @@ $(document).ready(function() {
       tr.addClass('shown');
 
       $('#tag-badges').on('click', 'a', function() {
-        let keyword = this.text;
-        switch (this.text) {
-          case 'all':
-            keyword = '';
-            break;
-          case 'class':
-            keyword = 'class-';
-            break;
-          case 'font':
-            keyword = 'fonts-';
-            break;
-        }
-
-        table.search(keyword).draw();
+        table.search(this.text).draw();
       });
     }
   });
