@@ -14,16 +14,13 @@ jobs:
       - name: Prepare apt
         run: apt update
       - name: Install packages
-        run: apt install -y xz-utils ruby ruby-origami tree
+        run: apt install -y xz-utils ruby ruby-origami
       - name: Install git
         run: |
           apt install -y software-properties-common
           add-apt-repository -y ppa:git-core/ppa
           apt update -y
-          apt install -y git
-          git --version
-      - name: Checkout repository
-        uses: actions/checkout@v2
+          apt install -y git git --version - name: Checkout repository uses: actions/checkout@v2
       - name: Install OPAM packages
         run: |
           export HOME=/root
@@ -36,8 +33,7 @@ jobs:
       - name: Check diffs and update
         run: |
           rm -rf docs
-          tree ~
-          cp -rL ~/.satysfi/dist/docs .
+          cp -rL /root/.satysfi/dist/docs .
           find ./docs -name "*.pdf" -type f -exec ./remove-pdf-id.rb {} \;
           git clone https://github.com/na4zagin3/satyrographos-repo.git
           make
