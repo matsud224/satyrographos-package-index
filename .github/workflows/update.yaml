@@ -20,7 +20,8 @@ jobs:
           apt install -y software-properties-common
           add-apt-repository -y ppa:git-core/ppa
           apt update -y
-          apt install -y git git --version
+          apt install -y git
+          git --version
       - name: Checkout repository
         uses: actions/checkout@v2
       - name: Install OPAM packages
