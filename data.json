@@ -190,7 +190,7 @@
       "dependencies":
         "\"satysfi\" {>= \"0.0.5\" & < \"0.0.6\"}, \"satyrographos\" {>= \"0.0.2\" & < \"0.0.3\"}, \"satysfi-class-slydifi\" {= \"%{version}%\"}, \"satysfi-easytable\" {>= \"1.0.0\"}",
       "last_update": "Sat, 12 Sep 2020 09:38:43 +0900",
-      "document": [],
+      "document": [ "./docs/class-slydifi-doc/slydifi.pdf" ],
       "has_docpackage": false,
       "tags": ""
     },
@@ -496,7 +496,7 @@
       "dependencies":
         "\"satysfi\" {>= \"0.0.5\" & < \"0.0.6\"}, \"satyrographos\" {>= \"0.0.2.6\" & < \"0.0.3\"}, \"satysfi-dist\", \"satysfi-fonts-junicode\" {= \"%{version}%\"}",
       "last_update": "Sat, 12 Sep 2020 20:27:44 +0900",
-      "document": [],
+      "document": [ "./docs/fonts-junicode-doc/doc-fonts-junicode-ja.pdf" ],
       "has_docpackage": false,
       "tags": ""
     },
@@ -741,7 +741,7 @@
       "dependencies":
         "\"satysfi\" {>= \"0.0.5\" & < \"0.0.6\"}, \"satyrographos\" {>= \"0.0.2.6\" & < \"0.0.3\"}, \"satysfi-dist\", \"satysfi-fss\" {= \"%{version}%\"}",
       "last_update": "Sat, 12 Sep 2020 22:26:18 +0900",
-      "document": [],
+      "document": [ "./docs/fss-doc/doc-fss-ja.pdf" ],
       "has_docpackage": false,
       "tags": ""
     },
