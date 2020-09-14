@@ -95,14 +95,61 @@ function emitDetailsTable(d) {
       + emitRow('Maintainer', d.maintainer)
       + emitRow('License', d.license)
       + emitLinkRow('Homepage', d.homepage)
+      + emitRow('Latest version', d.latest_version)
       + emitRow('Dependencies', d.dependencies)
-      + emitRow('Last update', last_update.format('ll') + ' (' + last_update.fromNow() + ')')
       + emitDocsRow('Documents', d.document)
       + emitMessageRow(d.has_docpackage ? `Document package '${d.name}-doc' is available.` : '')
   +'</tbody></table>';
 }
 
+
+
 $(document).ready(function() {
+  // UMD
+  (function( factory ) {
+    "use strict";
+
+    if ( typeof define === 'function' && define.amd ) {
+      // AMD
+      define( ['jquery'], function ( $ ) {
+        return factory( $, window, document );
+      } );
+    }
+    else if ( typeof exports === 'object' ) {
+      // CommonJS
+      module.exports = function (root, $) {
+        if ( ! root ) {
+          root = window;
+        }
+
+        if ( ! $ ) {
+          $ = typeof window !== 'undefined' ?
+            require('jquery') :
+            require('jquery')( root );
+        }
+
+        return factory( $, root, root.document );
+      };
+    } else {
+      // Browser
+      factory( jQuery, window, document );
+    }
+  }
+
+  (function( $, window, document ) {
+    $.fn.dataTable.render.moment = function (to) {
+      return function ( d, type, row ) {
+        if (! d) {
+          return type === 'sort' || type === 'type' ? 0 : d;
+        }
+
+        // Order and type get a number value from Moment, everything else
+        // sees the rendered value
+        return moment.parseZone(d).format( type === 'sort' || type === 'type' ? 'x' : to );
+      };
+    };
+  }));
+
   var clipboard = new ClipboardJS('.btn');
   var table = $('#main-table').DataTable({
     lengthMenu: [ [50, 100, -1], [50, 100, "All"] ],
@@ -124,9 +171,9 @@ $(document).ready(function() {
         orderable: false
       },
       {
-        data: "latest_version",
-        render: $.fn.dataTable.render.text(),
-        orderable: false
+        data: "last_update",
+        render: $.fn.dataTable.render.moment('ll'),
+        orderable: true
       },
       {
         data: "description",
@@ -137,7 +184,7 @@ $(document).ready(function() {
         visible: false
       }
     ],
-    order: [[1, 'asc']]
+    order: [[3, 'desc']]
   });
 
   $('#tag-buttons ul').on('click', 'a.nav-link', function() {
