@@ -190,7 +190,7 @@
       "dependencies":
         "\"satysfi\" {>= \"0.0.5\" & < \"0.0.6\"}, \"satyrographos\" {>= \"0.0.2\" & < \"0.0.3\"}, \"satysfi-class-slydifi\" {= \"%{version}%\"}, \"satysfi-easytable\" {>= \"1.0.0\"}",
       "last_update": "Sat, 12 Sep 2020 09:38:43 +0900",
-      "document": [],
+      "document": [ "./docs/class-slydifi-doc/slydifi.pdf" ],
       "has_docpackage": false,
       "tags": ""
     },
@@ -496,7 +496,7 @@
       "dependencies":
         "\"satysfi\" {>= \"0.0.5\" & < \"0.0.6\"}, \"satyrographos\" {>= \"0.0.2.6\" & < \"0.0.3\"}, \"satysfi-dist\", \"satysfi-fonts-junicode\" {= \"%{version}%\"}",
       "last_update": "Sat, 12 Sep 2020 20:27:44 +0900",
-      "document": [],
+      "document": [ "./docs/fonts-junicode-doc/doc-fonts-junicode-ja.pdf" ],
       "has_docpackage": false,
       "tags": ""
     },
@@ -741,7 +741,7 @@
       "dependencies":
         "\"satysfi\" {>= \"0.0.5\" & < \"0.0.6\"}, \"satyrographos\" {>= \"0.0.2.6\" & < \"0.0.3\"}, \"satysfi-dist\", \"satysfi-fss\" {= \"%{version}%\"}",
       "last_update": "Sat, 12 Sep 2020 22:26:18 +0900",
-      "document": [],
+      "document": [ "./docs/fss-doc/doc-fss-ja.pdf" ],
       "has_docpackage": false,
       "tags": ""
     },
@@ -983,10 +983,10 @@
       "maintainer": "Taichi Uemura <t.uemura00@gmail.com>",
       "license": "MIT",
       "homepage": "https://github.com/uemurax/satysfi-ncsq",
-      "latest_version": "2.0.0",
+      "latest_version": "2.1.0",
       "dependencies":
-        "\"satysfi\" {>= \"0.0.5\" & < \"0.0.6\"}, \"satyrographos\" {>= \"0.0.2\" & < \"0.0.3\"}, \"satysfi-dist\" {>= \"0.0.5\" & < \"0.0.6\"}, \"satysfi-base\" {>= \"1.2.1\"}, \"satysfi-zrbase\" {>= \"0.4.0\"}",
-      "last_update": "Sun, 23 Aug 2020 16:27:34 +0200",
+        "\"satysfi\" {>= \"0.0.5\" & < \"0.0.6\"}, \"satyrographos\" {>= \"0.0.2\" & < \"0.0.3\"}, \"satysfi-dist\" {>= \"0.0.5\" & < \"0.0.6\"}, \"satysfi-base\" {>= \"1.2.1\"}, \"satysfi-zrbase\" {>= \"0.4.0\"}, \"satysfi-arrows\" {>= \"0.1.0\"}",
+      "last_update": "Sun, 13 Sep 2020 11:30:41 +0200",
       "document": [],
       "has_docpackage": true,
       "tags": ""
@@ -1000,10 +1000,10 @@
       "maintainer": "Taichi Uemura <t.uemura00@gmail.com>",
       "license": "MIT",
       "homepage": "https://github.com/uemurax/satysfi-ncsq",
-      "latest_version": "2.0.0",
+      "latest_version": "2.1.0",
       "dependencies":
-        "\"satysfi\" {>= \"0.0.5\" & \"< 0.0.6\"}, \"satyrographos\" {>= \"0.0.2\" & < \"0.0.3\"}, \"satysfi-dist\" {>= \"0.0.5\" & \"< 0.0.6\"}, \"satysfi-ncsq\" {= \"%{version}%\"}, \"satysfi-easytable\" {>= \"1.0.0\"}, \"satysfi-matrix\" {>= \"0.0.1\" & \"< 0.0.2\"}, \"satysfi-bibyfi\" {>= \"0.0.2\" & \"< 0.0.3\"}",
-      "last_update": "Sun, 23 Aug 2020 16:27:34 +0200",
+        "\"satysfi\" {>= \"0.0.5\" & < \"0.0.6\"}, \"satyrographos\" {>= \"0.0.2\" & < \"0.0.3\"}, \"satysfi-dist\" {>= \"0.0.5\" & < \"0.0.6\"}, \"satysfi-ncsq\" {= \"%{version}%\"}, \"satysfi-easytable\" {>= \"1.0.0\"}, \"satysfi-matrix\" {>= \"0.0.1\" & < \"0.0.2\"}, \"satysfi-bibyfi\" {>= \"0.0.2\" & < \"0.0.3\"}",
+      "last_update": "Sun, 13 Sep 2020 11:30:41 +0200",
       "document": [
         "./docs/ncsq-doc/ncsq-example.pdf",
         "./docs/ncsq-doc/ncsq-example.saty", "./docs/ncsq-doc/ncsq-notes.pdf"
