@@ -13,19 +13,20 @@ type package_type =
   Library | Class | Font | Document | Satysfi | Satyrographos | Other
 
 type package_info = {
-  name           : string;
-  pkg_type       : package_type;
-  synopsis       : string;
-  description    : string;
-  maintainer     : string;
-  license        : string;
-  homepage       : string;
-  latest_version : string;
-  dependencies   : string;
-  last_update    : string;
-  documents      : string list;
-  has_docpackage : bool;
-  tags           : string;
+  name            : string;
+  pkg_type        : package_type;
+  synopsis        : string;
+  description     : string;
+  maintainer      : string;
+  license         : string;
+  homepage        : string;
+  latest_version  : string;
+  dependencies    : string;
+  last_update     : string;
+  first_published : string;
+  documents       : string list;
+  has_docpackage  : bool;
+  tags            : string;
 }
 
 let string_of_package_type t =
@@ -105,6 +106,7 @@ let json_of_package_info info =
     ("latest_version", `String info.latest_version);
     ("dependencies",   `String info.dependencies);
     ("last_update",    `String info.last_update);
+    ("first_published",`String info.first_published);
     ("document",       `List (List.map (fun s -> `String s) info.documents));
     ("has_docpackage", `Bool info.has_docpackage);
     ("tags",           `String info.tags);
@@ -156,6 +158,13 @@ let get_package_updated_date name =
     ignore (Unix.close_process_in chan);
     result
 
+let get_package_first_published_date name =
+  let cmd = "git --no-pager -C " ^ package_root ^ " log --pretty=%cd --date=rfc2822 " ^ name ^ " | tail -n1" in
+  let chan = Unix.open_process_in cmd in
+  let result = input_line chan in
+    ignore (Unix.close_process_in chan);
+    result
+
 let () =
   let out_file = Sys.argv.(1) in
   let package_list = get_package_list () in
@@ -167,18 +176,19 @@ let () =
     let get_str_variable nm = Option.value (find_string_variable_in_opamfile ofile nm) ~default:"" in
     {
       name = name;
-      pkg_type       = get_package_type name;
-      synopsis       = get_str_variable "synopsis";
-      description    = get_str_variable "description";
-      maintainer     = get_str_variable "maintainer";
-      license        = get_str_variable "license";
-      homepage       = get_str_variable "homepage";
-      latest_version = latest_version;
-      dependencies   = Option.value (find_string_list_variable_in_opamfile ofile "depends") ~default:"(no dependencies)";
-      last_update    = get_package_updated_date name;
-      documents      = get_docfile_list name;
-      has_docpackage = has_docpackage package_list name;
-      tags           = Option.value (find_string_list_variable_in_opamfile ofile "tags") ~default:"";
+      pkg_type        = get_package_type name;
+      synopsis        = get_str_variable "synopsis";
+      description     = get_str_variable "description";
+      maintainer      = get_str_variable "maintainer";
+      license         = get_str_variable "license";
+      homepage        = get_str_variable "homepage";
+      latest_version  = latest_version;
+      dependencies    = Option.value (find_string_list_variable_in_opamfile ofile "depends") ~default:"(no dependencies)";
+      last_update     = get_package_updated_date name;
+      first_published = get_package_first_published_date name;
+      documents       = get_docfile_list name;
+      has_docpackage  = has_docpackage package_list name;
+      tags            = Option.value (find_string_list_variable_in_opamfile ofile "tags") ~default:"";
     })
     |> List.filter (fun p -> match p.pkg_type with
                              | Library | Class | Font | Document -> true
