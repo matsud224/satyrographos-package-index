@@ -177,31 +177,12 @@
       "maintainer": "Shinichi Mogami <mogassy@yahoo.co.jp>",
       "license": "MIT",
       "homepage": "https://github.com/monaqa/slydifi",
-      "latest_version": "0.2.0",
+      "latest_version": "0.1.0",
       "dependencies":
-        "\"satysfi\" {>= \"0.0.5\" & < \"0.0.6\"}, \"satyrographos\" {>= \"0.0.2\" & < \"0.0.3\"}, \"satysfi-enumitem\" {>= \"2.0.0\"}, \"satysfi-base\" {>= \"1.0.0\"}",
-      "last_update": "Sat, 12 Sep 2020 09:38:43 +0900",
+        "\"satysfi\" {>= \"0.0.3\" & < \"0.0.6\"}, \"satyrographos\" {>= \"0.0.2\" & < \"0.0.3\"}",
+      "last_update": "Sat, 11 Jul 2020 23:10:27 +0900",
       "first_published": "Mon, 27 Jan 2020 12:48:34 +0900",
       "document": [],
-      "has_docpackage": true,
-      "tags": ""
-    },
-    {
-      "name": "class-slydifi-doc",
-      "type": "Document",
-      "synopsis":
-        "A SATySFi document class for creating presentations slides",
-      "description":
-        "A SATySFi document class for creating presentations slides.",
-      "maintainer": "Shinichi Mogami <mogassy@yahoo.co.jp>",
-      "license": "MIT",
-      "homepage": "https://github.com/monaqa/slydifi",
-      "latest_version": "0.2.0",
-      "dependencies":
-        "\"satysfi\" {>= \"0.0.5\" & < \"0.0.6\"}, \"satyrographos\" {>= \"0.0.2\" & < \"0.0.3\"}, \"satysfi-class-slydifi\" {= \"%{version}%\"}, \"satysfi-easytable\" {>= \"1.0.0\"}",
-      "last_update": "Sat, 12 Sep 2020 09:38:43 +0900",
-      "first_published": "Sat, 12 Sep 2020 09:38:43 +0900",
-      "document": [ "./docs/class-slydifi-doc/slydifi.pdf" ],
       "has_docpackage": false,
       "tags": ""
     },
@@ -494,42 +475,6 @@
       "tags": ""
     },
     {
-      "name": "fonts-junicode",
-      "type": "Font",
-      "synopsis": "SATySFi Font Package for Junicode",
-      "description":
-        "\nSATySFi Font Package for Junicode\n\nThis package installs fonts from https://junicode.sourceforge.io/\n",
-      "maintainer": "SAKAMOTO Noriaki <mrty.ityt.pt@gmail.com>",
-      "license": "OFL",
-      "homepage": "https://github.com/na4zagin3/SATySFi-fonts-junicode",
-      "latest_version": "1.0002+satysfi0.0.5",
-      "dependencies":
-        "\"satysfi\" {>= \"0.0.5\" & < \"0.0.6\"}, \"satyrographos\" {>= \"0.0.2.6\" & < \"0.0.3\"}",
-      "last_update": "Sat, 12 Sep 2020 20:27:44 +0900",
-      "first_published": "Sat, 12 Sep 2020 20:27:44 +0900",
-      "document": [],
-      "has_docpackage": true,
-      "tags": ""
-    },
-    {
-      "name": "fonts-junicode-doc",
-      "type": "Document",
-      "synopsis": "Document of SATySFi Font Package for Junicode",
-      "description":
-        "\nDocument of SATySFi Font Package for Junicode\n\nThis package installs fonts from https://junicode.sourceforge.io/\n",
-      "maintainer": "SAKAMOTO Noriaki <mrty.ityt.pt@gmail.com>",
-      "license": "OFL",
-      "homepage": "https://github.com/na4zagin3/SATySFi-fonts-junicode",
-      "latest_version": "1.0002+satysfi0.0.5",
-      "dependencies":
-        "\"satysfi\" {>= \"0.0.5\" & < \"0.0.6\"}, \"satyrographos\" {>= \"0.0.2.6\" & < \"0.0.3\"}, \"satysfi-dist\", \"satysfi-fonts-junicode\" {= \"%{version}%\"}",
-      "last_update": "Sat, 12 Sep 2020 20:27:44 +0900",
-      "first_published": "Sat, 12 Sep 2020 20:27:44 +0900",
-      "document": [ "./docs/fonts-junicode-doc/doc-fonts-junicode-ja.pdf" ],
-      "has_docpackage": false,
-      "tags": ""
-    },
-    {
       "name": "fonts-noto-emoji",
       "type": "Font",
       "synopsis": "SATySFi Font Package for Noto Emoji fonts",
@@ -751,40 +696,6 @@
       "last_update": "Sat, 11 Jul 2020 23:10:27 +0900",
       "first_published": "Wed, 11 Sep 2019 20:41:24 +0900",
       "document": [ "./docs/fonts-theano-doc/doc-fonts-theano-ja.pdf" ],
-      "has_docpackage": false,
-      "tags": ""
-    },
-    {
-      "name": "fss",
-      "type": "Library",
-      "synopsis": "Font selection scheme",
-      "description": "\nDocument: Font selection scheme for SATySFi\n",
-      "maintainer": "SAKAMOTO Noriaki <mrty.ityt.pt@gmail.com>",
-      "license": "LGPL-3.0-or-later",
-      "homepage": "https://github.com/na4zagin3/satysfi-fss",
-      "latest_version": "0.0.1",
-      "dependencies":
-        "\"satysfi\" {>= \"0.0.5\" & < \"0.0.6\"}, \"satyrographos\" {>= \"0.0.2.6\" & < \"0.0.3\"}, \"satysfi-base\" {>= \"1.3.0\" & < \"2\"}, \"satysfi-fonts-junicode\" {>= \"1\" & < \"2\"}",
-      "last_update": "Sat, 12 Sep 2020 22:41:43 +0900",
-      "first_published": "Sat, 12 Sep 2020 22:26:18 +0900",
-      "document": [],
-      "has_docpackage": true,
-      "tags": ""
-    },
-    {
-      "name": "fss-doc",
-      "type": "Document",
-      "synopsis": "Document: Font selection scheme",
-      "description": "\nDocument: Font selection scheme for SATySFi\n",
-      "maintainer": "SAKAMOTO Noriaki <mrty.ityt.pt@gmail.com>",
-      "license": "LGPL-3.0-or-later",
-      "homepage": "https://github.com/na4zagin3/satysfi-fss",
-      "latest_version": "0.0.1",
-      "dependencies":
-        "\"satysfi\" {>= \"0.0.5\" & < \"0.0.6\"}, \"satyrographos\" {>= \"0.0.2.6\" & < \"0.0.3\"}, \"satysfi-dist\", \"satysfi-fss\" {= \"%{version}%\"}",
-      "last_update": "Sat, 12 Sep 2020 22:26:18 +0900",
-      "first_published": "Sat, 12 Sep 2020 22:26:18 +0900",
-      "document": [ "./docs/fss-doc/doc-fss-ja.pdf" ],
       "has_docpackage": false,
       "tags": ""
     },
@@ -1039,10 +950,10 @@
       "maintainer": "Taichi Uemura <t.uemura00@gmail.com>",
       "license": "MIT",
       "homepage": "https://github.com/uemurax/satysfi-ncsq",
-      "latest_version": "2.1.0",
+      "latest_version": "2.0.0",
       "dependencies":
-        "\"satysfi\" {>= \"0.0.5\" & < \"0.0.6\"}, \"satyrographos\" {>= \"0.0.2\" & < \"0.0.3\"}, \"satysfi-dist\" {>= \"0.0.5\" & < \"0.0.6\"}, \"satysfi-base\" {>= \"1.2.1\"}, \"satysfi-zrbase\" {>= \"0.4.0\"}, \"satysfi-arrows\" {>= \"0.1.0\"}",
-      "last_update": "Sun, 13 Sep 2020 11:30:41 +0200",
+        "\"satysfi\" {>= \"0.0.5\" & < \"0.0.6\"}, \"satyrographos\" {>= \"0.0.2\" & < \"0.0.3\"}, \"satysfi-dist\" {>= \"0.0.5\" & < \"0.0.6\"}, \"satysfi-base\" {>= \"1.2.1\"}, \"satysfi-zrbase\" {>= \"0.4.0\"}",
+      "last_update": "Sun, 23 Aug 2020 16:27:34 +0200",
       "first_published": "Sun, 19 Jul 2020 23:00:06 +0200",
       "document": [],
       "has_docpackage": true,
@@ -1057,10 +968,10 @@
       "maintainer": "Taichi Uemura <t.uemura00@gmail.com>",
       "license": "MIT",
       "homepage": "https://github.com/uemurax/satysfi-ncsq",
-      "latest_version": "2.1.0",
+      "latest_version": "2.0.0",
       "dependencies":
-        "\"satysfi\" {>= \"0.0.5\" & < \"0.0.6\"}, \"satyrographos\" {>= \"0.0.2\" & < \"0.0.3\"}, \"satysfi-dist\" {>= \"0.0.5\" & < \"0.0.6\"}, \"satysfi-ncsq\" {= \"%{version}%\"}, \"satysfi-easytable\" {>= \"1.0.0\"}, \"satysfi-matrix\" {>= \"0.0.1\" & < \"0.0.2\"}, \"satysfi-bibyfi\" {>= \"0.0.2\" & < \"0.0.3\"}",
-      "last_update": "Sun, 13 Sep 2020 11:30:41 +0200",
+        "\"satysfi\" {>= \"0.0.5\" & \"< 0.0.6\"}, \"satyrographos\" {>= \"0.0.2\" & < \"0.0.3\"}, \"satysfi-dist\" {>= \"0.0.5\" & \"< 0.0.6\"}, \"satysfi-ncsq\" {= \"%{version}%\"}, \"satysfi-easytable\" {>= \"1.0.0\"}, \"satysfi-matrix\" {>= \"0.0.1\" & \"< 0.0.2\"}, \"satysfi-bibyfi\" {>= \"0.0.2\" & \"< 0.0.3\"}",
+      "last_update": "Sun, 23 Aug 2020 16:27:34 +0200",
       "first_published": "Sun, 19 Jul 2020 23:00:06 +0200",
       "document": [
         "./docs/ncsq-doc/ncsq-example.pdf",
