@@ -5,7 +5,7 @@
 
 Hosted on Netlify: [Satyrographos Packages](https://satyrographos-packages.netlify.app/)
 
-This is an unofficial satyrographos package list website. [SATySFi](https://github.com/gfngfn/SATySFi) is a typesetting system and [Satyrograohos](https://github.com/na4zagin3/satyrographos) is its package manager.
+This is an unofficial satyrographos package list website. [SATySFi](https://github.com/gfngfn/SATySFi) is a typesetting system and [Satyrographos](https://github.com/na4zagin3/satyrographos) is its package manager.
 
 Package informations are updated by GitHub Actions every hour. They are fetched from [satyrographos-repo](https://github.com/na4zagin3/satyrographos-repo).
 
