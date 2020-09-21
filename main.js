@@ -162,15 +162,18 @@ $(document).ready(function() {
         defaultContent: ""
       },
       {
+        className: "details-control-sub",
         data: "name",
         render: $.fn.dataTable.render.text()
       },
       {
+        className: "details-control-sub",
         data: "synopsis",
         render: $.fn.dataTable.render.text(),
         orderable: false
       },
       {
+        className: "details-control-sub",
         data: "last_update",
         render: $.fn.dataTable.render.moment('ll'),
         orderable: true
@@ -204,7 +207,7 @@ $(document).ready(function() {
     table.search(keyword).draw();
   });
 
-  $('#main-table tbody').on('click', 'td.details-control', function() {
+  details_switch_func =  function() {
     var tr = $(this).closest('tr');
     var row = table.row(tr);
 
@@ -221,6 +224,10 @@ $(document).ready(function() {
         table.search(this.text).draw();
       });
     }
-  });
+  };
+
+  $('#main-table tbody').on('click', 'td.details-control', details_switch_func);
+  $('#main-table tbody').on('click', 'td.details-control-sub', details_switch_func);
+
 });
 

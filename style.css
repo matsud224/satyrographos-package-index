@@ -7,6 +7,10 @@ tr.shown td.details-control {
   background: url('./resources/close.svg') no-repeat center center;
 }
 
+td.details-control-sub {
+  cursor: pointer;
+}
+
 .card-body p {
   margin-bottom: 0;
 }
