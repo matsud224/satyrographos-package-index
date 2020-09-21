@@ -91,8 +91,9 @@ let find_string_variable_in_opamfile ofile name =
 
 let find_string_list_variable_in_opamfile ofile name =
   match find_variable_in_opamfile ofile name with
-  | Some(List(_, vallst)) -> Some(String.concat ", " (List.map OpamPrinter.value vallst))
-  | _                     -> None
+  | Some(String(_, strval)) -> Some(strval)
+  | Some(List(_, vallst))   -> Some(String.concat ", " (List.map OpamPrinter.value vallst))
+  | _                       -> None
 
 let json_of_package_info info =
   `Assoc [
@@ -173,22 +174,23 @@ let () =
     let latest_version = List.hd version_list in
     let opamfile_path = List.fold_left Filename.concat package_root [name; name ^ "." ^ latest_version; "opam"] in
     let ofile = OpamParser.file opamfile_path in
-    let get_str_variable nm = Option.value (find_string_variable_in_opamfile ofile nm) ~default:"" in
+    let get_str_variable nm default = Option.value (find_string_variable_in_opamfile ofile nm) ~default:default in
+    let get_strlist_variable nm default = Option.value (find_string_list_variable_in_opamfile ofile nm) ~default:default in
     {
       name = name;
       pkg_type        = get_package_type name;
-      synopsis        = get_str_variable "synopsis";
-      description     = get_str_variable "description";
-      maintainer      = get_str_variable "maintainer";
-      license         = get_str_variable "license";
-      homepage        = get_str_variable "homepage";
+      synopsis        = get_str_variable "synopsis" "";
+      description     = get_str_variable "description" "";
+      maintainer      = get_strlist_variable "maintainer" "";
+      license         = get_strlist_variable "license" "";
+      homepage        = get_strlist_variable "homepage" "";
       latest_version  = latest_version;
-      dependencies    = Option.value (find_string_list_variable_in_opamfile ofile "depends") ~default:"(no dependencies)";
+      dependencies    = get_strlist_variable "depends" "(no dependencies)";
       last_update     = get_package_updated_date name;
       first_published = get_package_first_published_date name;
       documents       = get_docfile_list name;
       has_docpackage  = has_docpackage package_list name;
-      tags            = Option.value (find_string_list_variable_in_opamfile ofile "tags") ~default:"";
+      tags            = get_strlist_variable "tags" "";
     })
     |> List.filter (fun p -> match p.pkg_type with
                              | Library | Class | Font | Document -> true
