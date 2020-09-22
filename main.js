@@ -151,6 +151,7 @@ $(document).ready(function() {
   }));
 
   var clipboard = new ClipboardJS('.btn');
+
   var table = $('#main-table').DataTable({
     lengthMenu: [ [50, 100, -1], [50, 100, "All"] ],
     ajax: "./data.json",
@@ -188,6 +189,11 @@ $(document).ready(function() {
       }
     ],
     order: [[3, 'desc']]
+  });
+
+  $.fn.dataTable.ext.errMode = 'none';
+  $('#main-table').on('error.dt', function(e, settings, techNote, message) {
+    alert('Unfortunately the site is down for a bit of maintenance right now.\nPlease visit later.');
   });
 
   $('#tag-buttons ul').on('click', 'a.nav-link', function() {
