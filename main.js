@@ -87,7 +87,7 @@ function emitDetailsTable(d) {
         </td>
         </tr>`;
   };
-  var last_update = moment.parseZone(d.last_update);
+
   return '<table class="table" cellpadding="5" cellspacing="0" border="0" style="padding-left:50px;"><tbody>'
       + emitCardRow(d.description)
       + emitInstallCmdRow(d.name)
@@ -136,16 +136,16 @@ $(document).ready(function() {
     }
   }
 
-  (function( $, window, document ) {
-    $.fn.dataTable.render.moment = function (to) {
-      return function ( d, type, row ) {
-        if (! d) {
+  (function($, window, document) {
+    $.fn.dataTable.render.moment = function(to) {
+      return function (d, type, row) {
+        if (!d) {
           return type === 'sort' || type === 'type' ? 0 : d;
         }
 
         // Order and type get a number value from Moment, everything else
         // sees the rendered value
-        return moment.parseZone(d).format( type === 'sort' || type === 'type' ? 'x' : to );
+        return moment.unix(d).utc().format(type === 'sort' || type === 'type' ? 'x' : to);
       };
     };
   }));
