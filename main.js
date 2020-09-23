@@ -88,6 +88,16 @@ function emitDetailsTable(d) {
         </tr>`;
   };
 
+  let docrows = '';
+  if (d.has_docpkg) {
+    if (d.documents.length > 0) {
+      docrows += emitMessageRow(`Document package '${d.name}-doc' contains following files:`);
+      docrows += emitDocsRow('', d.documents);
+    } else {
+      docrows += emitMessageRow(`Document package '${d.name}-doc' is available.`);
+    }
+  }
+
   return '<table class="table" cellpadding="5" cellspacing="0" border="0" style="padding-left:50px;"><tbody>'
       + emitCardRow(d.description)
       + emitInstallCmdRow(d.name)
@@ -97,12 +107,9 @@ function emitDetailsTable(d) {
       + emitLinkRow('Homepage', d.homepage)
       + emitRow('Latest version', d.latest_version)
       + emitRow('Dependencies', d.dependencies)
-      + emitDocsRow('Documents', d.document)
-      + emitMessageRow(d.has_docpackage ? `Document package '${d.name}-doc' is available.` : '')
+      + docrows
   +'</tbody></table>';
 }
-
-
 
 $(document).ready(function() {
   // UMD

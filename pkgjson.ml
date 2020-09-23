@@ -24,8 +24,8 @@ type package_info = {
   dependencies    : string;
   last_update     : string;
   first_published : string;
+  has_docpkg      : bool;
   documents       : string list;
-  has_docpackage  : bool;
   tags            : string;
 }
 
@@ -108,8 +108,8 @@ let json_of_package_info info =
     ("dependencies",   `String info.dependencies);
     ("last_update",    `String info.last_update);
     ("first_published",`String info.first_published);
-    ("document",       `List (List.map (fun s -> `String s) info.documents));
-    ("has_docpackage", `Bool info.has_docpackage);
+    ("has_docpkg",     `Bool   info.has_docpkg);
+    ("documents",      `List (List.map (fun s -> `String s) info.documents));
     ("tags",           `String info.tags);
   ]
 
@@ -132,8 +132,11 @@ let dir_contents dir =
   in
     loop [] [dir]
 
+let get_document_package_name name = name ^ "-doc"
+
 let get_docfile_list name =
   let open Str in
+  let name = get_document_package_name name in
   if string_match (regexp "^satysfi-\\(.*-doc$\\)") name 0 then
     let doc_dir_name = matched_group 1 name in
     let doc_path = doc_root ^ "/" ^ doc_dir_name in
@@ -144,10 +147,9 @@ let get_docfile_list name =
   else
     []
 
-let has_docpackage pkglst name =
-  let docpkg_name = name ^ "-doc" in
+let is_package_exists pkglst name =
   try
-    ignore (List.find (fun s -> (String.compare s docpkg_name) == 0) pkglst);
+    ignore (List.find (fun s -> (String.compare s name) == 0) pkglst);
     true
   with
     Not_found -> false
@@ -188,12 +190,12 @@ let () =
       dependencies    = get_strlist_variable "depends" "(no dependencies)";
       last_update     = get_package_updated_date name;
       first_published = get_package_first_published_date name;
+      has_docpkg      = is_package_exists package_list (get_document_package_name name);
       documents       = get_docfile_list name;
-      has_docpackage  = has_docpackage package_list name;
       tags            = get_strlist_variable "tags" "";
     })
     |> List.filter (fun p -> match p.pkg_type with
-                             | Library | Class | Font | Document -> true
+                             | Library | Class | Font -> true
                              | _ -> false)
     |> List.map (fun p -> { p with name = remove_head (String.length "satysfi-") p.name })
     |> List.sort (fun a b -> String.compare a.name b.name)
