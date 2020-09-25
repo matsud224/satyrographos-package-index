@@ -16,7 +16,8 @@
       "first_published": "1599596648",
       "has_docpkg": true,
       "documents": [],
-      "tags": ""
+      "fonts": [],
+      "tags": []
     },
     {
       "name": "assert-eq",
@@ -33,7 +34,8 @@
       "first_published": "1584795544",
       "has_docpkg": false,
       "documents": [],
-      "tags": ""
+      "fonts": [],
+      "tags": []
     },
     {
       "name": "base",
@@ -51,7 +53,8 @@
       "first_published": "1576337575",
       "has_docpkg": false,
       "documents": [],
-      "tags": ""
+      "fonts": [],
+      "tags": []
     },
     {
       "name": "bibyfi",
@@ -76,7 +79,8 @@
         "./docs/bibyfi-doc/examples/cite-with-name.pdf",
         "./docs/bibyfi-doc/examples/cite-with-name.saty"
       ],
-      "tags": ""
+      "fonts": [],
+      "tags": []
     },
     {
       "name": "cancel",
@@ -94,7 +98,8 @@
       "first_published": "1582352429",
       "has_docpkg": false,
       "documents": [],
-      "tags": ""
+      "fonts": [],
+      "tags": []
     },
     {
       "name": "class-exdesign",
@@ -111,7 +116,8 @@
       "first_published": "1574327282",
       "has_docpkg": true,
       "documents": [ "./docs/class-exdesign-doc/manual.pdf" ],
-      "tags": ""
+      "fonts": [],
+      "tags": []
     },
     {
       "name": "class-slydifi",
@@ -130,7 +136,8 @@
       "first_published": "1580096914",
       "has_docpkg": true,
       "documents": [ "./docs/class-slydifi-doc/slydifi.pdf" ],
-      "tags": ""
+      "fonts": [],
+      "tags": []
     },
     {
       "name": "class-stjarticle",
@@ -151,7 +158,8 @@
         "./docs/class-stjarticle-doc/stjarticle-demo.pdf",
         "./docs/class-stjarticle-doc/stjarticle-demo.saty"
       ],
-      "tags": ""
+      "fonts": [],
+      "tags": []
     },
     {
       "name": "class-yabaitech",
@@ -169,7 +177,8 @@
       "first_published": "1593008420",
       "has_docpkg": true,
       "documents": [ "./docs/class-yabaitech-doc/yabaitech-demo.pdf" ],
-      "tags": ""
+      "fonts": [],
+      "tags": []
     },
     {
       "name": "debug-show-value",
@@ -186,7 +195,8 @@
       "first_published": "1584725860",
       "has_docpkg": false,
       "documents": [],
-      "tags": ""
+      "fonts": [],
+      "tags": []
     },
     {
       "name": "dist",
@@ -202,7 +212,8 @@
       "first_published": "1574164933",
       "has_docpkg": false,
       "documents": [],
-      "tags": ""
+      "fonts": [],
+      "tags": []
     },
     {
       "name": "easytable",
@@ -219,7 +230,8 @@
       "first_published": "1595143664",
       "has_docpkg": true,
       "documents": [ "./docs/easytable-doc/easytable.pdf" ],
-      "tags": ""
+      "fonts": [],
+      "tags": []
     },
     {
       "name": "enumitem",
@@ -236,7 +248,8 @@
       "first_published": "1580619924",
       "has_docpkg": true,
       "documents": [ "./docs/enumitem-doc/enumitem.pdf" ],
-      "tags": ""
+      "fonts": [],
+      "tags": []
     },
     {
       "name": "fonts-asana-math",
@@ -254,7 +267,8 @@
       "first_published": "1580303519",
       "has_docpkg": true,
       "documents": [ "./docs/fonts-asana-math-doc/doc-fonts-asana-math.pdf" ],
-      "tags": ""
+      "fonts": [ "Asana-Math.otf" ],
+      "tags": []
     },
     {
       "name": "fonts-bodoni-star",
@@ -272,7 +286,8 @@
       "first_published": "1601032622",
       "has_docpkg": true,
       "documents": [],
-      "tags": ""
+      "fonts": [],
+      "tags": []
     },
     {
       "name": "fonts-computer-modern-unicode",
@@ -293,7 +308,17 @@
       "documents": [
         "./docs/fonts-computer-modern-unicode-doc/doc-fonts-computer-modern-unicode.pdf"
       ],
-      "tags": ""
+      "fonts": [
+        "cmunbbx.ttf", "cmunbi.ttf", "cmunbl.ttf", "cmunbmo.ttf",
+        "cmunbmr.ttf", "cmunbso.ttf", "cmunbsr.ttf", "cmunbtl.ttf",
+        "cmunbto.ttf", "cmunbx.ttf", "cmunbxo.ttf", "cmunci.ttf",
+        "cmunit.ttf", "cmunobi.ttf", "cmunobx.ttf", "cmunorm.ttf",
+        "cmunoti.ttf", "cmunrb.ttf", "cmunrm.ttf", "cmunsi.ttf",
+        "cmunsl.ttf", "cmunso.ttf", "cmunss.ttf", "cmunssdc.ttf",
+        "cmunst.ttf", "cmunsx.ttf", "cmuntb.ttf", "cmunti.ttf", "cmuntt.ttf",
+        "cmuntx.ttf", "cmunui.ttf", "cmunvi.ttf", "cmunvt.ttf"
+      ],
+      "tags": []
     },
     {
       "name": "fonts-cormorant",
@@ -311,7 +336,8 @@
       "first_published": "1600974457",
       "has_docpkg": true,
       "documents": [],
-      "tags": ""
+      "fonts": [],
+      "tags": []
     },
     {
       "name": "fonts-dejavu",
@@ -329,7 +355,22 @@
       "first_published": "1579826700",
       "has_docpkg": true,
       "documents": [ "./docs/fonts-dejavu-doc/doc-fonts-dejavu.pdf" ],
-      "tags": ""
+      "fonts": [
+        "DejaVuMathTeXGyre.ttf", "DejaVuSans-Bold.ttf",
+        "DejaVuSans-BoldOblique.ttf", "DejaVuSans-ExtraLight.ttf",
+        "DejaVuSans-Oblique.ttf", "DejaVuSans.ttf",
+        "DejaVuSansCondensed-Bold.ttf",
+        "DejaVuSansCondensed-BoldOblique.ttf",
+        "DejaVuSansCondensed-Oblique.ttf", "DejaVuSansCondensed.ttf",
+        "DejaVuSansMono-Bold.ttf", "DejaVuSansMono-BoldOblique.ttf",
+        "DejaVuSansMono-Oblique.ttf", "DejaVuSansMono.ttf",
+        "DejaVuSerif-Bold.ttf", "DejaVuSerif-BoldItalic.ttf",
+        "DejaVuSerif-Italic.ttf", "DejaVuSerif.ttf",
+        "DejaVuSerifCondensed-Bold.ttf",
+        "DejaVuSerifCondensed-BoldItalic.ttf",
+        "DejaVuSerifCondensed-Italic.ttf", "DejaVuSerifCondensed.ttf"
+      ],
+      "tags": []
     },
     {
       "name": "fonts-junicode",
@@ -347,7 +388,11 @@
       "first_published": "1599910064",
       "has_docpkg": true,
       "documents": [ "./docs/fonts-junicode-doc/doc-fonts-junicode-ja.pdf" ],
-      "tags": ""
+      "fonts": [
+        "FoulisGreek.ttf", "Junicode-Bold.ttf", "Junicode-BoldItalic.ttf",
+        "Junicode-Italic.ttf", "Junicode.ttf"
+      ],
+      "tags": []
     },
     {
       "name": "fonts-noto-emoji",
@@ -367,7 +412,8 @@
       "documents": [
         "./docs/fonts-noto-emoji-doc/doc-fonts-emoji-serif.pdf"
       ],
-      "tags": ""
+      "fonts": [ "NotoColorEmoji.ttf", "NotoEmoji-Regular.ttf" ],
+      "tags": []
     },
     {
       "name": "fonts-noto-sans",
@@ -385,7 +431,65 @@
       "first_published": "1582333639",
       "has_docpkg": true,
       "documents": [ "./docs/fonts-noto-sans-doc/doc-fonts-noto-sans.pdf" ],
-      "tags": ""
+      "fonts": [
+        "NotoSans-Black.ttf", "NotoSans-BlackItalic.ttf",
+        "NotoSans-Bold.ttf", "NotoSans-BoldItalic.ttf",
+        "NotoSans-Condensed.ttf", "NotoSans-CondensedBlack.ttf",
+        "NotoSans-CondensedBlackItalic.ttf", "NotoSans-CondensedBold.ttf",
+        "NotoSans-CondensedBoldItalic.ttf",
+        "NotoSans-CondensedExtraBold.ttf",
+        "NotoSans-CondensedExtraBoldItalic.ttf",
+        "NotoSans-CondensedExtraLight.ttf",
+        "NotoSans-CondensedExtraLightItalic.ttf",
+        "NotoSans-CondensedItalic.ttf", "NotoSans-CondensedLight.ttf",
+        "NotoSans-CondensedLightItalic.ttf", "NotoSans-CondensedMedium.ttf",
+        "NotoSans-CondensedMediumItalic.ttf",
+        "NotoSans-CondensedSemiBold.ttf",
+        "NotoSans-CondensedSemiBoldItalic.ttf", "NotoSans-CondensedThin.ttf",
+        "NotoSans-CondensedThinItalic.ttf", "NotoSans-ExtraBold.ttf",
+        "NotoSans-ExtraBoldItalic.ttf", "NotoSans-ExtraCondensed.ttf",
+        "NotoSans-ExtraCondensedBlack.ttf",
+        "NotoSans-ExtraCondensedBlackItalic.ttf",
+        "NotoSans-ExtraCondensedBold.ttf",
+        "NotoSans-ExtraCondensedBoldItalic.ttf",
+        "NotoSans-ExtraCondensedExtraBold.ttf",
+        "NotoSans-ExtraCondensedExtraBoldItalic.ttf",
+        "NotoSans-ExtraCondensedExtraLight.ttf",
+        "NotoSans-ExtraCondensedExtraLightItalic.ttf",
+        "NotoSans-ExtraCondensedItalic.ttf",
+        "NotoSans-ExtraCondensedLight.ttf",
+        "NotoSans-ExtraCondensedLightItalic.ttf",
+        "NotoSans-ExtraCondensedMedium.ttf",
+        "NotoSans-ExtraCondensedMediumItalic.ttf",
+        "NotoSans-ExtraCondensedSemiBold.ttf",
+        "NotoSans-ExtraCondensedSemiBoldItalic.ttf",
+        "NotoSans-ExtraCondensedThin.ttf",
+        "NotoSans-ExtraCondensedThinItalic.ttf", "NotoSans-ExtraLight.ttf",
+        "NotoSans-ExtraLightItalic.ttf", "NotoSans-Italic.ttf",
+        "NotoSans-Light.ttf", "NotoSans-LightItalic.ttf",
+        "NotoSans-Medium.ttf", "NotoSans-MediumItalic.ttf",
+        "NotoSans-Regular.ttf", "NotoSans-SemiBold.ttf",
+        "NotoSans-SemiBoldItalic.ttf", "NotoSans-SemiCondensed.ttf",
+        "NotoSans-SemiCondensedBlack.ttf",
+        "NotoSans-SemiCondensedBlackItalic.ttf",
+        "NotoSans-SemiCondensedBold.ttf",
+        "NotoSans-SemiCondensedBoldItalic.ttf",
+        "NotoSans-SemiCondensedExtraBold.ttf",
+        "NotoSans-SemiCondensedExtraBoldItalic.ttf",
+        "NotoSans-SemiCondensedExtraLight.ttf",
+        "NotoSans-SemiCondensedExtraLightItalic.ttf",
+        "NotoSans-SemiCondensedItalic.ttf",
+        "NotoSans-SemiCondensedLight.ttf",
+        "NotoSans-SemiCondensedLightItalic.ttf",
+        "NotoSans-SemiCondensedMedium.ttf",
+        "NotoSans-SemiCondensedMediumItalic.ttf",
+        "NotoSans-SemiCondensedSemiBold.ttf",
+        "NotoSans-SemiCondensedSemiBoldItalic.ttf",
+        "NotoSans-SemiCondensedThin.ttf",
+        "NotoSans-SemiCondensedThinItalic.ttf", "NotoSans-Thin.ttf",
+        "NotoSans-ThinItalic.ttf"
+      ],
+      "tags": []
     },
     {
       "name": "fonts-noto-sans-cjk-jp",
@@ -406,7 +510,14 @@
       "documents": [
         "./docs/fonts-noto-sans-cjk-jp-doc/doc-fonts-noto-sans-cjk-jp.pdf"
       ],
-      "tags": ""
+      "fonts": [
+        "NotoSansCJKjp-Black.otf", "NotoSansCJKjp-Bold.otf",
+        "NotoSansCJKjp-DemiLight.otf", "NotoSansCJKjp-Light.otf",
+        "NotoSansCJKjp-Medium.otf", "NotoSansCJKjp-Regular.otf",
+        "NotoSansCJKjp-Thin.otf", "NotoSansMonoCJKjp-Bold.otf",
+        "NotoSansMonoCJKjp-Regular.otf"
+      ],
+      "tags": []
     },
     {
       "name": "fonts-noto-serif",
@@ -424,7 +535,66 @@
       "first_published": "1582333706",
       "has_docpkg": true,
       "documents": [ "./docs/fonts-noto-serif-doc/doc-fonts-noto-serif.pdf" ],
-      "tags": ""
+      "fonts": [
+        "NotoSerif-Black.ttf", "NotoSerif-BlackItalic.ttf",
+        "NotoSerif-Bold.ttf", "NotoSerif-BoldItalic.ttf",
+        "NotoSerif-Condensed.ttf", "NotoSerif-CondensedBlack.ttf",
+        "NotoSerif-CondensedBlackItalic.ttf", "NotoSerif-CondensedBold.ttf",
+        "NotoSerif-CondensedBoldItalic.ttf",
+        "NotoSerif-CondensedExtraBold.ttf",
+        "NotoSerif-CondensedExtraBoldItalic.ttf",
+        "NotoSerif-CondensedExtraLight.ttf",
+        "NotoSerif-CondensedExtraLightItalic.ttf",
+        "NotoSerif-CondensedItalic.ttf", "NotoSerif-CondensedLight.ttf",
+        "NotoSerif-CondensedLightItalic.ttf",
+        "NotoSerif-CondensedMedium.ttf",
+        "NotoSerif-CondensedMediumItalic.ttf",
+        "NotoSerif-CondensedSemiBold.ttf",
+        "NotoSerif-CondensedSemiBoldItalic.ttf",
+        "NotoSerif-CondensedThin.ttf", "NotoSerif-CondensedThinItalic.ttf",
+        "NotoSerif-ExtraBold.ttf", "NotoSerif-ExtraBoldItalic.ttf",
+        "NotoSerif-ExtraCondensed.ttf", "NotoSerif-ExtraCondensedBlack.ttf",
+        "NotoSerif-ExtraCondensedBlackItalic.ttf",
+        "NotoSerif-ExtraCondensedBold.ttf",
+        "NotoSerif-ExtraCondensedBoldItalic.ttf",
+        "NotoSerif-ExtraCondensedExtraBold.ttf",
+        "NotoSerif-ExtraCondensedExtraBoldItalic.ttf",
+        "NotoSerif-ExtraCondensedExtraLight.ttf",
+        "NotoSerif-ExtraCondensedExtraLightItalic.ttf",
+        "NotoSerif-ExtraCondensedItalic.ttf",
+        "NotoSerif-ExtraCondensedLight.ttf",
+        "NotoSerif-ExtraCondensedLightItalic.ttf",
+        "NotoSerif-ExtraCondensedMedium.ttf",
+        "NotoSerif-ExtraCondensedMediumItalic.ttf",
+        "NotoSerif-ExtraCondensedSemiBold.ttf",
+        "NotoSerif-ExtraCondensedSemiBoldItalic.ttf",
+        "NotoSerif-ExtraCondensedThin.ttf",
+        "NotoSerif-ExtraCondensedThinItalic.ttf", "NotoSerif-ExtraLight.ttf",
+        "NotoSerif-ExtraLightItalic.ttf", "NotoSerif-Italic.ttf",
+        "NotoSerif-Light.ttf", "NotoSerif-LightItalic.ttf",
+        "NotoSerif-Medium.ttf", "NotoSerif-MediumItalic.ttf",
+        "NotoSerif-Regular.ttf", "NotoSerif-SemiBold.ttf",
+        "NotoSerif-SemiBoldItalic.ttf", "NotoSerif-SemiCondensed.ttf",
+        "NotoSerif-SemiCondensedBlack.ttf",
+        "NotoSerif-SemiCondensedBlackItalic.ttf",
+        "NotoSerif-SemiCondensedBold.ttf",
+        "NotoSerif-SemiCondensedBoldItalic.ttf",
+        "NotoSerif-SemiCondensedExtraBold.ttf",
+        "NotoSerif-SemiCondensedExtraBoldItalic.ttf",
+        "NotoSerif-SemiCondensedExtraLight.ttf",
+        "NotoSerif-SemiCondensedExtraLightItalic.ttf",
+        "NotoSerif-SemiCondensedItalic.ttf",
+        "NotoSerif-SemiCondensedLight.ttf",
+        "NotoSerif-SemiCondensedLightItalic.ttf",
+        "NotoSerif-SemiCondensedMedium.ttf",
+        "NotoSerif-SemiCondensedMediumItalic.ttf",
+        "NotoSerif-SemiCondensedSemiBold.ttf",
+        "NotoSerif-SemiCondensedSemiBoldItalic.ttf",
+        "NotoSerif-SemiCondensedThin.ttf",
+        "NotoSerif-SemiCondensedThinItalic.ttf", "NotoSerif-Thin.ttf",
+        "NotoSerif-ThinItalic.ttf"
+      ],
+      "tags": []
     },
     {
       "name": "fonts-noto-serif-cjk-jp",
@@ -445,7 +615,13 @@
       "documents": [
         "./docs/fonts-noto-serif-cjk-jp-doc/doc-fonts-noto-serif-cjk-jp.pdf"
       ],
-      "tags": ""
+      "fonts": [
+        "NotoSerifCJKjp-Black.otf", "NotoSerifCJKjp-Bold.otf",
+        "NotoSerifCJKjp-ExtraLight.otf", "NotoSerifCJKjp-Light.otf",
+        "NotoSerifCJKjp-Medium.otf", "NotoSerifCJKjp-Regular.otf",
+        "NotoSerifCJKjp-SemiBold.otf"
+      ],
+      "tags": []
     },
     {
       "name": "fonts-theano",
@@ -464,7 +640,11 @@
       "first_published": "1540920807",
       "has_docpkg": true,
       "documents": [ "./docs/fonts-theano-doc/doc-fonts-theano-ja.pdf" ],
-      "tags": ""
+      "fonts": [
+        "TheanoDidot-Regular.otf", "TheanoModern-Regular.otf",
+        "TheanoOldStyle-Regular.otf"
+      ],
+      "tags": []
     },
     {
       "name": "fss",
@@ -481,7 +661,8 @@
       "first_published": "1599917178",
       "has_docpkg": true,
       "documents": [ "./docs/fss-doc/doc-fss-ja.pdf" ],
-      "tags": ""
+      "fonts": [],
+      "tags": []
     },
     {
       "name": "grcnum",
@@ -499,7 +680,8 @@
       "first_published": "1568434514",
       "has_docpkg": true,
       "documents": [ "./docs/grcnum-doc/doc-grcnum-ja.pdf" ],
-      "tags": ""
+      "fonts": [],
+      "tags": []
     },
     {
       "name": "karnaugh",
@@ -521,7 +703,8 @@
         "./docs/karnaugh-doc/examples.saty",
         "./docs/karnaugh-doc/local.satyh"
       ],
-      "tags": ""
+      "fonts": [],
+      "tags": []
     },
     {
       "name": "lib",
@@ -540,7 +723,8 @@
       "first_published": "1574164917",
       "has_docpkg": true,
       "documents": [],
-      "tags": ""
+      "fonts": [],
+      "tags": []
     },
     {
       "name": "lib-dist",
@@ -557,7 +741,8 @@
       "first_published": "1550243543",
       "has_docpkg": false,
       "documents": [],
-      "tags": ""
+      "fonts": [],
+      "tags": []
     },
     {
       "name": "lipsum",
@@ -574,7 +759,8 @@
       "first_published": "1597910468",
       "has_docpkg": false,
       "documents": [],
-      "tags": ""
+      "fonts": [],
+      "tags": []
     },
     {
       "name": "make-html",
@@ -591,7 +777,8 @@
       "first_published": "1583060348",
       "has_docpkg": false,
       "documents": [],
-      "tags": ""
+      "fonts": [],
+      "tags": []
     },
     {
       "name": "make-markdown",
@@ -608,7 +795,8 @@
       "first_published": "1583060348",
       "has_docpkg": false,
       "documents": [],
-      "tags": ""
+      "fonts": [],
+      "tags": []
     },
     {
       "name": "matrix",
@@ -632,7 +820,8 @@
         "./docs/matrix-doc/example/main.pdf",
         "./docs/matrix-doc/example/main.saty"
       ],
-      "tags": ""
+      "fonts": [],
+      "tags": []
     },
     {
       "name": "musikui",
@@ -650,7 +839,8 @@
       "first_published": "1584870101",
       "has_docpkg": false,
       "documents": [],
-      "tags": ""
+      "fonts": [],
+      "tags": []
     },
     {
       "name": "ncsq",
@@ -671,7 +861,8 @@
         "./docs/ncsq-doc/ncsq-example.pdf",
         "./docs/ncsq-doc/ncsq-example.saty", "./docs/ncsq-doc/ncsq-notes.pdf"
       ],
-      "tags": ""
+      "fonts": [],
+      "tags": []
     },
     {
       "name": "num-conversion",
@@ -688,7 +879,8 @@
       "first_published": "1584859474",
       "has_docpkg": false,
       "documents": [],
-      "tags": ""
+      "fonts": [],
+      "tags": []
     },
     {
       "name": "simple-itemize",
@@ -705,7 +897,8 @@
       "first_published": "1584678560",
       "has_docpkg": false,
       "documents": [],
-      "tags": ""
+      "fonts": [],
+      "tags": []
     },
     {
       "name": "siunitx",
@@ -723,7 +916,8 @@
       "first_published": "1555849059",
       "has_docpkg": false,
       "documents": [],
-      "tags": ""
+      "fonts": [],
+      "tags": []
     },
     {
       "name": "uline",
@@ -740,7 +934,8 @@
       "first_published": "1588501925",
       "has_docpkg": false,
       "documents": [],
-      "tags": ""
+      "fonts": [],
+      "tags": []
     },
     {
       "name": "zrbase",
@@ -758,7 +953,8 @@
       "first_published": "1566519965",
       "has_docpkg": false,
       "documents": [],
-      "tags": ""
+      "fonts": [],
+      "tags": []
     }
   ]
 }
