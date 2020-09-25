@@ -257,6 +257,24 @@
       "tags": ""
     },
     {
+      "name": "fonts-bodoni-star",
+      "type": "Font",
+      "synopsis": "SATySFi Font Package for Bodoni*",
+      "description":
+        "\nSATySFi Font Package for Bodoni*\n\nThis package installs fonts from https://github.com/indestructible-type/Bodoni\n",
+      "maintainer": "SAKAMOTO Noriaki <mrty.ityt.pt@gmail.com>",
+      "license": "OFL",
+      "homepage": "https://github.com/na4zagin3/SATySFi-fonts-bodoni-star",
+      "latest_version": "2.3+satysfi0.0.5",
+      "dependencies":
+        "\"satysfi\" {>= \"0.0.5\" & < \"0.0.6\"}, \"satyrographos\" {>= \"0.0.2.6\" & < \"0.0.3\"}",
+      "last_update": "1601032622",
+      "first_published": "1601032622",
+      "has_docpkg": true,
+      "documents": [],
+      "tags": ""
+    },
+    {
       "name": "fonts-computer-modern-unicode",
       "type": "Font",
       "synopsis": "SATySFi Font Package for Computer Modern Unicode fonts",
@@ -275,6 +293,24 @@
       "documents": [
         "./docs/fonts-computer-modern-unicode-doc/doc-fonts-computer-modern-unicode.pdf"
       ],
+      "tags": ""
+    },
+    {
+      "name": "fonts-cormorant",
+      "type": "Font",
+      "synopsis": "SATySFi Font Package for Cormorant",
+      "description":
+        "\nSATySFi Font Package for Cormorant\n\nThis package installs fonts from https://github.com/CatharsisFonts/Cormorant\n",
+      "maintainer": "SAKAMOTO Noriaki <mrty.ityt.pt@gmail.com>",
+      "license": "OFL",
+      "homepage": "https://github.com/na4zagin3/SATySFi-fonts-cormorant",
+      "latest_version": "3.601+satysfi0.0.5",
+      "dependencies":
+        "\"satysfi\" {>= \"0.0.5\" & < \"0.0.6\"}, \"satyrographos\" {>= \"0.0.2.6\" & < \"0.0.3\"}",
+      "last_update": "1600974457",
+      "first_published": "1600974457",
+      "has_docpkg": true,
+      "documents": [],
       "tags": ""
     },
     {
