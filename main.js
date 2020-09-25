@@ -193,6 +193,10 @@ $(document).ready(function() {
       {
         data: "tags",
         visible: false
+      },
+      {
+        data: "fonts",
+        visible: false
       }
     ],
     order: [[3, 'desc']]

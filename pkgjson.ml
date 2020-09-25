@@ -8,6 +8,7 @@
 
 let package_root = "./satyrographos-repo/packages"
 let doc_root = "./docs"
+let font_root = "./fonts"
 
 type package_type =
   Library | Class | Font | Document | Satysfi | Satyrographos | Other
@@ -26,6 +27,7 @@ type package_info = {
   first_published : string;
   has_docpkg      : bool;
   documents       : string list;
+  fonts           : string list;
   tags            : string;
 }
 
@@ -110,6 +112,7 @@ let json_of_package_info info =
     ("first_published",`String info.first_published);
     ("has_docpkg",     `Bool   info.has_docpkg);
     ("documents",      `List (List.map (fun s -> `String s) info.documents));
+    ("fonts",          `List (List.map (fun s -> `String s) info.fonts));
     ("tags",           `String info.tags);
   ]
 
@@ -121,7 +124,7 @@ let dir_is_empty dir =
 
 let dir_contents dir =
   let rec loop result = function
-    | f::fs when Sys.is_directory f ->
+    | f::fs when Core.Sys.is_directory f ~follow_symlinks:false == `Yes ->
           Sys.readdir f
           |> Array.to_list
           |> List.map (Filename.concat f)
@@ -142,6 +145,18 @@ let get_docfile_list name =
     let doc_path = doc_root ^ "/" ^ doc_dir_name in
     if Sys.file_exists doc_path && Sys.is_directory doc_path then
       dir_contents doc_path |> List.sort String.compare
+    else
+      []
+  else
+    []
+
+let get_fontfile_list name =
+  let open Str in
+  if string_match (regexp "^satysfi-\\(.*\\)") name 0 then
+    let font_dir_name = matched_group 1 name in
+    let font_path = font_root ^ "/" ^ font_dir_name in
+    if Sys.file_exists font_path && Sys.is_directory font_path then
+      dir_contents font_path |> List.map Filename.basename |> List.sort String.compare
     else
       []
   else
@@ -192,6 +207,7 @@ let () =
       first_published = get_package_first_published_date name;
       has_docpkg      = is_package_exists package_list (get_document_package_name name);
       documents       = get_docfile_list name;
+      fonts           = get_fontfile_list name;
       tags            = get_strlist_variable "tags" "";
     })
     |> List.filter (fun p -> match p.pkg_type with
