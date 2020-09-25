@@ -101,12 +101,13 @@ function emitDetailsTable(d) {
   return '<table class="table" cellpadding="5" cellspacing="0" border="0" style="padding-left:50px;"><tbody>'
       + emitCardRow(d.description)
       + emitInstallCmdRow(d.name)
-      + emitTagsRow('Tags', d.tags ? d.tags.split(', ') : [])
+      + emitTagsRow('Tags', d.tags)
       + emitRow('Maintainer', d.maintainer)
       + emitRow('License', d.license)
       + emitLinkRow('Homepage', d.homepage)
       + emitRow('Latest version', d.latest_version)
       + emitRow('Dependencies', d.dependencies)
+      + emitRow('Font files', d.fonts.join(', '))
       + docrows
   +'</tbody></table>';
 }

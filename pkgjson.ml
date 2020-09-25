@@ -28,7 +28,7 @@ type package_info = {
   has_docpkg      : bool;
   documents       : string list;
   fonts           : string list;
-  tags            : string;
+  tags            : string list;
 }
 
 let string_of_package_type t =
@@ -93,8 +93,8 @@ let find_string_variable_in_opamfile ofile name =
 
 let find_string_list_variable_in_opamfile ofile name =
   match find_variable_in_opamfile ofile name with
-  | Some(String(_, strval)) -> Some(strval)
-  | Some(List(_, vallst))   -> Some(String.concat ", " (List.map OpamPrinter.value vallst))
+  | Some(String(_, strval)) -> Some([strval])
+  | Some(List(_, vallst))   -> Some(List.map OpamPrinter.value vallst)
   | _                       -> None
 
 let json_of_package_info info =
@@ -113,7 +113,7 @@ let json_of_package_info info =
     ("has_docpkg",     `Bool   info.has_docpkg);
     ("documents",      `List (List.map (fun s -> `String s) info.documents));
     ("fonts",          `List (List.map (fun s -> `String s) info.fonts));
-    ("tags",           `String info.tags);
+    ("tags",           `List (List.map (fun s -> `String s) info.tags));
   ]
 
 let json_of_package_info_list ilst =
@@ -192,7 +192,11 @@ let () =
     let opamfile_path = List.fold_left Filename.concat package_root [name; name ^ "." ^ latest_version; "opam"] in
     let ofile = OpamParser.file opamfile_path in
     let get_str_variable nm default = Option.value (find_string_variable_in_opamfile ofile nm) ~default:default in
-    let get_strlist_variable nm default = Option.value (find_string_list_variable_in_opamfile ofile nm) ~default:default in
+    let get_strlist_variable nm default =
+      match find_string_list_variable_in_opamfile ofile nm with
+      | None -> default
+      | Some(xs)  -> String.concat ", " xs
+    in
     {
       name = name;
       pkg_type        = get_package_type name;
@@ -208,7 +212,7 @@ let () =
       has_docpkg      = is_package_exists package_list (get_document_package_name name);
       documents       = get_docfile_list name;
       fonts           = get_fontfile_list name;
-      tags            = get_strlist_variable "tags" "";
+      tags            = Option.value (find_string_list_variable_in_opamfile ofile "tags") ~default:[];
     })
     |> List.filter (fun p -> match p.pkg_type with
                              | Library | Class | Font -> true
