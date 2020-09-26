@@ -223,6 +223,7 @@ $(document).ready(function() {
     }
 
     table.search(keyword).draw();
+    return false;
   });
 
   details_switch_func =  function() {
