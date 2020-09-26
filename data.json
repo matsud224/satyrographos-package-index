@@ -7,8 +7,10 @@
       "description":
         "\nA SATySFi library for drawing arrows.\n\nThis requires Satyrographos to install. See https://github.com/na4zagin3/satyrographos.\n",
       "maintainer": "Taichi Uemura <t.uemura00@gmail.com>",
+      "authors": "Taichi Uemura <t.uemura00@gmail.com>",
       "license": "MIT",
       "homepage": "https://github.com/uemurax/satysfi-arrows",
+      "bug_reports": "",
       "latest_version": "0.1.0",
       "dependencies":
         "\"satysfi\" {>= \"0.0.5+dev2020.09.05\" & < \"0.0.6\"}, \"satyrographos\" {>= \"0.0.2\" & < \"0.0.3\"}, \"satysfi-dist\" {>= \"0.0.5\" & < \"0.0.6\"}, \"satysfi-base\" {>= \"1.3\"}",
@@ -25,8 +27,10 @@
       "synopsis": "Provides function as the Rust's assert_eq! macro",
       "description": "Provides function as the Rust's assert_eq! macro",
       "maintainer": "Naoki Kaneko <puripuri2100@gmail.com>",
+      "authors": "Naoki Kaneko <puripuri2100@gmail.com>",
       "license": "MIT",
       "homepage": "https://github.com/puripuri2100/SATySFi-assert-eq",
+      "bug_reports": "",
       "latest_version": "0.1.1",
       "dependencies":
         "\"satysfi\" {>= \"0.0.3\" & < \"0.0.6\"}, \"satyrographos\" {>= \"0.0.2\" & < \"0.0.4\"}",
@@ -44,8 +48,11 @@
       "description":
         "\nThis is a collection of utility functions and modules for SATySFi. Because the library bundled with the default installation configuration of SATySFi is currently not rich enough, this project aims to provide a complementary library sufficient for most situations in typesetting.\n\nthis requires Satyrographos to install. See https://github.com/na4zagin3/satyrographos.\n",
       "maintainer": "Yuichi Nishiwaki <yuichi.nishiwaki@gmail.com>",
+      "authors":
+        "\"Yuichi Nishiwaki <yuichi.nishiwaki@gmail.com>\", \"puripuri2100 <puripuri2100@gmail.com>\", \"Yuito Murase <yuito.murase@gmail.com>\"",
       "license": "MIT",
       "homepage": "https://github.com/nyuichi/satysfi-base",
+      "bug_reports": "",
       "latest_version": "1.3.0",
       "dependencies":
         "\"satysfi\" {>= \"0.0.3\" & < \"0.0.6\"}, \"satyrographos\" {>= \"0.0.2.3\" & < \"0.0.3\"}, \"satysfi-fonts-dejavu\" {>= \"2.37\"}, \"satysfi-zrbase\" {>= \"0.4.0\"}",
@@ -63,8 +70,10 @@
       "description":
         "\nThis project has been under developing. The API may be broken dramatically and suddenly\n\nA bibliography framework for SATySFi\n\nThis project is inspired by cs-thesis and borrowing many codes from it.",
       "maintainer": "Nakano Masaki<namachan10777@gmail.com>",
+      "authors": "\"Nakano Masaki<namachan10777@gmail.com>\", \"T. Suwa\"",
       "license": "Unlicense",
       "homepage": "https://github.com/namachan10777/BiByFi",
+      "bug_reports": "",
       "latest_version": "0.0.2",
       "dependencies":
         "\"satysfi\" {>= \"0.0.4+dev2020.04.25\" & < \"0.0.6\"}, \"satyrographos\" {>= \"0.0.2.3\" & < \"0.0.3\"}",
@@ -89,8 +98,10 @@
       "description":
         "\nThe SATySFi equivalent of the LateX's cancel package.\n",
       "maintainer": "Yu Shimura <mail@yuhr.org>",
+      "authors": "Yu Shimura <mail@yuhr.org>",
       "license": "CC0-1.0",
       "homepage": "https://github.com/yuhr/satysfi-cancel",
+      "bug_reports": "",
       "latest_version": "0.0.0",
       "dependencies":
         "\"satysfi\" {>= \"0.0.3\" & < \"0.0.6\"}, \"satyrographos\" {>= \"0.0.2.3\" & < \"0.0.3\"}, \"satysfi-dist\"",
@@ -107,8 +118,10 @@
       "synopsis": "A class file easy to customize with SATySFi",
       "description": "A class file easy to customize with SATySFi.",
       "maintainer": "Naoki Kaneko <puripuri2100@gmail.com>",
+      "authors": "Naoki Kaneko <puripuri2100@gmail.com>",
       "license": "LGPLv3",
       "homepage": "https://github.com/puripuri2100/exdesign",
+      "bug_reports": "",
       "latest_version": "0.2",
       "dependencies":
         "\"satysfi\" {>= \"0.0.3\" & < \"0.0.6\"}, \"satyrographos\" {>= \"0.0.2\" & < \"0.0.3\"}",
@@ -127,8 +140,10 @@
       "description":
         "A SATySFi document class for creating presentations slides.",
       "maintainer": "Shinichi Mogami <mogassy@yahoo.co.jp>",
+      "authors": "Shinichi Mogami <mogassy@yahoo.co.jp>",
       "license": "MIT",
       "homepage": "https://github.com/monaqa/slydifi",
+      "bug_reports": "",
       "latest_version": "0.2.0",
       "dependencies":
         "\"satysfi\" {>= \"0.0.5\" & < \"0.0.6\"}, \"satyrographos\" {>= \"0.0.2\" & < \"0.0.3\"}, \"satysfi-enumitem\" {>= \"2.0.0\"}, \"satysfi-base\" {>= \"1.0.0\"}",
@@ -146,8 +161,10 @@
       "description":
         "\nExtended SATySFi document package for Japanese.\n\nThis requires Satyrographos to install. See https://github.com/na4zagin3/satyrographos.\n",
       "maintainer": "SAKAMOTO Noriaki <mrty.ityt.pt@gmail.com>",
+      "authors": "puripuri2100 <puripuri2100@gmail.com>",
       "license": "LGPL-3.0",
       "homepage": "https://github.com/puripuri2100/stjarticle",
+      "bug_reports": "",
       "latest_version": "1.3.2+satysfi0.0.3+satyrograhos0.0.1",
       "dependencies":
         "\"satysfi\" {>= \"0.0.3\" & < \"0.0.4\"}, \"satyrographos\" {>= \"0.0.1\" & < \"0.0.2\"}",
@@ -168,8 +185,11 @@
       "description":
         "\nThe yabaitech.tokyo SATySFi class file.\n\nThis requires Satyrographos to install. See https://github.com/na4zagin3/satyrographos.\n",
       "maintainer": "Yuito Murase <yuito@acupof.coffee>",
+      "authors":
+        "\"gfngfn\", \"Masaki Waga\", \"Yuichi Nishiwaki <yuichi.nishiwaki@icloud.com>\", \"Yuito Murase <yuito@acupof.coffee>\"",
       "license": "MIT",
       "homepage": "https://github.com/yabaitechtokyo/satysfi-class-yabaitech",
+      "bug_reports": "",
       "latest_version": "0.0.5",
       "dependencies":
         "\"satysfi\" {>= \"0.0.5\" & < \"0.0.6\"}, \"satyrographos\" {>= \"0.0.2.6\" & < \"0.0.3\"}, \"satysfi-base\" {>= \"1.2.1\" & < \"2.0.0\"}, \"satysfi-fonts-noto-sans\" {>= \"2.001+1+satysfi0.0.4\"}, \"satysfi-fonts-noto-serif\" {>= \"2.001+1+satysfi0.0.4\"}, \"satysfi-fonts-noto-sans-cjk-jp\" {>= \"2.001+1+satysfi0.0.4\"}, \"satysfi-fonts-noto-serif-cjk-jp\" {>= \"2.001+1+satysfi0.0.4\"}, \"satysfi-fonts-asana-math\" {>= \"000.958+1+satysfi0.0.4\"}",
@@ -186,8 +206,10 @@
       "synopsis": "Stringify SATySFi's value",
       "description": "Stringify SATySFi's value",
       "maintainer": "Naoki Kaneko <puripuri2100@gmail.com>",
+      "authors": "Naoki Kaneko <puripuri2100@gmail.com>",
       "license": "MIT",
       "homepage": "https://github.com/puripuri2100/SATySFi-debug-show-value",
+      "bug_reports": "",
       "latest_version": "0.1.1",
       "dependencies":
         "\"satysfi\" {>= \"0.0.3\" & < \"0.0.6\"}, \"satyrographos\" {>= \"0.0.2\" & < \"0.0.4\"}",
@@ -204,8 +226,10 @@
       "synopsis": "Standard library of SATySFi",
       "description": "\nProvides the standard library of SATySFi",
       "maintainer": "SAKAMOTO Noriaki <mrty.ityt.pt@gmail.com>",
+      "authors": "\"gfngfn\"",
       "license": "",
       "homepage": "https://github.com/gfngfn/SATySFi",
+      "bug_reports": "",
       "latest_version": "0.0.5+dev2020.09.05",
       "dependencies": "\"satysfi\" {= \"%{version}%\"}",
       "last_update": "1599313966",
@@ -221,8 +245,10 @@
       "synopsis": "A SATySFi package to build simple tables",
       "description": "A SATySFi package to build simple tables.",
       "maintainer": "Shinichi Mogami <mogassy@yahoo.co.jp>",
+      "authors": "Shinichi Mogami <mogassy@yahoo.co.jp>",
       "license": "MIT",
       "homepage": "https://github.com/monaqa/satysfi-easytable",
+      "bug_reports": "",
       "latest_version": "1.0.0",
       "dependencies":
         "\"satysfi\" {>= \"0.0.5\" & < \"0.0.6\"}, \"satyrographos\" {>= \"0.0.2\" & < \"0.0.3\"}, \"satysfi-dist\"",
@@ -239,8 +265,10 @@
       "synopsis": "A SATySFi package for creating itemized lists",
       "description": "A SATySFi package for creating itemized lists.",
       "maintainer": "Shinichi Mogami <mogassy@yahoo.co.jp>",
+      "authors": "Shinichi Mogami <mogassy@yahoo.co.jp>",
       "license": "MIT",
       "homepage": "https://github.com/monaqa/satysfi-enumitem",
+      "bug_reports": "",
       "latest_version": "2.0.0",
       "dependencies":
         "\"satysfi\" {>= \"0.0.4+dev2020.06.07\" & < \"0.0.6\"}, \"satyrographos\" {>= \"0.0.2\" & < \"0.0.3\"}, \"satysfi-dist\", \"satysfi-base\" {>= \"1.0.0\"}",
@@ -258,8 +286,10 @@
       "description":
         "\nSATySFi font package for Asana Math fonts.\n\nThis package installs fonts from http://mirrors.ctan.org/fonts/Asana-Math/.\n",
       "maintainer": "MURASE Yuito <yuito.murase@gmail.com>",
+      "authors": "MURASE Yuito <yuito.murase@gmail.com>",
       "license": "OFL",
       "homepage": "https://github.com/zeptometer/SATySFi-fonts-asana-math",
+      "bug_reports": "",
       "latest_version": "000.958+1+satysfi0.0.4",
       "dependencies":
         "\"satysfi\" {>= \"0.0.4\" & < \"0.0.6\"}, \"satyrographos\" {>= \"0.0.2\" & < \"0.0.3\"}",
@@ -277,8 +307,10 @@
       "description":
         "\nSATySFi Font Package for Bodoni*\n\nThis package installs fonts from https://github.com/indestructible-type/Bodoni\n",
       "maintainer": "SAKAMOTO Noriaki <mrty.ityt.pt@gmail.com>",
+      "authors": "SAKAMOTO Noriaki <mrty.ityt.pt@gmail.com>",
       "license": "OFL",
       "homepage": "https://github.com/na4zagin3/SATySFi-fonts-bodoni-star",
+      "bug_reports": "",
       "latest_version": "2.3+satysfi0.0.5",
       "dependencies":
         "\"satysfi\" {>= \"0.0.5\" & < \"0.0.6\"}, \"satyrographos\" {>= \"0.0.2.6\" & < \"0.0.3\"}",
@@ -296,9 +328,11 @@
       "description":
         "\nSATySFi font package for Computer Modern Unicode fonts.\n\nThis package installs fonts from https://cm-unicode.sourceforge.io.\n",
       "maintainer": "Yuito Murase <yuito.murase@gmail.com>",
+      "authors": "Yuito Murase <yuito.murase@gmail.com>",
       "license": "OFL",
       "homepage":
         "https://github.com/zeptometer/SATySFi-fonts-computer-modern-unicode",
+      "bug_reports": "",
       "latest_version": "0.7.0+satysfi0.0.4",
       "dependencies":
         "\"satysfi\" {>= \"0.0.3+dev2019.02.12\" & < \"0.0.6\"}, \"satyrographos\" {>= \"0.0.2\" & < \"0.0.3\"}",
@@ -327,8 +361,10 @@
       "description":
         "\nSATySFi Font Package for Cormorant\n\nThis package installs fonts from https://github.com/CatharsisFonts/Cormorant\n",
       "maintainer": "SAKAMOTO Noriaki <mrty.ityt.pt@gmail.com>",
+      "authors": "SAKAMOTO Noriaki <mrty.ityt.pt@gmail.com>",
       "license": "OFL",
       "homepage": "https://github.com/na4zagin3/SATySFi-fonts-cormorant",
+      "bug_reports": "",
       "latest_version": "3.601+satysfi0.0.5",
       "dependencies":
         "\"satysfi\" {>= \"0.0.5\" & < \"0.0.6\"}, \"satyrographos\" {>= \"0.0.2.6\" & < \"0.0.3\"}",
@@ -346,8 +382,10 @@
       "description":
         "\nSATySFi font package for DejaVu fonts.\n\nThis package installs fonts from https://dejavu-fonts.github.io/.\n",
       "maintainer": "MURASE Yuito <yuito.murase@gmail.com>",
+      "authors": "MURASE Yuito <yuito.murase@gmail.com>",
       "license": "",
       "homepage": "https://github.com/zeptometer/SATySFi-fonts-dejavu",
+      "bug_reports": "",
       "latest_version": "2.37+satysfi0.0.4",
       "dependencies":
         "\"satysfi\" {>= \"0.0.3+dev2019.02.12\" & < \"0.0.6\"}, \"satyrographos\" {>= \"0.0.2\" & < \"0.0.3\"}",
@@ -379,8 +417,10 @@
       "description":
         "\nSATySFi Font Package for Junicode\n\nThis package installs fonts from https://junicode.sourceforge.io/\n",
       "maintainer": "SAKAMOTO Noriaki <mrty.ityt.pt@gmail.com>",
+      "authors": "SAKAMOTO Noriaki <mrty.ityt.pt@gmail.com>",
       "license": "OFL",
       "homepage": "https://github.com/na4zagin3/SATySFi-fonts-junicode",
+      "bug_reports": "",
       "latest_version": "1.0002+satysfi0.0.5",
       "dependencies":
         "\"satysfi\" {>= \"0.0.5\" & < \"0.0.6\"}, \"satyrographos\" {>= \"0.0.2.6\" & < \"0.0.3\"}",
@@ -401,8 +441,10 @@
       "description":
         "\nSATySFi font package for Noto Emoji fonts.\n\nThis package installs fonts from https://www.google.com/get/noto/.\n",
       "maintainer": "Naoki Kaneko <puripuri2100@gmail.com>",
+      "authors": "Naoki Kaneko <puripuri2100@gmail.com>",
       "license": "OFL1-1",
       "homepage": "https://github.com/puripuri2100/SATySFi-fonts-noto-emoji",
+      "bug_reports": "",
       "latest_version": "1.05+uh+2",
       "dependencies":
         "\"satysfi\" {>= \"0.0.3\" & < \"0.0.6\"}, \"satyrographos\" {>= \"0.0.2\" & < \"0.0.4\"}",
@@ -422,8 +464,10 @@
       "description":
         "\nSATySFi font package for Noto Sans fonts.\n\nThis package installs fonts from https://www.google.com/get/noto/.\n",
       "maintainer": "Yuito Murase <yuito.murase@gmail.com>",
+      "authors": "Yuito Murase <yuito.murase@gmail.com>",
       "license": "OFL",
       "homepage": "https://github.com/zeptometer/SATySFi-fonts-noto-sans",
+      "bug_reports": "",
       "latest_version": "2.001+1+satysfi0.0.4",
       "dependencies":
         "\"satysfi\" {>= \"0.0.4\" & < \"0.0.6\"}, \"satyrographos\" {>= \"0.0.2\" & < \"0.0.3\"}",
@@ -498,9 +542,11 @@
       "description":
         "\nSATySFi font package for Noto Sans CJK JP fonts.\n\nThis package installs fonts from https://www.google.com/get/noto/.\n",
       "maintainer": "Yuito Murase <yuito.murase@gmail.com>",
+      "authors": "Yuito Murase <yuito.murase@gmail.com>",
       "license": "OFL",
       "homepage":
         "https://github.com/zeptometer/SATySFi-fonts-noto-sans-cjk-jp",
+      "bug_reports": "",
       "latest_version": "2.001+1+satysfi0.0.4",
       "dependencies":
         "\"satysfi\" {>= \"0.0.4\" & < \"0.0.6\"}, \"satyrographos\" {>= \"0.0.2\" & < \"0.0.3\"}",
@@ -526,8 +572,10 @@
       "description":
         "\nSATySFi font package for Noto Serif fonts.\n\nThis package installs fonts from https://www.google.com/get/noto/.\n",
       "maintainer": "Yuito Murase <yuito.murase@gmail.com>",
+      "authors": "Yuito Murase <yuito.murase@gmail.com>",
       "license": "OFL",
       "homepage": "https://github.com/zeptometer/SATySFi-fonts-noto-serif",
+      "bug_reports": "",
       "latest_version": "2.001+1+satysfi0.0.4",
       "dependencies":
         "\"satysfi\" {>= \"0.0.4\" & < \"0.0.6\"}, \"satyrographos\" {>= \"0.0.2\" & < \"0.0.3\"}",
@@ -603,9 +651,11 @@
       "description":
         "\nSATySFi font package for Noto Serif CJK JP fonts.\n\nThis package installs fonts from https://www.google.com/get/noto/.\n",
       "maintainer": "Yuito Murase <yuito.murase@gmail.com>",
+      "authors": "Yuito Murase <yuito.murase@gmail.com>",
       "license": "OFL",
       "homepage":
         "https://github.com/zeptometer/SATySFi-fonts-noto-serif-cjk-jp",
+      "bug_reports": "",
       "latest_version": "2.001+1+satysfi0.0.4",
       "dependencies":
         "\"satysfi\" {>= \"0.0.4\" & < \"0.0.6\"}, \"satyrographos\" {>= \"0.0.2\" & < \"0.0.3\"}",
@@ -631,8 +681,10 @@
       "description":
         "\nSATySFi Font Package for Alexey Kryukov's Theano Classical Fonts\n\nThis package installs fonts from https://github.com/akryukov/theano.\n",
       "maintainer": "SAKAMOTO Noriaki <mrty.ityt.pt@gmail.com>",
+      "authors": "SAKAMOTO Noriaki <mrty.ityt.pt@gmail.com>",
       "license": "OFL",
       "homepage": "https://github.com/na4zagin3/SATySFi-fonts-theano",
+      "bug_reports": "",
       "latest_version": "2.0+satysfi0.0.3+satyrograhos0.0.2",
       "dependencies":
         "\"satysfi\" {>= \"0.0.3\" & < \"0.0.6\"}, \"satyrographos\" {>= \"0.0.2\" & < \"0.0.3\"}",
@@ -652,8 +704,10 @@
       "synopsis": "Font selection scheme",
       "description": "\nDocument: Font selection scheme for SATySFi\n",
       "maintainer": "SAKAMOTO Noriaki <mrty.ityt.pt@gmail.com>",
+      "authors": "SAKAMOTO Noriaki <mrty.ityt.pt@gmail.com>",
       "license": "LGPL-3.0-or-later",
       "homepage": "https://github.com/na4zagin3/satysfi-fss",
+      "bug_reports": "",
       "latest_version": "0.0.1",
       "dependencies":
         "\"satysfi\" {>= \"0.0.5\" & < \"0.0.6\"}, \"satyrographos\" {>= \"0.0.2.6\" & < \"0.0.3\"}, \"satysfi-base\" {>= \"1.3.0\" & < \"2\"}, \"satysfi-fonts-junicode\" {>= \"1\" & < \"2\"}",
@@ -671,8 +725,10 @@
       "description":
         "\nA SATySFi Package for Greek Numeral System.\n\nthis requires Satyrographos to install. See https://github.com/na4zagin3/satyrographos.\n",
       "maintainer": "SAKAMOTO Noriaki <mrty.ityt.pt@gmail.com>",
+      "authors": "SAKAMOTO Noriaki <mrty.ityt.pt@gmail.com>",
       "license": "MIT",
       "homepage": "https://github.com/na4zagin3/satyrographos",
+      "bug_reports": "",
       "latest_version": "0.2",
       "dependencies":
         "\"satysfi\" {>= \"0.0.3+dev2019.02.13\" & < \"0.0.6\"}, \"satysfi-fonts-theano\" {>= \"2.0+satysfi0.0.3+satyrograhos0.0.2\"}, \"satyrographos\" {>= \"0.0.1\" & < \"0.0.3\"}",
@@ -690,8 +746,10 @@
       "description":
         "\nDrawing Karnaugh maps in SATySFi\n\nThis can be installed as a package for SATySFi by Satyrographos. (https://github.com/na4zagin3/satyrographos) \n",
       "maintainer": "takagiy <takagiy.4dev@gmail.com>",
+      "authors": "takagiy <takagiy.4dev@gmail.com>",
       "license": "MIT",
       "homepage": "https://github.com/takagiy/satysfi-karnaugh",
+      "bug_reports": "",
       "latest_version": "0.0.1",
       "dependencies":
         "\"satysfi\" {>= \"0.0.4\" & < \"0.0.6\"}, \"satyrographos\" {>= \"0.0.2\" & < \"0.0.3\"}",
@@ -714,8 +772,10 @@
       "description":
         "\nDEPRECATED: This package has been renamed with satysfi-base.\n\nThis is a collection of utility functions and modules for SATySFi. Because the library bundled with the default installation configuration of SATySFi is currently not rich enough, this project aims to provide a complementary library sufficient for most situations in typesetting.\n\nthis requires Satyrographos to install. See https://github.com/na4zagin3/satyrographos.\n",
       "maintainer": "Yuichi Nishiwaki <yuichi.nishiwaki@gmail.com>",
+      "authors": "Yuichi Nishiwaki <yuichi.nishiwaki@gmail.com>",
       "license": "Unlicense",
       "homepage": "https://github.com/nyuichi/satysfi-lib",
+      "bug_reports": "",
       "latest_version": "0.0.0+dev2019.11.10",
       "dependencies":
         "\"satysfi\" {>= \"0.0.3\" & < \"0.0.4\"}, \"satyrographos\" {>= \"0.0.2\" & < \"0.0.3\"}",
@@ -733,8 +793,10 @@
       "description":
         "\nDEPRECATED: Install satysfi-dist instead!\n\nProvides the standard library of SATySFi (dummy package)",
       "maintainer": "SAKAMOTO Noriaki <mrty.ityt.pt@gmail.com>",
+      "authors": "\"gfngfn\"",
       "license": "",
       "homepage": "https://github.com/gfngfn/SATySFi",
+      "bug_reports": "",
       "latest_version": "0.0.3+dev2019.11.16",
       "dependencies": "\"satysfi-dist\" {= \"%{version}%\"}",
       "last_update": "1577106710",
@@ -750,8 +812,10 @@
       "synopsis": "A SATySFi package of dummy text",
       "description": "A SATySFi package of dummy text.",
       "maintainer": "puripuri2100 <puripuri2100@gmail.com>",
+      "authors": "puripuri2100 <puripuri2100@gmail.com>",
       "license": "MIT",
       "homepage": "https://github.com/puripuri2100/SATySFi-lipsum",
+      "bug_reports": "",
       "latest_version": "0.2.0",
       "dependencies":
         "\"satysfi\" {>= \"0.0.4\" & < \"0.0.6\"}, \"satyrographos\" {>= \"0.0.2\" & < \"0.0.3\"}, \"satysfi-dist\"",
@@ -768,8 +832,10 @@
       "synopsis": "Outputting HTML file using SATySFi's text-mode",
       "description": "outputting HTML file using SATySFi's text-mode.",
       "maintainer": "Naoki Kaneko <puripuri2100@gmail.com>",
+      "authors": "Naoki Kaneko <puripuri2100@gmail.com>",
       "license": "MIT",
       "homepage": "https://github.com/puripuri2100/SATySFi-make-html",
+      "bug_reports": "",
       "latest_version": "0.1.0",
       "dependencies":
         "\"satysfi\" {>= \"0.0.3\" & < \"0.0.6\"}, \"satyrographos\" {>= \"0.0.2\" & < \"0.0.4\"}",
@@ -786,8 +852,10 @@
       "synopsis": "Outputting Markdown file using SATySFi's text-mode",
       "description": "outputting Markdown file using SATySFi's text-mode.",
       "maintainer": "Naoki Kaneko <puripuri2100@gmail.com>",
+      "authors": "Naoki Kaneko <puripuri2100@gmail.com>",
       "license": "MIT",
       "homepage": "https://github.com/puripuri2100/SATySFi-make-markdown",
+      "bug_reports": "",
       "latest_version": "0.1.0",
       "dependencies":
         "\"satysfi\" {>= \"0.0.3\" & < \"0.0.6\"}, \"satyrographos\" {>= \"0.0.2\" & < \"0.0.4\"}",
@@ -805,8 +873,10 @@
       "description":
         "\nMatrices in SATySFi!\n\nthis requires Satyrographos to install. See https://github.com/na4zagin3/satyrographos.\n",
       "maintainer": "nekketsuuu <nekketsuuu@users.noreply.github.com>",
+      "authors": "nekketsuuu <nekketsuuu@users.noreply.github.com>",
       "license": "Unlicense",
       "homepage": "https://github.com/nekketsuuu/satysfi-matrix",
+      "bug_reports": "",
       "latest_version": "0.0.1+dev2019.10.15",
       "dependencies":
         "\"satysfi\" {>= \"0.0.3\" & < \"0.0.6\"}, \"satyrographos\" {>= \"0.0.2\" & < \"0.0.3\"}",
@@ -830,8 +900,10 @@
       "description":
         "Easy expression of arithmetical restorations with SATySFi",
       "maintainer": "Naoki Kaneko <puripuri2100@gmail.com>",
+      "authors": "Naoki Kaneko <puripuri2100@gmail.com>",
       "license": "MIT",
       "homepage": "https://github.com/puripuri2100/musikui.satyh",
+      "bug_reports": "",
       "latest_version": "0.1.0",
       "dependencies":
         "\"satysfi\" {>= \"0.0.4\" & < \"0.0.6\"}, \"satyrographos\" {>= \"0.0.2\" & < \"0.0.4\"}",
@@ -849,8 +921,10 @@
       "description":
         "\nNon-Commutative Squares (NCSq) is a SATySFi package for drawing rectangular diagrams.\n\nThis requires Satyrographos to install. See https://github.com/na4zagin3/satyrographos.\n",
       "maintainer": "Taichi Uemura <t.uemura00@gmail.com>",
+      "authors": "Taichi Uemura <t.uemura00@gmail.com>",
       "license": "MIT",
       "homepage": "https://github.com/uemurax/satysfi-ncsq",
+      "bug_reports": "",
       "latest_version": "2.1.0",
       "dependencies":
         "\"satysfi\" {>= \"0.0.5\" & < \"0.0.6\"}, \"satyrographos\" {>= \"0.0.2\" & < \"0.0.3\"}, \"satysfi-dist\" {>= \"0.0.5\" & < \"0.0.6\"}, \"satysfi-base\" {>= \"1.2.1\"}, \"satysfi-zrbase\" {>= \"0.4.0\"}, \"satysfi-arrows\" {>= \"0.1.0\"}",
@@ -870,8 +944,10 @@
       "synopsis": "Convert numbers to the following notation",
       "description": "Convert numbers to the following notation",
       "maintainer": "Naoki Kaneko <puripuri2100@gmail.com>",
+      "authors": "Naoki Kaneko <puripuri2100@gmail.com>",
       "license": "MIT",
       "homepage": "https://github.com/puripuri2100/SATySFi-num-conversion",
+      "bug_reports": "",
       "latest_version": "0.1.1",
       "dependencies":
         "\"satysfi\" {>= \"0.0.4+dev2020.02.22\" & < \"0.0.6\"}, \"satyrographos\" {>= \"0.0.2\" & < \"0.0.4\"}, \"base\" {>= \"1.0.0\"}",
@@ -888,8 +964,10 @@
       "synopsis": "Simple bullet on SATySFi",
       "description": "Simple bullet on SATySFi",
       "maintainer": "Naoki Kaneko <puripuri2100@gmail.com>",
+      "authors": "Naoki Kaneko <puripuri2100@gmail.com>",
       "license": "MIT",
       "homepage": "https://github.com/puripuri2100/SATySFi-simple-itemize",
+      "bug_reports": "",
       "latest_version": "1.0.0",
       "dependencies":
         "\"satysfi\" {>= \"0.0.3\" & < \"0.0.6\"}, \"satyrographos\" {>= \"0.0.2\" & < \"0.0.4\"}, \"satysfi-base\" {>= \"1.0.0\"}",
@@ -907,8 +985,10 @@
       "description":
         "\nA comprehensive (SI) units package.\n\nThis requires Satyrographos to install. See https://github.com/na4zagin3/satyrographos.\n",
       "maintainer": "puripuri2100 <puripuri2100@gmail.com>",
+      "authors": "puripuri2100 <puripuri2100@gmail.com>",
       "license": "MIT",
       "homepage": "https://github.com/puripuri2100/SATySFi-siunitx",
+      "bug_reports": "",
       "latest_version": "0.1",
       "dependencies":
         "\"satysfi\" {>= \"0.0.3\" & < \"0.0.6\"}, \"satyrographos\" {>= \"0.0.2\" & < \"0.0.4\"}",
@@ -925,8 +1005,10 @@
       "synopsis": "Underline for SAtySFi",
       "description": "Underline for SAtySFi",
       "maintainer": "Naoki Kaneko <puripuri2100@gmail.com>",
+      "authors": "Naoki Kaneko <puripuri2100@gmail.com>",
       "license": "MIT",
       "homepage": "https://github.com/puripuri2100/SATySFi-uline",
+      "bug_reports": "",
       "latest_version": "0.2.0",
       "dependencies":
         "\"satysfi\" {>= \"0.0.3\" & < \"0.0.6\"}, \"satyrographos\" {>= \"0.0.2\" & < \"0.0.4\"}",
@@ -944,8 +1026,10 @@
       "description":
         "\nZR's SATySFi Package Collection for Ordinary Programming.\n\nThis requires Satyrographos to install. See https://github.com/na4zagin3/satyrographos.\n",
       "maintainer": "Takayuki YATO <zr_tex8r-allez@yahoo.co.jp>",
+      "authors": "Takayuki YATO <zr_tex8r-allez@yahoo.co.jp>",
       "license": "MIT",
       "homepage": "https://github.com/zr-tex8r/satysfi-zrbase",
+      "bug_reports": "",
       "latest_version": "0.4.0",
       "dependencies":
         "\"satysfi\" {>= \"0.0.4\" & < \"0.0.6\"}, \"satyrographos\" {>= \"0.0.2\" & < \"0.0.3\"}",
