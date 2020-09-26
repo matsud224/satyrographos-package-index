@@ -19,8 +19,10 @@ type package_info = {
   synopsis        : string;
   description     : string;
   maintainer      : string;
+  authors         : string;
   license         : string;
   homepage        : string;
+  bug_reports     : string;
   latest_version  : string;
   dependencies    : string;
   last_update     : string;
@@ -104,8 +106,10 @@ let json_of_package_info info =
     ("synopsis",       `String info.synopsis);
     ("description",    `String info.description);
     ("maintainer",     `String info.maintainer);
+    ("authors",        `String info.authors);
     ("license",        `String info.license);
     ("homepage",       `String info.homepage);
+    ("bug_reports",    `String info.bug_reports);
     ("latest_version", `String info.latest_version);
     ("dependencies",   `String info.dependencies);
     ("last_update",    `String info.last_update);
@@ -203,8 +207,10 @@ let () =
       synopsis        = get_str_variable "synopsis" "";
       description     = get_str_variable "description" "";
       maintainer      = get_strlist_variable "maintainer" "";
+      authors         = get_strlist_variable "authors" "";
       license         = get_strlist_variable "license" "";
       homepage        = get_strlist_variable "homepage" "";
+      bug_reports     = get_strlist_variable "bug_reports" "";
       latest_version  = latest_version;
       dependencies    = get_strlist_variable "depends" "(no dependencies)";
       last_update     = get_package_updated_date name;

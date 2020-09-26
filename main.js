@@ -102,9 +102,11 @@ function emitDetailsTable(d) {
       + emitCardRow(d.description)
       + emitInstallCmdRow(d.name)
       + emitTagsRow('Tags', d.tags)
+      + emitRow('Author', d.authors)
       + emitRow('Maintainer', d.maintainer)
       + emitRow('License', d.license)
       + emitLinkRow('Homepage', d.homepage)
+      + emitLinkRow('Issue tracker', d.bug_reports)
       + emitRow('Latest version', d.latest_version)
       + emitRow('Dependencies', d.dependencies)
       + emitRow('Font files', d.fonts.join(', '))
@@ -241,6 +243,7 @@ $(document).ready(function() {
 
       $('#tag-badges').on('click', 'a', function() {
         table.search(this.text).draw();
+        return false;
       });
     }
   };
