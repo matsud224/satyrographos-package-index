@@ -10,6 +10,15 @@ function emitDetailsTable(d) {
         <td>${escapeHTML(content)}</td>
       </tr>`;
   };
+  let emitLongStringRow = function(description, summary, content) {
+    if (content == '') return '';
+    return `
+      <tr>
+        <td>${escapeHTML(description)}</td>
+        <td><details><summary>${escapeHTML(summary)}</summary>${escapeHTML(content)}</details></td>
+      </tr>`;
+  };
+
   let emitTagsRow = function(description, tags) {
     if (tags.length == 0) return '';
     let badge = function(text) {
@@ -109,7 +118,7 @@ function emitDetailsTable(d) {
       + emitLinkRow('Issue tracker', d.bug_reports)
       + emitRow('Latest version', d.latest_version)
       + emitRow('Dependencies', d.dependencies)
-      + emitRow('Font files', d.fonts.join(', '))
+      + emitLongStringRow('Font files', 'Included files...', d.fonts.join(', '))
       + docrows
   +'</tbody></table>';
 }
