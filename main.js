@@ -79,7 +79,6 @@ function emitDetailsTable(d) {
         <a target="_blank" href="${escaped_doc}">
           <img src="./resources/file.svg" alt="" class="file-img">
           ${basename(escaped_doc)}
-
         </a></span>`;
     }).join('&emsp;');
 
@@ -124,7 +123,7 @@ function emitDetailsTable(d) {
       + emitLinkRow('Issue tracker', d.bug_reports)
       + emitRow('Latest version', d.latest_version)
       + emitRow('Dependencies', d.dependencies)
-      + emitLongStringRow('Font files', 'Included files...', d.fonts.join(', '))
+      + emitLongStringRow('Font files', 'Included file list...', d.fonts.join(', '))
       + docrows
   +'</tbody></table>';
 }
