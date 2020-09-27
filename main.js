@@ -77,7 +77,7 @@ function emitDetailsTable(d) {
       return `
         <span style="white-space: nowrap;">
         <a target="_blank" href="${escaped_doc}">
-          <img src="./resources/file.svg" alt="" width="20" height="20" title="file" style="margin-right:0pt">
+          <img src="./resources/file.svg" alt="" width="20" height="20" style="margin-right:0pt">
           ${basename(escaped_doc)}
 
         </a></span>`;
