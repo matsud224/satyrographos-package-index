@@ -1,4 +1,4 @@
-# Satyrographos Packages
+# Satyrographos Package Index
 
 [![Netlify Status](https://api.netlify.com/api/v1/badges/c47a37ca-b7e2-4ccf-8de9-250e51c9981e/deploy-status)](https://app.netlify.com/sites/satyrographos-packages/deploys)
 ![update-packege-data](https://github.com/matsud224/satyrographos-package-index/workflows/update-packege-data/badge.svg)
