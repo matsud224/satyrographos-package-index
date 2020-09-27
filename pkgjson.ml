@@ -89,14 +89,16 @@ let find_variable_in_opamfile ofile name =
   iter ofile.file_contents
 
 let find_string_variable_in_opamfile ofile name =
+  let open OpamParserTypes in
   match find_variable_in_opamfile ofile name with
   | Some(String(_, strval)) -> Some(strval)
   | _                       -> None
 
 let find_string_list_variable_in_opamfile ofile name =
+  let open OpamParserTypes in
   match find_variable_in_opamfile ofile name with
   | Some(String(_, strval)) -> Some([strval])
-  | Some(List(_, vallst))   -> Some(List.map OpamPrinter.value vallst)
+  | Some(List(_, vallst))   -> Some(List.map (function String(_, s) -> s | v -> OpamPrinter.value v) vallst)
   | _                       -> None
 
 let json_of_package_info info =
