@@ -26,3 +26,9 @@ td.details-control-sub {
 tr.no-hover {
   background-color: inherit !important;
 }
+
+img.file-img {
+  width: 1.5em;
+  height: 1.5em;
+  margin-right: 0pt;
+}
