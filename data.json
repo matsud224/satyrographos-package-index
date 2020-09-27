@@ -19,7 +19,7 @@
       "has_docpkg": true,
       "documents": [],
       "fonts": [],
-      "tags": [ "\"org:mirage\"", "\"org:xapi-project\"" ]
+      "tags": []
     },
     {
       "name": "assert-eq",
@@ -144,12 +144,12 @@
       "license": "MIT",
       "homepage": "https://github.com/monaqa/slydifi",
       "bug_reports": "",
-      "latest_version": "0.1.0",
+      "latest_version": "0.2.0",
       "dependencies":
-        "\"satysfi\" {>= \"0.0.3\" & < \"0.0.6\"}, \"satyrographos\" {>= \"0.0.2\" & < \"0.0.3\"}",
-      "last_update": "1594476627",
+        "\"satysfi\" {>= \"0.0.5\" & < \"0.0.6\"}, \"satyrographos\" {>= \"0.0.2\" & < \"0.0.3\"}, \"satysfi-enumitem\" {>= \"2.0.0\"}, \"satysfi-base\" {>= \"1.0.0\"}",
+      "last_update": "1599871123",
       "first_published": "1580096914",
-      "has_docpkg": false,
+      "has_docpkg": true,
       "documents": [ "./docs/class-slydifi-doc/slydifi.pdf" ],
       "fonts": [],
       "tags": []
@@ -190,10 +190,10 @@
       "license": "MIT",
       "homepage": "https://github.com/yabaitechtokyo/satysfi-class-yabaitech",
       "bug_reports": "",
-      "latest_version": "0.0.4",
+      "latest_version": "0.0.5",
       "dependencies":
         "\"satysfi\" {>= \"0.0.5\" & < \"0.0.6\"}, \"satyrographos\" {>= \"0.0.2.6\" & < \"0.0.3\"}, \"satysfi-base\" {>= \"1.2.1\" & < \"2.0.0\"}, \"satysfi-fonts-noto-sans\" {>= \"2.001+1+satysfi0.0.4\"}, \"satysfi-fonts-noto-serif\" {>= \"2.001+1+satysfi0.0.4\"}, \"satysfi-fonts-noto-sans-cjk-jp\" {>= \"2.001+1+satysfi0.0.4\"}, \"satysfi-fonts-noto-serif-cjk-jp\" {>= \"2.001+1+satysfi0.0.4\"}, \"satysfi-fonts-asana-math\" {>= \"000.958+1+satysfi0.0.4\"}",
-      "last_update": "1599563276",
+      "last_update": "1600767314",
       "first_published": "1593008420",
       "has_docpkg": true,
       "documents": [ "./docs/class-yabaitech-doc/yabaitech-demo.pdf" ],
@@ -301,6 +301,60 @@
       "tags": []
     },
     {
+      "name": "fonts-bodoni-star",
+      "type": "Font",
+      "synopsis": "SATySFi Font Package for Bodoni*",
+      "description":
+        "\nSATySFi Font Package for Bodoni*\n\nThis package installs fonts from https://github.com/indestructible-type/Bodoni\n",
+      "maintainer": "SAKAMOTO Noriaki <mrty.ityt.pt@gmail.com>",
+      "authors": "SAKAMOTO Noriaki <mrty.ityt.pt@gmail.com>",
+      "license": "OFL",
+      "homepage": "https://github.com/na4zagin3/SATySFi-fonts-bodoni-star",
+      "bug_reports": "",
+      "latest_version": "2.3+satysfi0.0.5",
+      "dependencies":
+        "\"satysfi\" {>= \"0.0.5\" & < \"0.0.6\"}, \"satyrographos\" {>= \"0.0.2.6\" & < \"0.0.3\"}",
+      "last_update": "1601192534",
+      "first_published": "1601032622",
+      "has_docpkg": true,
+      "documents": [ "./docs/fonts-bodoni-star-doc/specimen.pdf" ],
+      "fonts": [
+        "Bodoni-06-Bold-Italic.otf", "Bodoni-06-Bold.otf",
+        "Bodoni-06-Book-Italic.otf", "Bodoni-06-Book.otf",
+        "Bodoni-06-Fatface-Italic.otf", "Bodoni-06-Fatface.otf",
+        "Bodoni-06-Medium-Italic.otf", "Bodoni-06-Medium.otf",
+        "Bodoni-11-Bold-Italic.otf", "Bodoni-11-Bold.otf",
+        "Bodoni-11-Book-Italic.otf", "Bodoni-11-Book.otf",
+        "Bodoni-11-Fatface-Italic.otf", "Bodoni-11-Fatface.otf",
+        "Bodoni-11-Medium-Italic.otf", "Bodoni-11-Medium.otf",
+        "Bodoni-16-Bold-Italic.otf", "Bodoni-16-Bold.otf",
+        "Bodoni-16-Book-Italic.otf", "Bodoni-16-Book.otf",
+        "Bodoni-16-Fatface-Italic.otf", "Bodoni-16-Fatface.otf",
+        "Bodoni-16-Medium-Italic.otf", "Bodoni-16-Medium.otf",
+        "Bodoni-24-Bold-Italic.otf", "Bodoni-24-Bold.otf",
+        "Bodoni-24-Book-Italic.otf", "Bodoni-24-Book.otf",
+        "Bodoni-24-Fatface-Italic.otf", "Bodoni-24-Fatface.otf",
+        "Bodoni-24-Medium-Italic.otf", "Bodoni-24-Medium.otf",
+        "Bodoni-36-Bold-Italic.otf", "Bodoni-36-Bold.otf",
+        "Bodoni-36-Book-Italic.otf", "Bodoni-36-Book.otf",
+        "Bodoni-36-Fatface-Italic.otf", "Bodoni-36-Fatface.otf",
+        "Bodoni-36-Medium-Italic.otf", "Bodoni-36-Medium.otf",
+        "Bodoni-48-Bold-Italic.otf", "Bodoni-48-Bold.otf",
+        "Bodoni-48-Book-Italic.otf", "Bodoni-48-Book.otf",
+        "Bodoni-48-Fatface-Italic.otf", "Bodoni-48-Fatface.otf",
+        "Bodoni-48-Medium-Italic.otf", "Bodoni-48-Medium.otf",
+        "Bodoni-72-Bold-Italic.otf", "Bodoni-72-Bold.otf",
+        "Bodoni-72-Book-Italic.otf", "Bodoni-72-Book.otf",
+        "Bodoni-72-Fatface-Italic.otf", "Bodoni-72-Fatface.otf",
+        "Bodoni-72-Medium-Italic.otf", "Bodoni-72-Medium.otf",
+        "Bodoni-96-Bold-Italic.otf", "Bodoni-96-Bold.otf",
+        "Bodoni-96-Book-Italic.otf", "Bodoni-96-Book.otf",
+        "Bodoni-96-Fatface-Italic.otf", "Bodoni-96-Fatface.otf",
+        "Bodoni-96-Medium-Italic.otf", "Bodoni-96-Medium.otf"
+      ],
+      "tags": []
+    },
+    {
       "name": "fonts-computer-modern-unicode",
       "type": "Font",
       "synopsis": "SATySFi Font Package for Computer Modern Unicode fonts",
@@ -330,6 +384,51 @@
         "cmunsl.ttf", "cmunso.ttf", "cmunss.ttf", "cmunssdc.ttf",
         "cmunst.ttf", "cmunsx.ttf", "cmuntb.ttf", "cmunti.ttf", "cmuntt.ttf",
         "cmuntx.ttf", "cmunui.ttf", "cmunvi.ttf", "cmunvt.ttf"
+      ],
+      "tags": []
+    },
+    {
+      "name": "fonts-cormorant",
+      "type": "Font",
+      "synopsis": "SATySFi Font Package for Cormorant",
+      "description":
+        "\nSATySFi Font Package for Cormorant\n\nThis package installs fonts from https://github.com/CatharsisFonts/Cormorant\n",
+      "maintainer": "SAKAMOTO Noriaki <mrty.ityt.pt@gmail.com>",
+      "authors": "SAKAMOTO Noriaki <mrty.ityt.pt@gmail.com>",
+      "license": "OFL",
+      "homepage": "https://github.com/na4zagin3/SATySFi-fonts-cormorant",
+      "bug_reports": "",
+      "latest_version": "3.601+satysfi0.0.5",
+      "dependencies":
+        "\"satysfi\" {>= \"0.0.5\" & < \"0.0.6\"}, \"satyrographos\" {>= \"0.0.2.6\" & < \"0.0.3\"}",
+      "last_update": "1601192534",
+      "first_published": "1600974457",
+      "has_docpkg": true,
+      "documents": [ "./docs/fonts-cormorant-doc/specimen.pdf" ],
+      "fonts": [
+        "Cormorant-Bold.ttf", "Cormorant-BoldItalic.ttf",
+        "Cormorant-Italic.ttf", "Cormorant-Light.ttf",
+        "Cormorant-LightItalic.ttf", "Cormorant-Medium.ttf",
+        "Cormorant-MediumItalic.ttf", "Cormorant-Regular.ttf",
+        "Cormorant-SemiBold.ttf", "Cormorant-SemiBoldItalic.ttf",
+        "CormorantGaramond-Bold.ttf", "CormorantGaramond-BoldItalic.ttf",
+        "CormorantGaramond-Italic.ttf", "CormorantGaramond-Light.ttf",
+        "CormorantGaramond-LightItalic.ttf", "CormorantGaramond-Medium.ttf",
+        "CormorantGaramond-MediumItalic.ttf",
+        "CormorantGaramond-Regular.ttf", "CormorantGaramond-SemiBold.ttf",
+        "CormorantGaramond-SemiBoldItalic.ttf", "CormorantInfant-Bold.ttf",
+        "CormorantInfant-BoldItalic.ttf", "CormorantInfant-Italic.ttf",
+        "CormorantInfant-Light.ttf", "CormorantInfant-LightItalic.ttf",
+        "CormorantInfant-Medium.ttf", "CormorantInfant-MediumItalic.ttf",
+        "CormorantInfant-Regular.ttf", "CormorantInfant-SemiBold.ttf",
+        "CormorantInfant-SemiBoldItalic.ttf", "CormorantSC-Bold.ttf",
+        "CormorantSC-Light.ttf", "CormorantSC-Medium.ttf",
+        "CormorantSC-Regular.ttf", "CormorantSC-SemiBold.ttf",
+        "CormorantUnicase-Bold.ttf", "CormorantUnicase-Light.ttf",
+        "CormorantUnicase-Medium.ttf", "CormorantUnicase-Regular.ttf",
+        "CormorantUnicase-SemiBold.ttf", "CormorantUpright-Bold.ttf",
+        "CormorantUpright-Light.ttf", "CormorantUpright-Medium.ttf",
+        "CormorantUpright-Regular.ttf", "CormorantUpright-SemiBold.ttf"
       ],
       "tags": []
     },
@@ -365,6 +464,30 @@
         "DejaVuSerifCondensed-Bold.ttf",
         "DejaVuSerifCondensed-BoldItalic.ttf",
         "DejaVuSerifCondensed-Italic.ttf", "DejaVuSerifCondensed.ttf"
+      ],
+      "tags": []
+    },
+    {
+      "name": "fonts-junicode",
+      "type": "Font",
+      "synopsis": "SATySFi Font Package for Junicode",
+      "description":
+        "\nSATySFi Font Package for Junicode\n\nThis package installs fonts from https://junicode.sourceforge.io/\n",
+      "maintainer": "SAKAMOTO Noriaki <mrty.ityt.pt@gmail.com>",
+      "authors": "SAKAMOTO Noriaki <mrty.ityt.pt@gmail.com>",
+      "license": "OFL",
+      "homepage": "https://github.com/na4zagin3/SATySFi-fonts-junicode",
+      "bug_reports": "",
+      "latest_version": "1.0002+satysfi0.0.5",
+      "dependencies":
+        "\"satysfi\" {>= \"0.0.5\" & < \"0.0.6\"}, \"satyrographos\" {>= \"0.0.2.6\" & < \"0.0.3\"}",
+      "last_update": "1599910064",
+      "first_published": "1599910064",
+      "has_docpkg": true,
+      "documents": [ "./docs/fonts-junicode-doc/doc-fonts-junicode-ja.pdf" ],
+      "fonts": [
+        "FoulisGreek.ttf", "Junicode-Bold.ttf", "Junicode-BoldItalic.ttf",
+        "Junicode-Italic.ttf", "Junicode.ttf"
       ],
       "tags": []
     },
@@ -633,6 +756,26 @@
       "tags": []
     },
     {
+      "name": "fss",
+      "type": "Library",
+      "synopsis": "Font selection scheme",
+      "description": "\nDocument: Font selection scheme for SATySFi\n",
+      "maintainer": "SAKAMOTO Noriaki <mrty.ityt.pt@gmail.com>",
+      "authors": "SAKAMOTO Noriaki <mrty.ityt.pt@gmail.com>",
+      "license": "LGPL-3.0-or-later",
+      "homepage": "https://github.com/na4zagin3/satysfi-fss",
+      "bug_reports": "",
+      "latest_version": "0.0.1",
+      "dependencies":
+        "\"satysfi\" {>= \"0.0.5\" & < \"0.0.6\"}, \"satyrographos\" {>= \"0.0.2.6\" & < \"0.0.3\"}, \"satysfi-base\" {>= \"1.3.0\" & < \"2\"}, \"satysfi-fonts-junicode\" {>= \"1\" & < \"2\"}",
+      "last_update": "1599918103",
+      "first_published": "1599917178",
+      "has_docpkg": true,
+      "documents": [ "./docs/fss-doc/doc-fss-ja.pdf" ],
+      "fonts": [],
+      "tags": []
+    },
+    {
       "name": "grcnum",
       "type": "Library",
       "synopsis": "SATySFi Package for Greek Numeral System",
@@ -839,10 +982,10 @@
       "license": "MIT",
       "homepage": "https://github.com/uemurax/satysfi-ncsq",
       "bug_reports": "",
-      "latest_version": "2.0.0",
+      "latest_version": "2.1.0",
       "dependencies":
-        "\"satysfi\" {>= \"0.0.5\" & < \"0.0.6\"}, \"satyrographos\" {>= \"0.0.2\" & < \"0.0.3\"}, \"satysfi-dist\" {>= \"0.0.5\" & < \"0.0.6\"}, \"satysfi-base\" {>= \"1.2.1\"}, \"satysfi-zrbase\" {>= \"0.4.0\"}",
-      "last_update": "1598192854",
+        "\"satysfi\" {>= \"0.0.5\" & < \"0.0.6\"}, \"satyrographos\" {>= \"0.0.2\" & < \"0.0.3\"}, \"satysfi-dist\" {>= \"0.0.5\" & < \"0.0.6\"}, \"satysfi-base\" {>= \"1.2.1\"}, \"satysfi-zrbase\" {>= \"0.4.0\"}, \"satysfi-arrows\" {>= \"0.1.0\"}",
+      "last_update": "1599989441",
       "first_published": "1595192406",
       "has_docpkg": true,
       "documents": [
