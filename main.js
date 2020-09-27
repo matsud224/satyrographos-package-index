@@ -184,7 +184,8 @@ $(document).ready(function() {
         className: "details-control",
         orderable: false,
         data:      null,
-        defaultContent: ""
+        defaultContent: "",
+        searchable: false
       },
       {
         className: "details-control-sub",
@@ -201,7 +202,8 @@ $(document).ready(function() {
         className: "details-control-sub",
         data: "last_update",
         render: $.fn.dataTable.render.moment('ll'),
-        orderable: true
+        orderable: true,
+        searchable: false
       },
       {
         data: "description",
