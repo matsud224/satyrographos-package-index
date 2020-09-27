@@ -22,3 +22,7 @@ td.details-control-sub {
 #install-cmd {
   margin-bottom: 0 !important;
 }
+
+tr.no-hover {
+  background-color: inherit !important;
+}

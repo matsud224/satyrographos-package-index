@@ -253,7 +253,7 @@ $(document).ready(function() {
       tr.removeClass('shown');
     } else {
       // Open this row
-      row.child(emitDetailsTable(row.data())).show();
+      row.child(emitDetailsTable(row.data()), "no-hover").show();
       tr.addClass('shown');
 
       $('#tag-badges').on('click', 'a', function() {
