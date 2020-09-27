@@ -45,7 +45,7 @@ function emitDetailsTable(d) {
     return `
       <tr>
         <div class="card">
-          <div class="card-body">
+          <div class="card-body" style="line-height:1.5em;">
             ${marked(content)}
           </div>
         </div>
@@ -69,15 +69,22 @@ function emitDetailsTable(d) {
 
     let result = '';
     let title = escapeHTML(description);
-    for (const doc of content) {
+
+    result += `<tr><td>${title}</td><td>`;
+
+    result += content.map((doc) => {
       let escaped_doc = escapeHTML(doc);
-      result += `
-        <tr>
-          <td>${title}</td>
-          <td><a target="_blank" href="${escaped_doc}">${basename(escaped_doc)}</a></td>
-        </tr>`;
-      title = '';
-    }
+      return `
+        <span style="white-space: nowrap;">
+        <a target="_blank" href="${escaped_doc}">
+          <img src="./resources/file.svg" alt="" width="20" height="20" title="file" style="margin-right:0pt">
+          ${basename(escaped_doc)}
+
+        </a></span>`;
+    }).join('&emsp;');
+
+    result += `</td></tr>`;
+
     return result;
   };
   let emitInstallCmdRow = function(pkgname) {
@@ -100,14 +107,13 @@ function emitDetailsTable(d) {
   let docrows = '';
   if (d.has_docpkg) {
     if (d.documents.length > 0) {
-      docrows += emitMessageRow(`Document package '${d.name}-doc' contains following files:`);
-      docrows += emitDocsRow('', d.documents);
+      docrows += emitDocsRow('Document files', d.documents);
     } else {
       docrows += emitMessageRow(`Document package '${d.name}-doc' is available.`);
     }
   }
 
-  return '<table class="table" cellpadding="5" cellspacing="0" border="0" style="padding-left:50px;"><tbody>'
+  return '<table class="table" cellpadding="5" cellspacing="0" border="0" style="padding-left:50px;line-height:1.5em;"><tbody>'
       + emitCardRow(d.description)
       + emitInstallCmdRow(d.name)
       + emitTagsRow('Tags', d.tags)
