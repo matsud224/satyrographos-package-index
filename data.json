@@ -10,7 +10,7 @@
       "authors": "Taichi Uemura <t.uemura00@gmail.com>",
       "license": "MIT",
       "homepage": "https://github.com/uemurax/satysfi-arrows",
-      "bug_reports": "",
+      "bug_reports": "https://github.com/uemurax/satysfi-arrows/issues",
       "latest_version": "0.1.0",
       "dependencies":
         "\"satysfi\" {>= \"0.0.5+dev2020.09.05\" & < \"0.0.6\"}, \"satyrographos\" {>= \"0.0.2\" & < \"0.0.3\"}, \"satysfi-dist\" {>= \"0.0.5\" & < \"0.0.6\"}, \"satysfi-base\" {>= \"1.3\"}",
@@ -30,7 +30,8 @@
       "authors": "Naoki Kaneko <puripuri2100@gmail.com>",
       "license": "MIT",
       "homepage": "https://github.com/puripuri2100/SATySFi-assert-eq",
-      "bug_reports": "",
+      "bug_reports":
+        "https://github.com/puripuri2100/SATySFi-assert-eq/issues",
       "latest_version": "0.1.1",
       "dependencies":
         "\"satysfi\" {>= \"0.0.3\" & < \"0.0.6\"}, \"satyrographos\" {>= \"0.0.2\" & < \"0.0.4\"}",
@@ -52,7 +53,7 @@
         "Yuichi Nishiwaki <yuichi.nishiwaki@gmail.com>, puripuri2100 <puripuri2100@gmail.com>, Yuito Murase <yuito.murase@gmail.com>",
       "license": "MIT",
       "homepage": "https://github.com/nyuichi/satysfi-base",
-      "bug_reports": "",
+      "bug_reports": "https://github.com/nyuichi/satysfi-base/issues",
       "latest_version": "1.3.0",
       "dependencies":
         "\"satysfi\" {>= \"0.0.3\" & < \"0.0.6\"}, \"satyrographos\" {>= \"0.0.2.3\" & < \"0.0.3\"}, \"satysfi-fonts-dejavu\" {>= \"2.37\"}, \"satysfi-zrbase\" {>= \"0.4.0\"}",
@@ -73,7 +74,7 @@
       "authors": "Nakano Masaki<namachan10777@gmail.com>, T. Suwa",
       "license": "Unlicense",
       "homepage": "https://github.com/namachan10777/BiByFi",
-      "bug_reports": "",
+      "bug_reports": "https://github.com/namachan10777/BiByFi/issues",
       "latest_version": "0.0.2",
       "dependencies":
         "\"satysfi\" {>= \"0.0.4+dev2020.04.25\" & < \"0.0.6\"}, \"satyrographos\" {>= \"0.0.2.3\" & < \"0.0.3\"}",
@@ -101,7 +102,7 @@
       "authors": "Yu Shimura <mail@yuhr.org>",
       "license": "CC0-1.0",
       "homepage": "https://github.com/yuhr/satysfi-cancel",
-      "bug_reports": "",
+      "bug_reports": "https://github.com/yuhr/satysfi-cancel/issues",
       "latest_version": "0.0.0",
       "dependencies":
         "\"satysfi\" {>= \"0.0.3\" & < \"0.0.6\"}, \"satyrographos\" {>= \"0.0.2.3\" & < \"0.0.3\"}, satysfi-dist",
@@ -121,7 +122,7 @@
       "authors": "Naoki Kaneko <puripuri2100@gmail.com>",
       "license": "LGPLv3",
       "homepage": "https://github.com/puripuri2100/exdesign",
-      "bug_reports": "",
+      "bug_reports": "https://github.com/puripuri2100/exdesign/issues",
       "latest_version": "0.2",
       "dependencies":
         "\"satysfi\" {>= \"0.0.3\" & < \"0.0.6\"}, \"satyrographos\" {>= \"0.0.2\" & < \"0.0.3\"}",
@@ -143,7 +144,7 @@
       "authors": "Shinichi Mogami <mogassy@yahoo.co.jp>",
       "license": "MIT",
       "homepage": "https://github.com/monaqa/slydifi",
-      "bug_reports": "",
+      "bug_reports": "https://github.com/monaqa/slydifi/issues",
       "latest_version": "0.2.0",
       "dependencies":
         "\"satysfi\" {>= \"0.0.5\" & < \"0.0.6\"}, \"satyrographos\" {>= \"0.0.2\" & < \"0.0.3\"}, \"satysfi-enumitem\" {>= \"2.0.0\"}, \"satysfi-base\" {>= \"1.0.0\"}",
@@ -164,7 +165,7 @@
       "authors": "puripuri2100 <puripuri2100@gmail.com>",
       "license": "LGPL-3.0",
       "homepage": "https://github.com/puripuri2100/stjarticle",
-      "bug_reports": "",
+      "bug_reports": "https://github.com/puripuri2100/stjarticle/issues",
       "latest_version": "1.3.2+satysfi0.0.3+satyrograhos0.0.1",
       "dependencies":
         "\"satysfi\" {>= \"0.0.3\" & < \"0.0.4\"}, \"satyrographos\" {>= \"0.0.1\" & < \"0.0.2\"}",
@@ -189,7 +190,8 @@
         "gfngfn, Masaki Waga, Yuichi Nishiwaki <yuichi.nishiwaki@icloud.com>, Yuito Murase <yuito@acupof.coffee>",
       "license": "MIT",
       "homepage": "https://github.com/yabaitechtokyo/satysfi-class-yabaitech",
-      "bug_reports": "",
+      "bug_reports":
+        "https://github.com/yabaitechtokyo/satysfi-class-yabaitech/issues",
       "latest_version": "0.0.5",
       "dependencies":
         "\"satysfi\" {>= \"0.0.5\" & < \"0.0.6\"}, \"satyrographos\" {>= \"0.0.2.6\" & < \"0.0.3\"}, \"satysfi-base\" {>= \"1.2.1\" & < \"2.0.0\"}, \"satysfi-fonts-noto-sans\" {>= \"2.001+1+satysfi0.0.4\"}, \"satysfi-fonts-noto-serif\" {>= \"2.001+1+satysfi0.0.4\"}, \"satysfi-fonts-noto-sans-cjk-jp\" {>= \"2.001+1+satysfi0.0.4\"}, \"satysfi-fonts-noto-serif-cjk-jp\" {>= \"2.001+1+satysfi0.0.4\"}, \"satysfi-fonts-asana-math\" {>= \"000.958+1+satysfi0.0.4\"}",
@@ -209,7 +211,8 @@
       "authors": "Naoki Kaneko <puripuri2100@gmail.com>",
       "license": "MIT",
       "homepage": "https://github.com/puripuri2100/SATySFi-debug-show-value",
-      "bug_reports": "",
+      "bug_reports":
+        "https://github.com/puripuri2100/SATySFi-debug-show-value/issues",
       "latest_version": "0.1.1",
       "dependencies":
         "\"satysfi\" {>= \"0.0.3\" & < \"0.0.6\"}, \"satyrographos\" {>= \"0.0.2\" & < \"0.0.4\"}",
@@ -229,7 +232,7 @@
       "authors": "gfngfn",
       "license": "",
       "homepage": "https://github.com/gfngfn/SATySFi",
-      "bug_reports": "",
+      "bug_reports": "https://github.com/gfngfn/SATySFi/issues",
       "latest_version": "0.0.5+dev2020.09.05",
       "dependencies": "\"satysfi\" {= \"%{version}%\"}",
       "last_update": "1599313966",
@@ -248,7 +251,7 @@
       "authors": "Shinichi Mogami <mogassy@yahoo.co.jp>",
       "license": "MIT",
       "homepage": "https://github.com/monaqa/satysfi-easytable",
-      "bug_reports": "",
+      "bug_reports": "https://github.com/monaqa/satysfi-easytable/issues",
       "latest_version": "1.0.0",
       "dependencies":
         "\"satysfi\" {>= \"0.0.5\" & < \"0.0.6\"}, \"satyrographos\" {>= \"0.0.2\" & < \"0.0.3\"}, satysfi-dist",
@@ -268,7 +271,7 @@
       "authors": "Shinichi Mogami <mogassy@yahoo.co.jp>",
       "license": "MIT",
       "homepage": "https://github.com/monaqa/satysfi-enumitem",
-      "bug_reports": "",
+      "bug_reports": "https://github.com/monaqa/satysfi-enumitem/issues",
       "latest_version": "2.0.0",
       "dependencies":
         "\"satysfi\" {>= \"0.0.4+dev2020.06.07\" & < \"0.0.6\"}, \"satyrographos\" {>= \"0.0.2\" & < \"0.0.3\"}, satysfi-dist, \"satysfi-base\" {>= \"1.0.0\"}",
@@ -289,7 +292,8 @@
       "authors": "MURASE Yuito <yuito.murase@gmail.com>",
       "license": "OFL",
       "homepage": "https://github.com/zeptometer/SATySFi-fonts-asana-math",
-      "bug_reports": "",
+      "bug_reports":
+        "https://github.com/zeptometer/SATySFi-fonts-asana-math/issues",
       "latest_version": "000.958+1+satysfi0.0.4",
       "dependencies":
         "\"satysfi\" {>= \"0.0.4\" & < \"0.0.6\"}, \"satyrographos\" {>= \"0.0.2\" & < \"0.0.3\"}",
@@ -310,7 +314,8 @@
       "authors": "SAKAMOTO Noriaki <mrty.ityt.pt@gmail.com>",
       "license": "OFL",
       "homepage": "https://github.com/na4zagin3/SATySFi-fonts-bodoni-star",
-      "bug_reports": "",
+      "bug_reports":
+        "https://github.com/na4zagin3/SATySFi-fonts-bodoni-star/issues",
       "latest_version": "2.3+satysfi0.0.5",
       "dependencies":
         "\"satysfi\" {>= \"0.0.5\" & < \"0.0.6\"}, \"satyrographos\" {>= \"0.0.2.6\" & < \"0.0.3\"}",
@@ -365,7 +370,8 @@
       "license": "OFL",
       "homepage":
         "https://github.com/zeptometer/SATySFi-fonts-computer-modern-unicode",
-      "bug_reports": "",
+      "bug_reports":
+        "https://github.com/zeptometer/SATySFi-fonts-computer-modern-unicode/issues",
       "latest_version": "0.7.0+satysfi0.0.4",
       "dependencies":
         "\"satysfi\" {>= \"0.0.3+dev2019.02.12\" & < \"0.0.6\"}, \"satyrographos\" {>= \"0.0.2\" & < \"0.0.3\"}",
@@ -397,7 +403,8 @@
       "authors": "SAKAMOTO Noriaki <mrty.ityt.pt@gmail.com>",
       "license": "OFL",
       "homepage": "https://github.com/na4zagin3/SATySFi-fonts-cormorant",
-      "bug_reports": "",
+      "bug_reports":
+        "https://github.com/na4zagin3/SATySFi-fonts-cormorant/issues",
       "latest_version": "3.601+satysfi0.0.5",
       "dependencies":
         "\"satysfi\" {>= \"0.0.5\" & < \"0.0.6\"}, \"satyrographos\" {>= \"0.0.2.6\" & < \"0.0.3\"}",
@@ -442,7 +449,8 @@
       "authors": "MURASE Yuito <yuito.murase@gmail.com>",
       "license": "",
       "homepage": "https://github.com/zeptometer/SATySFi-fonts-dejavu",
-      "bug_reports": "",
+      "bug_reports":
+        "https://github.com/zeptometer/SATySFi-fonts-dejavu/issues",
       "latest_version": "2.37+satysfi0.0.4",
       "dependencies":
         "\"satysfi\" {>= \"0.0.3+dev2019.02.12\" & < \"0.0.6\"}, \"satyrographos\" {>= \"0.0.2\" & < \"0.0.3\"}",
@@ -477,7 +485,8 @@
       "authors": "SAKAMOTO Noriaki <mrty.ityt.pt@gmail.com>",
       "license": "OFL",
       "homepage": "https://github.com/na4zagin3/SATySFi-fonts-junicode",
-      "bug_reports": "",
+      "bug_reports":
+        "https://github.com/na4zagin3/SATySFi-fonts-junicode/issues",
       "latest_version": "1.0002+satysfi0.0.5",
       "dependencies":
         "\"satysfi\" {>= \"0.0.5\" & < \"0.0.6\"}, \"satyrographos\" {>= \"0.0.2.6\" & < \"0.0.3\"}",
@@ -501,7 +510,8 @@
       "authors": "Naoki Kaneko <puripuri2100@gmail.com>",
       "license": "OFL1-1",
       "homepage": "https://github.com/puripuri2100/SATySFi-fonts-noto-emoji",
-      "bug_reports": "",
+      "bug_reports":
+        "https://github.com/puripuri2100/SATySFi-fonts-noto-emoji/issues",
       "latest_version": "1.05+uh+2",
       "dependencies":
         "\"satysfi\" {>= \"0.0.3\" & < \"0.0.6\"}, \"satyrographos\" {>= \"0.0.2\" & < \"0.0.4\"}",
@@ -524,7 +534,8 @@
       "authors": "Yuito Murase <yuito.murase@gmail.com>",
       "license": "OFL",
       "homepage": "https://github.com/zeptometer/SATySFi-fonts-noto-sans",
-      "bug_reports": "",
+      "bug_reports":
+        "https://github.com/zeptometer/SATySFi-fonts-noto-sans/issues",
       "latest_version": "2.001+1+satysfi0.0.4",
       "dependencies":
         "\"satysfi\" {>= \"0.0.4\" & < \"0.0.6\"}, \"satyrographos\" {>= \"0.0.2\" & < \"0.0.3\"}",
@@ -603,7 +614,8 @@
       "license": "OFL",
       "homepage":
         "https://github.com/zeptometer/SATySFi-fonts-noto-sans-cjk-jp",
-      "bug_reports": "",
+      "bug_reports":
+        "https://github.com/zeptometer/SATySFi-fonts-noto-sans-cjk-jp/issues",
       "latest_version": "2.001+1+satysfi0.0.4",
       "dependencies":
         "\"satysfi\" {>= \"0.0.4\" & < \"0.0.6\"}, \"satyrographos\" {>= \"0.0.2\" & < \"0.0.3\"}",
@@ -632,7 +644,8 @@
       "authors": "Yuito Murase <yuito.murase@gmail.com>",
       "license": "OFL",
       "homepage": "https://github.com/zeptometer/SATySFi-fonts-noto-serif",
-      "bug_reports": "",
+      "bug_reports":
+        "https://github.com/zeptometer/SATySFi-fonts-noto-serif/issues",
       "latest_version": "2.001+1+satysfi0.0.4",
       "dependencies":
         "\"satysfi\" {>= \"0.0.4\" & < \"0.0.6\"}, \"satyrographos\" {>= \"0.0.2\" & < \"0.0.3\"}",
@@ -712,7 +725,8 @@
       "license": "OFL",
       "homepage":
         "https://github.com/zeptometer/SATySFi-fonts-noto-serif-cjk-jp",
-      "bug_reports": "",
+      "bug_reports":
+        "https://github.com/zeptometer/SATySFi-fonts-noto-serif-cjk-jp/issues",
       "latest_version": "2.001+1+satysfi0.0.4",
       "dependencies":
         "\"satysfi\" {>= \"0.0.4\" & < \"0.0.6\"}, \"satyrographos\" {>= \"0.0.2\" & < \"0.0.3\"}",
@@ -741,7 +755,8 @@
       "authors": "SAKAMOTO Noriaki <mrty.ityt.pt@gmail.com>",
       "license": "OFL",
       "homepage": "https://github.com/na4zagin3/SATySFi-fonts-theano",
-      "bug_reports": "",
+      "bug_reports":
+        "https://github.com/na4zagin3/SATySFi-fonts-theano/issues",
       "latest_version": "2.0+satysfi0.0.3+satyrograhos0.0.2",
       "dependencies":
         "\"satysfi\" {>= \"0.0.3\" & < \"0.0.6\"}, \"satyrographos\" {>= \"0.0.2\" & < \"0.0.3\"}",
@@ -764,7 +779,7 @@
       "authors": "SAKAMOTO Noriaki <mrty.ityt.pt@gmail.com>",
       "license": "LGPL-3.0-or-later",
       "homepage": "https://github.com/na4zagin3/satysfi-fss",
-      "bug_reports": "",
+      "bug_reports": "https://github.com/na4zagin3/satysfi-fss/issues",
       "latest_version": "0.0.1",
       "dependencies":
         "\"satysfi\" {>= \"0.0.5\" & < \"0.0.6\"}, \"satyrographos\" {>= \"0.0.2.6\" & < \"0.0.3\"}, \"satysfi-base\" {>= \"1.3.0\" & < \"2\"}, \"satysfi-fonts-junicode\" {>= \"1\" & < \"2\"}",
@@ -785,7 +800,7 @@
       "authors": "SAKAMOTO Noriaki <mrty.ityt.pt@gmail.com>",
       "license": "MIT",
       "homepage": "https://github.com/na4zagin3/satyrographos",
-      "bug_reports": "",
+      "bug_reports": "https://github.com/na4zagin3/satyrographos/issues",
       "latest_version": "0.2",
       "dependencies":
         "\"satysfi\" {>= \"0.0.3+dev2019.02.13\" & < \"0.0.6\"}, \"satysfi-fonts-theano\" {>= \"2.0+satysfi0.0.3+satyrograhos0.0.2\"}, \"satyrographos\" {>= \"0.0.1\" & < \"0.0.3\"}",
@@ -806,7 +821,7 @@
       "authors": "takagiy <takagiy.4dev@gmail.com>",
       "license": "MIT",
       "homepage": "https://github.com/takagiy/satysfi-karnaugh",
-      "bug_reports": "",
+      "bug_reports": "https://github.com/takagiy/satysfi-karnaugh/issues",
       "latest_version": "0.0.1",
       "dependencies":
         "\"satysfi\" {>= \"0.0.4\" & < \"0.0.6\"}, \"satyrographos\" {>= \"0.0.2\" & < \"0.0.3\"}",
@@ -832,7 +847,7 @@
       "authors": "Yuichi Nishiwaki <yuichi.nishiwaki@gmail.com>",
       "license": "Unlicense",
       "homepage": "https://github.com/nyuichi/satysfi-lib",
-      "bug_reports": "",
+      "bug_reports": "https://github.com/nyuichi/satysfi-lib/issues",
       "latest_version": "0.0.0+dev2019.11.10",
       "dependencies":
         "\"satysfi\" {>= \"0.0.3\" & < \"0.0.4\"}, \"satyrographos\" {>= \"0.0.2\" & < \"0.0.3\"}",
@@ -853,7 +868,7 @@
       "authors": "gfngfn",
       "license": "",
       "homepage": "https://github.com/gfngfn/SATySFi",
-      "bug_reports": "",
+      "bug_reports": "https://github.com/gfngfn/SATySFi/issues",
       "latest_version": "0.0.3+dev2019.11.16",
       "dependencies": "\"satysfi-dist\" {= \"%{version}%\"}",
       "last_update": "1577106710",
@@ -872,7 +887,7 @@
       "authors": "puripuri2100 <puripuri2100@gmail.com>",
       "license": "MIT",
       "homepage": "https://github.com/puripuri2100/SATySFi-lipsum",
-      "bug_reports": "",
+      "bug_reports": "https://github.com/puripuri2100/SATySFi-lipsum/issues",
       "latest_version": "0.2.0",
       "dependencies":
         "\"satysfi\" {>= \"0.0.4\" & < \"0.0.6\"}, \"satyrographos\" {>= \"0.0.2\" & < \"0.0.3\"}, satysfi-dist",
@@ -892,7 +907,8 @@
       "authors": "Naoki Kaneko <puripuri2100@gmail.com>",
       "license": "MIT",
       "homepage": "https://github.com/puripuri2100/SATySFi-make-html",
-      "bug_reports": "",
+      "bug_reports":
+        "https://github.com/puripuri2100/SATySFi-make-html/issues",
       "latest_version": "0.1.0",
       "dependencies":
         "\"satysfi\" {>= \"0.0.3\" & < \"0.0.6\"}, \"satyrographos\" {>= \"0.0.2\" & < \"0.0.4\"}",
@@ -912,7 +928,8 @@
       "authors": "Naoki Kaneko <puripuri2100@gmail.com>",
       "license": "MIT",
       "homepage": "https://github.com/puripuri2100/SATySFi-make-markdown",
-      "bug_reports": "",
+      "bug_reports":
+        "https://github.com/puripuri2100/SATySFi-make-markdown/issues",
       "latest_version": "0.1.0",
       "dependencies":
         "\"satysfi\" {>= \"0.0.3\" & < \"0.0.6\"}, \"satyrographos\" {>= \"0.0.2\" & < \"0.0.4\"}",
@@ -933,7 +950,7 @@
       "authors": "nekketsuuu <nekketsuuu@users.noreply.github.com>",
       "license": "Unlicense",
       "homepage": "https://github.com/nekketsuuu/satysfi-matrix",
-      "bug_reports": "",
+      "bug_reports": "https://github.com/nekketsuuu/satysfi-matrix/issues",
       "latest_version": "0.0.1+dev2019.10.15",
       "dependencies":
         "\"satysfi\" {>= \"0.0.3\" & < \"0.0.6\"}, \"satyrographos\" {>= \"0.0.2\" & < \"0.0.3\"}",
@@ -960,7 +977,7 @@
       "authors": "Naoki Kaneko <puripuri2100@gmail.com>",
       "license": "MIT",
       "homepage": "https://github.com/puripuri2100/musikui.satyh",
-      "bug_reports": "",
+      "bug_reports": "https://github.com/puripuri2100/musikui.satyh/issues",
       "latest_version": "0.1.0",
       "dependencies":
         "\"satysfi\" {>= \"0.0.4\" & < \"0.0.6\"}, \"satyrographos\" {>= \"0.0.2\" & < \"0.0.4\"}",
@@ -981,7 +998,7 @@
       "authors": "Taichi Uemura <t.uemura00@gmail.com>",
       "license": "MIT",
       "homepage": "https://github.com/uemurax/satysfi-ncsq",
-      "bug_reports": "",
+      "bug_reports": "https://github.com/uemurax/satysfi-ncsq/issues",
       "latest_version": "2.1.0",
       "dependencies":
         "\"satysfi\" {>= \"0.0.5\" & < \"0.0.6\"}, \"satyrographos\" {>= \"0.0.2\" & < \"0.0.3\"}, \"satysfi-dist\" {>= \"0.0.5\" & < \"0.0.6\"}, \"satysfi-base\" {>= \"1.2.1\"}, \"satysfi-zrbase\" {>= \"0.4.0\"}, \"satysfi-arrows\" {>= \"0.1.0\"}",
@@ -1004,7 +1021,8 @@
       "authors": "Naoki Kaneko <puripuri2100@gmail.com>",
       "license": "MIT",
       "homepage": "https://github.com/puripuri2100/SATySFi-num-conversion",
-      "bug_reports": "",
+      "bug_reports":
+        "https://github.com/puripuri2100/SATySFi-num-conversion/issues",
       "latest_version": "0.1.1",
       "dependencies":
         "\"satysfi\" {>= \"0.0.4+dev2020.02.22\" & < \"0.0.6\"}, \"satyrographos\" {>= \"0.0.2\" & < \"0.0.4\"}, \"base\" {>= \"1.0.0\"}",
@@ -1024,7 +1042,7 @@
       "authors": "puripuri2100 <puripuri2100@gmail.com>",
       "license": "MIT",
       "homepage": "https://github.com/puripuri2100/SATySFi-ruby",
-      "bug_reports": "",
+      "bug_reports": "https://github.com/puripuri2100/SATySFi-ruby/issues",
       "latest_version": "0.1.1",
       "dependencies":
         "\"satysfi\" {>= \"0.0.1\" & < \"0.0.6\"}, \"satyrographos\" {>= \"0.0.2\" & < \"0.0.3\"}, satysfi-dist",
@@ -1044,7 +1062,8 @@
       "authors": "Naoki Kaneko <puripuri2100@gmail.com>",
       "license": "MIT",
       "homepage": "https://github.com/puripuri2100/SATySFi-simple-itemize",
-      "bug_reports": "",
+      "bug_reports":
+        "https://github.com/puripuri2100/SATySFi-simple-itemize/issues",
       "latest_version": "1.0.0",
       "dependencies":
         "\"satysfi\" {>= \"0.0.3\" & < \"0.0.6\"}, \"satyrographos\" {>= \"0.0.2\" & < \"0.0.4\"}, \"satysfi-base\" {>= \"1.0.0\"}",
@@ -1065,7 +1084,7 @@
       "authors": "puripuri2100 <puripuri2100@gmail.com>",
       "license": "MIT",
       "homepage": "https://github.com/puripuri2100/SATySFi-siunitx",
-      "bug_reports": "",
+      "bug_reports": "https://github.com/puripuri2100/SATySFi-siunitx/issues",
       "latest_version": "0.1",
       "dependencies":
         "\"satysfi\" {>= \"0.0.3\" & < \"0.0.6\"}, \"satyrographos\" {>= \"0.0.2\" & < \"0.0.4\"}",
@@ -1085,7 +1104,7 @@
       "authors": "Naoki Kaneko <puripuri2100@gmail.com>",
       "license": "MIT",
       "homepage": "https://github.com/puripuri2100/SATySFi-uline",
-      "bug_reports": "",
+      "bug_reports": "https://github.com/puripuri2100/SATySFi-uline/issues",
       "latest_version": "0.2.0",
       "dependencies":
         "\"satysfi\" {>= \"0.0.3\" & < \"0.0.6\"}, \"satyrographos\" {>= \"0.0.2\" & < \"0.0.4\"}",
@@ -1106,7 +1125,7 @@
       "authors": "Takayuki YATO <zr_tex8r-allez@yahoo.co.jp>",
       "license": "MIT",
       "homepage": "https://github.com/zr-tex8r/satysfi-zrbase",
-      "bug_reports": "",
+      "bug_reports": "https://github.com/zr-tex8r/satysfi-zrbase",
       "latest_version": "0.4.0",
       "dependencies":
         "\"satysfi\" {>= \"0.0.4\" & < \"0.0.6\"}, \"satyrographos\" {>= \"0.0.2\" & < \"0.0.3\"}",
