@@ -117,7 +117,7 @@ removed.each do |p|
 
   name = p['name']
 
-  pretext = ":wastebasket: \"#{name}\" was removed."
+  text = ":wastebasket: \"#{name}\" was removed."
 
-  post_message_to_slack(pretext, nil)
+  post_message_to_slack(text, nil)
 end

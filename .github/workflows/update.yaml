@@ -16,7 +16,7 @@ jobs:
       - name: Install packages
         run: |
           apt install -y xz-utils ruby
-          gem install origami
+          gem install origami slack-incoming-webhooks
       - name: Install git
         run: |
           apt install -y software-properties-common
@@ -27,6 +27,8 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v2
       - name: Check diffs and update
+        env:
+          WEBHOOK_URL: ${{ secrets.SLACK_WEBHOOK_URL }}
         run: |
           export HOME=/root
           eval $(opam env)
