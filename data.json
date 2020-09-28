@@ -1016,6 +1016,26 @@
       "tags": []
     },
     {
+      "name": "ruby",
+      "type": "Library",
+      "synopsis": "Japanese-style ruby in SATySFi",
+      "description": "Japanese-style ruby in SATySFi.",
+      "maintainer": "puripuri2100 <puripuri2100@gmail.com>",
+      "authors": "puripuri2100 <puripuri2100@gmail.com>",
+      "license": "MIT",
+      "homepage": "https://github.com/puripuri2100/SATySFi-ruby",
+      "bug_reports": "",
+      "latest_version": "0.1.1",
+      "dependencies":
+        "\"satysfi\" {>= \"0.0.1\" & < \"0.0.6\"}, \"satyrographos\" {>= \"0.0.2\" & < \"0.0.3\"}, satysfi-dist",
+      "last_update": "1601224239",
+      "first_published": "1601223800",
+      "has_docpkg": true,
+      "documents": [],
+      "fonts": [],
+      "tags": []
+    },
+    {
       "name": "simple-itemize",
       "type": "Library",
       "synopsis": "Simple bullet on SATySFi",
