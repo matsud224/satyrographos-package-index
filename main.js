@@ -120,7 +120,6 @@ function emitDetailsTable(d) {
       + emitRow('Maintainer', d.maintainer)
       + emitRow('License', d.license)
       + emitLinkRow('Homepage', d.homepage)
-      + emitLinkRow('Issue tracker', d.bug_reports)
       + emitRow('Latest version', d.latest_version)
       + emitRow('Dependencies', d.dependencies)
       + emitLongStringRow('Font files', 'Included file list...', d.fonts.join(', '))
