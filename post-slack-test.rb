@@ -6,9 +6,6 @@ require 'slack/incoming/webhooks'
 
 WEBHOOK_URL = ARGV[0]
 
-oldinfo = oldjson['data']
-newinfo = newjson['data']
-
 def post_message_to_slack(text, attachments)
   slack = Slack::Incoming::Webhooks.new WEBHOOK_URL
   slack.post(text, attachments: [attachments])
