@@ -1,7 +1,7 @@
 #!/bin/bash
 
-diff data.json data_new.json
 ./post-slack-test.rb $WEBHOOK_URL
+diff data.json data_new.json
 
 if [ $? = 0 ]; then
   git checkout .
