@@ -1,6 +1,5 @@
 #!/bin/bash
 
-./post-slack-test.rb $WEBHOOK_URL
 diff data.json data_new.json
 
 if [ $? = 0 ]; then
