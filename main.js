@@ -112,7 +112,7 @@ function emitDetailsTable(d) {
     }
   }
 
-  return '<table class="table" cellpadding="5" cellspacing="0" border="0" style="line-height:1.5em;"><tbody>'
+  return '<div class="table-responsive">"<table class="table" cellpadding="5" cellspacing="0" border="0" style="line-height:1.5em;"><tbody>'
       + emitCardRow(d.description)
       + emitInstallCmdRow(d.name)
       + emitTagsRow('Tags', d.tags)
@@ -124,7 +124,7 @@ function emitDetailsTable(d) {
       + emitRow('Dependencies', d.dependencies)
       + emitLongStringRow('Font files', 'Included file list...', d.fonts.join(', '))
       + docrows
-  +'</tbody></table>';
+  +'</tbody></table></div>';
 }
 
 $(document).ready(function() {
