@@ -112,8 +112,8 @@ function emitDetailsTable(d) {
     }
   }
 
-  return '<table class="table w-auto" cellpadding="5" cellspacing="0" border="0" style="line-height:1.5em;"><tbody>'
-      + emitCardRow(d.description)
+  return '<table class="table" cellpadding="5" cellspacing="0" border="0" style="line-height:1.5em;"><tbody>'
+      //+ emitCardRow(d.description)
       + emitInstallCmdRow(d.name)
       + emitTagsRow('Tags', d.tags)
       + emitRow('Author', d.authors)
