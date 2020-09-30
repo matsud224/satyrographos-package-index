@@ -1043,10 +1043,10 @@
       "license": "MIT",
       "homepage": "https://github.com/puripuri2100/SATySFi-ruby",
       "bug_reports": "https://github.com/puripuri2100/SATySFi-ruby/issues",
-      "latest_version": "0.1.1",
+      "latest_version": "0.1.2",
       "dependencies":
         "\"satysfi\" {>= \"0.0.1\" & < \"0.0.6\"}, \"satyrographos\" {>= \"0.0.2\" & < \"0.0.3\"}, satysfi-dist",
-      "last_update": "1601224239",
+      "last_update": "1601470013",
       "first_published": "1601223800",
       "has_docpkg": true,
       "documents": [],
