@@ -114,7 +114,7 @@ function emitDetailsTable(d) {
 
   return '<table class="table" cellpadding="5" cellspacing="0" border="0" style="line-height:1.5em;"><tbody>'
       //+ emitCardRow(d.description)
-      + emitInstallCmdRow(d.name)
+      //+ emitInstallCmdRow(d.name)
       + emitTagsRow('Tags', d.tags)
       + emitRow('Author', d.authors)
       + emitRow('Maintainer', d.maintainer)
