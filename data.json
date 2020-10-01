@@ -1049,7 +1049,7 @@
       "last_update": "1601470013",
       "first_published": "1601223800",
       "has_docpkg": true,
-      "documents": [],
+      "documents": [ "./docs/ruby-doc/ruby-ja.pdf" ],
       "fonts": [],
       "tags": []
     },
