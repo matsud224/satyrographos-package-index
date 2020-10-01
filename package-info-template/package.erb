@@ -1,0 +1,132 @@
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Satyrographos Packages</title>
+
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/css/bootstrap.css">
+    <link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/1.10.21/css/dataTables.bootstrap4.min.css">
+    <link rel="stylesheet" type="text/css" href="./style.css">
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js" integrity="sha512-bLT0Qm9VnAYZDflyKcBaQ2gg0hSYNQrJ8RilYldYQ1FxQYoCLtUjuuRuZo+fjqhx/qtq/1itJ0C2ejDxltZVFg==" crossorigin="anonymous"></script>
+    <script type="text/javascript" src="https://cdn.datatables.net/1.10.21/js/jquery.dataTables.min.js"></script>
+    <script type="text/javascript" src="https://cdn.datatables.net/1.10.21/js/dataTables.bootstrap4.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js" integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js" integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k" crossorigin="anonymous"></script>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/clipboard.js/2.0.4/clipboard.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.27.0/moment.min.js" integrity="sha512-rmZcZsyhe0/MAjquhTgiUcb4d9knaFc7b5xAfju483gbEXTkeJRUMIPk6s3ySZMYUHEcjKbjLjyddGWMrNEvZg==" crossorigin="anonymous"></script>
+    <script type="text/javascript" src="./main.js"></script>
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      <span class="navbar-brand mb-0 h1">Satyrographos Packages</span>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#mainNavbar" aria-controls="mainNavbar" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="mainNavbar">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link" target="_blank" href="https://github.com/na4zagin3/satyrographos/blob/master/README.md">About Satyrographos</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" target="_blank" href="https://github.com/matsud224/satyrographos-package-index/issues">Feedback to this website</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+    <div style="margin:2%; margin-top:1%">
+      <h1><%= package_name %></h1>
+      <ul class="nav nav-tabs">
+        <li class="nav-item">
+          <a href="#basic" class="nav-link active" data-toggle="tab">Package Info</a>
+        </li>
+        <li class="nav-item">
+          <a href="#docs" class="nav-link" data-toggle="tab">Document files</a>
+        </li>
+        <li class="nav-item">
+          <a href="#fonts" class="nav-link" data-toggle="tab">Font files</a>
+        </li>
+      </ul>
+      <div class="tab-content">
+        <div id="basic" class="tab-pane active">
+          <table class="table" cellpadding="5" cellspacing="0" border="0" style="padding-left:50px;">
+            <tbody>
+              <tr>
+                <td colspan="4">
+                  <div class="card">
+                    <div class="card-body">
+                      <p>The yabaitech.tokyo SATySFi class file.</p>
+                      <p>This requires Satyrographos to install. See <a href="https://github.com/na4zagin3/satyrographos">https://github.com/na4zagin3/satyrographos</a>.</p>
+                    </div>
+                  </div>
+                </td>
+              </tr>
+              <tr>
+                <td>Installation</td>
+                <td>
+                  <div id="install-cmd" class="input-group mb-3">
+                    <input type="text" class="form-control" aria-label="Installation Command" id="installcmd-satysfi-class-yabaitech" value="opam install satysfi-class-yabaitech &amp;&amp; satyrographos install" readonly="">
+                    <div class="input-group-append">
+                      <button class="btn btn-outline-secondary" type="button" data-clipboard-target="#installcmd-satysfi-class-yabaitech">Copy</button>
+                    </div>
+                  </div>
+                </td>
+              </tr>
+              <tr>
+                <td>Maintainer</td>
+                <td>Yuito Murase &lt;yuito@acupof.coffee&gt;</td>
+              </tr>
+              <tr>
+                <td>License</td>
+                <td>MIT</td>
+              </tr>
+              <tr>
+                <td>Homepage</td>
+                <td><a target="_blank" href="https://github.com/yabaitechtokyo/satysfi-class-yabaitech">https://github.com/yabaitechtokyo/satysfi-class-yabaitech</a></td>
+              </tr>
+              <tr>
+                <td>Latest version</td>
+                <td><%= latest_version %></td>
+              </tr>
+              <tr>
+                <td>Dependencies</td>
+                <td>"satysfi" {&gt;= "0.0.5" &amp; &lt; "0.0.6"}, "satyrographos" {&gt;= "0.0.2.6" &amp; &lt; "0.0.3"}, "satysfi-base" {&gt;= "1.2.1" &amp; &lt; "2.0.0"}, "satysfi-fonts-noto-sans" {&gt;= "2.001+1+satysfi0.0.4"}, "satysfi-fonts-noto-serif" {&gt;= "2.001+1+satysfi0.0.4"}, "satysfi-fonts-noto-sans-cjk-jp" {&gt;= "2.001+1+satysfi0.0.4"}, "satysfi-fonts-noto-serif-cjk-jp" {&gt;= "2.001+1+satysfi0.0.4"}, "satysfi-fonts-asana-math" {&gt;= "000.958+1+satysfi0.0.4"}</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+        <div id="docs" class="tab-pane">
+          <table class="table" cellpadding="5" cellspacing="0" border="0" style="padding-left:50px;">
+            <tbody>
+             <tr>
+                <td>example.pdf</td>
+              </tr>
+             <tr>
+                <td>example2.pdf</td>
+              </tr>
+             <tr>
+                <td>example3.pdf</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+        <div id="fonts" class="tab-pane">
+          <table class="table" cellpadding="5" cellspacing="0" border="0" style="padding-left:50px;">
+            <tbody>
+             <tr>
+                <td>foo.ttf</td>
+              </tr>
+             <tr>
+                <td>bar.otf</td>
+              </tr>
+             <tr>
+                <td>baz.otf</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
