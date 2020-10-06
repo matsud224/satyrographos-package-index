@@ -103,10 +103,14 @@ function emitDetailsTable(d) {
         </tr>`;
   };
 
+  let callWithList = function(f, lst, single, plural) {
+    return f(lst.length == 1 ? single : plural, lst);
+  };
+
   let docrows = '';
   if (d.has_docpkg) {
     if (d.documents.length > 0) {
-      docrows += emitDocsRow('Document files', d.documents);
+      docrows += callWithList(emitDocsRow, d.documents, 'Document file', 'Document files');
     } else {
       docrows += emitMessageRow(`Document package '${d.name}-doc' is available.`);
     }
@@ -115,11 +119,11 @@ function emitDetailsTable(d) {
   return '<table class="table" cellpadding="5" cellspacing="0" border="0" style="line-height:1.5em;"><tbody>'
       + emitCardRow(d.description)
       + emitInstallCmdRow(d.name)
-      + emitTagsRow('Tags', d.tags)
-      + emitRow('Author', d.authors)
-      + emitRow('Maintainer', d.maintainer)
-      + emitRow('License', d.license)
-      + emitLinkRow('Homepage', d.homepage)
+      + callWithList(emitTagsRow, d.tags, 'Tag', 'Tags')
+      + callWithList(emitRow, d.authors, 'Author', 'Authors')
+      + callWithList(emitRow, d.maintainer, 'Maintainer', 'Maintainers')
+      + callWithList(emitRow, d.license, 'License', 'Licenses')
+      + callWithList(emitLinkRow, d.homepage, 'Homepage', 'Homepages')
       + emitRow('Latest version', d.latest_version)
       + emitRow('Dependencies', d.dependencies)
       + emitLongStringRow('Font files', 'Included file list...', d.fonts.join(', '))

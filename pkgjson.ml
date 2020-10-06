@@ -18,11 +18,11 @@ type package_info = {
   pkg_type        : package_type;
   synopsis        : string;
   description     : string;
-  maintainer      : string;
-  authors         : string;
-  license         : string;
-  homepage        : string;
-  bug_reports     : string;
+  maintainer      : string list;
+  authors         : string list;
+  license         : string list;
+  homepage        : string list;
+  bug_reports     : string list;
   latest_version  : string;
   dependencies    : string;
   last_update     : string;
@@ -102,24 +102,25 @@ let find_string_list_variable_in_opamfile ofile name =
   | _                       -> None
 
 let json_of_package_info info =
+  let strlist_to_json lst = `List (List.map (fun s -> `String s) lst) in
   `Assoc [
     ("name",           `String info.name);
     ("type",           `String (string_of_package_type info.pkg_type));
     ("synopsis",       `String info.synopsis);
     ("description",    `String info.description);
-    ("maintainer",     `String info.maintainer);
-    ("authors",        `String info.authors);
-    ("license",        `String info.license);
-    ("homepage",       `String info.homepage);
-    ("bug_reports",    `String info.bug_reports);
+    ("maintainer",      strlist_to_json info.maintainer);
+    ("authors",         strlist_to_json info.authors);
+    ("license",         strlist_to_json info.license);
+    ("homepage",        strlist_to_json info.homepage);
+    ("bug_reports",     strlist_to_json info.bug_reports);
     ("latest_version", `String info.latest_version);
     ("dependencies",   `String info.dependencies);
     ("last_update",    `String info.last_update);
     ("first_published",`String info.first_published);
     ("has_docpkg",     `Bool   info.has_docpkg);
-    ("documents",      `List (List.map (fun s -> `String s) info.documents));
-    ("fonts",          `List (List.map (fun s -> `String s) info.fonts));
-    ("tags",           `List (List.map (fun s -> `String s) info.tags));
+    ("documents",       strlist_to_json info.documents);
+    ("fonts",           strlist_to_json info.fonts);
+    ("tags",            strlist_to_json info.tags);
   ]
 
 let json_of_package_info_list ilst =
@@ -198,29 +199,30 @@ let () =
     let opamfile_path = List.fold_left Filename.concat package_root [name; name ^ "." ^ latest_version; "opam"] in
     let ofile = OpamParser.file opamfile_path in
     let get_str_variable nm default = Option.value (find_string_variable_in_opamfile ofile nm) ~default:default in
-    let get_strlist_variable nm default =
-      match find_string_list_variable_in_opamfile ofile nm with
-      | None -> default
-      | Some(xs)  -> String.concat ", " xs
+    let get_strlist_variable nm =
+      Option.value (find_string_list_variable_in_opamfile ofile nm) ~default:[]
     in
     {
       name = name;
       pkg_type        = get_package_type name;
       synopsis        = get_str_variable "synopsis" "";
       description     = get_str_variable "description" "";
-      maintainer      = get_strlist_variable "maintainer" "";
-      authors         = get_strlist_variable "authors" "";
-      license         = get_strlist_variable "license" "";
-      homepage        = get_strlist_variable "homepage" "";
-      bug_reports     = get_strlist_variable "bug-reports" "";
+      maintainer      = get_strlist_variable "maintainer";
+      authors         = get_strlist_variable "authors";
+      license         = get_strlist_variable "license";
+      homepage        = get_strlist_variable "homepage";
+      bug_reports     = get_strlist_variable "bug-reports";
       latest_version  = latest_version;
-      dependencies    = get_strlist_variable "depends" "(no dependencies)";
+      dependencies    = (let lst = get_strlist_variable "depends" in
+                          match lst with
+                          | [] -> "(no dependencies)"
+                          | _  -> String.concat ", " (List.map (Core.String.filter ~f:(fun c -> c != '"')) lst));
       last_update     = get_package_updated_date name;
       first_published = get_package_first_published_date name;
       has_docpkg      = is_package_exists package_list (get_document_package_name name);
       documents       = get_docfile_list name;
       fonts           = get_fontfile_list name;
-      tags            = Option.value (find_string_list_variable_in_opamfile ofile "tags") ~default:[];
+      tags            = get_strlist_variable "tags";
     })
     |> List.filter (fun p -> match p.pkg_type with
                              | Library | Class | Font -> true
