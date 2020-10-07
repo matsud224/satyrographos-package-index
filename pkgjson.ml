@@ -31,6 +31,7 @@ type package_info = {
   documents       : string list;
   fonts           : string list;
   tags            : string list;
+  snapshots       : string list;
 }
 
 let string_of_package_type t =
@@ -96,14 +97,16 @@ let find_string_variable_in_opamfile ofile name =
   | Some(String(_, strval)) -> Some(strval)
   | _                       -> None
 
-let find_string_list_variable_in_opamfile ofile name =
+let find_string_list_variable_in_opamfile ?(use_opamprinter=false) ofile name =
   let open OpamParserTypes in
   match find_variable_in_opamfile ofile name with
   | Some(String(_, strval)) -> Some([strval])
-  | Some(List(_, vallst))   -> Some(List.map (function String(_, s) -> s | v -> OpamPrinter.value v) vallst)
+  | Some(List(_, vallst))   -> Some(List.map (function String(_, s) as v ->
+      if use_opamprinter then OpamPrinter.value v else s | v -> OpamPrinter.value v) vallst)
   | _                       -> None
 
 let json_of_package_info info =
+  let strlist_to_json lst = `List (List.map (fun s -> `String s) lst) in
   `Assoc [
     ("name",           `String info.name);
     ("type",           `String (string_of_package_type info.pkg_type));
@@ -119,9 +122,10 @@ let json_of_package_info info =
     ("last_update",    `String info.last_update);
     ("first_published",`String info.first_published);
     ("has_docpkg",     `Bool   info.has_docpkg);
-    ("documents",      `List (List.map (fun s -> `String s) info.documents));
-    ("fonts",          `List (List.map (fun s -> `String s) info.fonts));
-    ("tags",           `List (List.map (fun s -> `String s) info.tags));
+    ("documents",      strlist_to_json info.documents);
+    ("fonts",          strlist_to_json info.fonts);
+    ("tags",           strlist_to_json info.tags);
+    ("snapshots",      strlist_to_json info.snapshots);
   ]
 
 let json_of_package_info_list ilst =
@@ -199,20 +203,38 @@ let get_snapshot_versions name =
 
 let get_snapshot_info_list pkglst =
   let snapshot_list = pkglst |> List.filter (fun name -> (get_package_type name) == Snapshot) in
-    List.concat_map get_snapshot_versions snapshot_list
+  let snapshot_info_list = snapshot_list |> List.concat_map (fun name ->
+    get_version_list name |> List.map (fun version ->
+      let full_name = name ^ "." ^ version in
+      let opamfile_path = List.fold_left Filename.concat package_root [name; full_name; "opam"] in
+      let ofile = OpamParser.file opamfile_path in
+      let depends = Option.get (find_string_list_variable_in_opamfile ofile "depends" ~use_opamprinter:true) in
+        (full_name, String.concat ", " depends)
+    )
+  ) in
+  snapshot_info_list
+
+let get_contained_snapshots ssinfo pkgname =
+  let open Str in
+  ssinfo |> List.filter (fun (_, deps) ->
+    try ((ignore @@ search_forward (regexp ("\"" ^ pkgname ^ "\"")) deps 0); true) with Not_found -> false
+  )
+  |> List.map (fun (ssname, _) -> ssname)
+  |> List.map (fun ssname -> List.hd (split (regexp "\\+") ssname))
+  |> List.sort String.compare |> Core.List.remove_consecutive_duplicates ~equal:(fun a b -> a = b)
 
 let () =
   let out_file = Sys.argv.(1) in
   let package_list = get_package_list () in
-  let () = Format.printf "%s" (String.concat ", " (get_snapshot_info_list package_list)) in
+  let snapshot_info_list = get_snapshot_info_list package_list in
   let package_info_list = package_list |> List.map (fun name ->
     let version_list = get_version_list name in
     let latest_version = List.hd version_list in
     let opamfile_path = List.fold_left Filename.concat package_root [name; name ^ "." ^ latest_version; "opam"] in
     let ofile = OpamParser.file opamfile_path in
     let get_str_variable nm default = Option.value (find_string_variable_in_opamfile ofile nm) ~default:default in
-    let get_strlist_variable nm default =
-      match find_string_list_variable_in_opamfile ofile nm with
+    let get_strlist_variable ?(use_opamprinter=false) nm default =
+      match find_string_list_variable_in_opamfile ofile nm ~use_opamprinter:use_opamprinter with
       | None -> default
       | Some(xs)  -> String.concat ", " xs
     in
@@ -227,13 +249,14 @@ let () =
       homepage        = get_strlist_variable "homepage" "";
       bug_reports     = get_strlist_variable "bug-reports" "";
       latest_version  = latest_version;
-      dependencies    = get_strlist_variable "depends" "(no dependencies)";
+      dependencies    = get_strlist_variable "depends" "(no dependencies)" ~use_opamprinter:true;
       last_update     = get_package_updated_date name;
       first_published = get_package_first_published_date name;
       has_docpkg      = is_package_exists package_list (get_document_package_name name);
       documents       = get_docfile_list name;
       fonts           = get_fontfile_list name;
       tags            = Option.value (find_string_list_variable_in_opamfile ofile "tags") ~default:[];
+      snapshots       = get_contained_snapshots snapshot_info_list name;
     })
     |> List.filter (fun p -> match p.pkg_type with
                              | Library | Class | Font -> true
