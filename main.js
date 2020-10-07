@@ -122,6 +122,7 @@ function emitDetailsTable(d) {
       + emitLinkRow('Homepage', d.homepage)
       + emitRow('Latest version', d.latest_version)
       + emitRow('Dependencies', d.dependencies)
+      + emitTagsRow('Snapshots', d.snapshots)
       + emitLongStringRow('Font files', 'Included file list...', d.fonts.join(', '))
       + docrows
   +'</tbody></table>';
@@ -218,6 +219,10 @@ $(document).ready(function() {
       },
       {
         data: "tags",
+        visible: false
+      },
+      {
+        data: "snapshots",
         visible: false
       },
       {
