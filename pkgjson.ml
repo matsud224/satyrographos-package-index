@@ -11,7 +11,7 @@ let doc_root = "./docs"
 let font_root = "./fonts"
 
 type package_type =
-  Library | Class | Font | Document | Satysfi | Satyrographos | Other
+  Library | Class | Font | Document | Satysfi | Satyrographos | Snapshot | Other
 
 type package_info = {
   name            : string;
@@ -41,6 +41,7 @@ let string_of_package_type t =
   | Document      -> "Document"
   | Satysfi       -> "Satysfi"
   | Satyrographos -> "Satyrographos"
+  | Snapshot      -> "Snapshot"
   | Other         -> "Other"
 
 let remove_head n str = String.sub str n ((String.length str) - n)
@@ -60,6 +61,7 @@ let get_package_type name =
     (regexp "^satysfi-class-.*", Class);
     (regexp "^satysfi-fonts-.*", Font);
     (regexp "^satysfi$",         Satysfi);
+    (regexp "^satyrographos-snapshot-.*",  Snapshot);
     (regexp "^satyrographos.*",  Satyrographos);
     (regexp "^satysfi-.*",       Library)
   ] in
@@ -189,9 +191,20 @@ let get_package_first_published_date name =
     ignore (Unix.close_process_in chan);
     result
 
+let get_snapshot_versions name =
+  let open Str in
+  get_version_list name |> List.map (fun ver ->
+    name ^ "." ^ (List.hd (split (regexp "\\+") ver))
+  ) |> List.sort String.compare |> Core.List.remove_consecutive_duplicates ~equal:(fun a b -> a = b)
+
+let get_snapshot_info_list pkglst =
+  let snapshot_list = pkglst |> List.filter (fun name -> (get_package_type name) == Snapshot) in
+    List.concat_map get_snapshot_versions snapshot_list
+
 let () =
   let out_file = Sys.argv.(1) in
   let package_list = get_package_list () in
+  let () = Format.printf "%s" (String.concat ", " (get_snapshot_info_list package_list)) in
   let package_info_list = package_list |> List.map (fun name ->
     let version_list = get_version_list name in
     let latest_version = List.hd version_list in
