@@ -19,7 +19,8 @@
       "has_docpkg": true,
       "documents": [],
       "fonts": [],
-      "tags": []
+      "tags": [],
+      "snapshots": [ "satyrographos-snapshot-develop.0.0.5" ]
     },
     {
       "name": "assert-eq",
@@ -40,7 +41,12 @@
       "has_docpkg": false,
       "documents": [],
       "fonts": [],
-      "tags": []
+      "tags": [],
+      "snapshots": [
+        "satyrographos-snapshot-develop.0.0.5",
+        "satyrographos-snapshot-stable.0.0.4",
+        "satyrographos-snapshot-stable.0.0.5"
+      ]
     },
     {
       "name": "base",
@@ -62,7 +68,12 @@
       "has_docpkg": false,
       "documents": [],
       "fonts": [],
-      "tags": []
+      "tags": [],
+      "snapshots": [
+        "satyrographos-snapshot-develop.0.0.5",
+        "satyrographos-snapshot-stable.0.0.4",
+        "satyrographos-snapshot-stable.0.0.5"
+      ]
     },
     {
       "name": "bibyfi",
@@ -90,7 +101,11 @@
         "./docs/bibyfi-doc/examples/cite-with-name.saty"
       ],
       "fonts": [],
-      "tags": []
+      "tags": [],
+      "snapshots": [
+        "satyrographos-snapshot-develop.0.0.5",
+        "satyrographos-snapshot-stable.0.0.5"
+      ]
     },
     {
       "name": "cancel",
@@ -105,13 +120,18 @@
       "bug_reports": "https://github.com/yuhr/satysfi-cancel/issues",
       "latest_version": "0.0.0",
       "dependencies":
-        "\"satysfi\" {>= \"0.0.3\" & < \"0.0.6\"}, \"satyrographos\" {>= \"0.0.2.3\" & < \"0.0.3\"}, satysfi-dist",
+        "\"satysfi\" {>= \"0.0.3\" & < \"0.0.6\"}, \"satyrographos\" {>= \"0.0.2.3\" & < \"0.0.3\"}, \"satysfi-dist\"",
       "last_update": "1594476627",
       "first_published": "1582352429",
       "has_docpkg": false,
       "documents": [],
       "fonts": [],
-      "tags": []
+      "tags": [],
+      "snapshots": [
+        "satyrographos-snapshot-develop.0.0.5",
+        "satyrographos-snapshot-stable.0.0.4",
+        "satyrographos-snapshot-stable.0.0.5"
+      ]
     },
     {
       "name": "class-exdesign",
@@ -131,7 +151,12 @@
       "has_docpkg": true,
       "documents": [ "./docs/class-exdesign-doc/manual.pdf" ],
       "fonts": [],
-      "tags": []
+      "tags": [],
+      "snapshots": [
+        "satyrographos-snapshot-develop.0.0.5",
+        "satyrographos-snapshot-stable.0.0.4",
+        "satyrographos-snapshot-stable.0.0.5"
+      ]
     },
     {
       "name": "class-slydifi",
@@ -153,7 +178,12 @@
       "has_docpkg": true,
       "documents": [ "./docs/class-slydifi-doc/slydifi.pdf" ],
       "fonts": [],
-      "tags": []
+      "tags": [],
+      "snapshots": [
+        "satyrographos-snapshot-develop.0.0.5",
+        "satyrographos-snapshot-stable.0.0.4",
+        "satyrographos-snapshot-stable.0.0.5"
+      ]
     },
     {
       "name": "class-stjarticle",
@@ -177,7 +207,12 @@
         "./docs/class-stjarticle-doc/stjarticle-demo.saty"
       ],
       "fonts": [],
-      "tags": []
+      "tags": [],
+      "snapshots": [
+        "satyrographos-snapshot-develop.0.0.5",
+        "satyrographos-snapshot-stable.0.0.4",
+        "satyrographos-snapshot-stable.0.0.5"
+      ]
     },
     {
       "name": "class-yabaitech",
@@ -200,7 +235,12 @@
       "has_docpkg": true,
       "documents": [ "./docs/class-yabaitech-doc/yabaitech-demo.pdf" ],
       "fonts": [],
-      "tags": []
+      "tags": [],
+      "snapshots": [
+        "satyrographos-snapshot-develop.0.0.5",
+        "satyrographos-snapshot-stable.0.0.4",
+        "satyrographos-snapshot-stable.0.0.5"
+      ]
     },
     {
       "name": "debug-show-value",
@@ -221,7 +261,12 @@
       "has_docpkg": false,
       "documents": [],
       "fonts": [],
-      "tags": []
+      "tags": [],
+      "snapshots": [
+        "satyrographos-snapshot-develop.0.0.5",
+        "satyrographos-snapshot-stable.0.0.4",
+        "satyrographos-snapshot-stable.0.0.5"
+      ]
     },
     {
       "name": "dist",
@@ -240,7 +285,12 @@
       "has_docpkg": false,
       "documents": [],
       "fonts": [],
-      "tags": []
+      "tags": [],
+      "snapshots": [
+        "satyrographos-snapshot-develop.0.0.5",
+        "satyrographos-snapshot-stable.0.0.4",
+        "satyrographos-snapshot-stable.0.0.5"
+      ]
     },
     {
       "name": "easytable",
@@ -254,13 +304,17 @@
       "bug_reports": "https://github.com/monaqa/satysfi-easytable/issues",
       "latest_version": "1.0.0",
       "dependencies":
-        "\"satysfi\" {>= \"0.0.5\" & < \"0.0.6\"}, \"satyrographos\" {>= \"0.0.2\" & < \"0.0.3\"}, satysfi-dist",
+        "\"satysfi\" {>= \"0.0.5\" & < \"0.0.6\"}, \"satyrographos\" {>= \"0.0.2\" & < \"0.0.3\"}, \"satysfi-dist\"",
       "last_update": "1595143664",
       "first_published": "1595143664",
       "has_docpkg": true,
       "documents": [ "./docs/easytable-doc/easytable.pdf" ],
       "fonts": [],
-      "tags": []
+      "tags": [],
+      "snapshots": [
+        "satyrographos-snapshot-develop.0.0.5",
+        "satyrographos-snapshot-stable.0.0.5"
+      ]
     },
     {
       "name": "enumitem",
@@ -274,13 +328,17 @@
       "bug_reports": "https://github.com/monaqa/satysfi-enumitem/issues",
       "latest_version": "2.0.0",
       "dependencies":
-        "\"satysfi\" {>= \"0.0.4+dev2020.06.07\" & < \"0.0.6\"}, \"satyrographos\" {>= \"0.0.2\" & < \"0.0.3\"}, satysfi-dist, \"satysfi-base\" {>= \"1.0.0\"}",
+        "\"satysfi\" {>= \"0.0.4+dev2020.06.07\" & < \"0.0.6\"}, \"satyrographos\" {>= \"0.0.2\" & < \"0.0.3\"}, \"satysfi-dist\", \"satysfi-base\" {>= \"1.0.0\"}",
       "last_update": "1594477154",
       "first_published": "1580619924",
       "has_docpkg": true,
       "documents": [ "./docs/enumitem-doc/enumitem.pdf" ],
       "fonts": [],
-      "tags": []
+      "tags": [],
+      "snapshots": [
+        "satyrographos-snapshot-develop.0.0.5",
+        "satyrographos-snapshot-stable.0.0.5"
+      ]
     },
     {
       "name": "fonts-asana-math",
@@ -302,7 +360,12 @@
       "has_docpkg": true,
       "documents": [ "./docs/fonts-asana-math-doc/doc-fonts-asana-math.pdf" ],
       "fonts": [ "Asana-Math.otf" ],
-      "tags": []
+      "tags": [],
+      "snapshots": [
+        "satyrographos-snapshot-develop.0.0.5",
+        "satyrographos-snapshot-stable.0.0.4",
+        "satyrographos-snapshot-stable.0.0.5"
+      ]
     },
     {
       "name": "fonts-bodoni-star",
@@ -357,7 +420,11 @@
         "Bodoni-96-Fatface-Italic.otf", "Bodoni-96-Fatface.otf",
         "Bodoni-96-Medium-Italic.otf", "Bodoni-96-Medium.otf"
       ],
-      "tags": []
+      "tags": [],
+      "snapshots": [
+        "satyrographos-snapshot-develop.0.0.5",
+        "satyrographos-snapshot-stable.0.0.5"
+      ]
     },
     {
       "name": "fonts-computer-modern-unicode",
@@ -391,7 +458,12 @@
         "cmunst.ttf", "cmunsx.ttf", "cmuntb.ttf", "cmunti.ttf", "cmuntt.ttf",
         "cmuntx.ttf", "cmunui.ttf", "cmunvi.ttf", "cmunvt.ttf"
       ],
-      "tags": []
+      "tags": [],
+      "snapshots": [
+        "satyrographos-snapshot-develop.0.0.5",
+        "satyrographos-snapshot-stable.0.0.4",
+        "satyrographos-snapshot-stable.0.0.5"
+      ]
     },
     {
       "name": "fonts-cormorant",
@@ -437,7 +509,11 @@
         "CormorantUpright-Light.ttf", "CormorantUpright-Medium.ttf",
         "CormorantUpright-Regular.ttf", "CormorantUpright-SemiBold.ttf"
       ],
-      "tags": []
+      "tags": [],
+      "snapshots": [
+        "satyrographos-snapshot-develop.0.0.5",
+        "satyrographos-snapshot-stable.0.0.5"
+      ]
     },
     {
       "name": "fonts-dejavu",
@@ -473,7 +549,12 @@
         "DejaVuSerifCondensed-BoldItalic.ttf",
         "DejaVuSerifCondensed-Italic.ttf", "DejaVuSerifCondensed.ttf"
       ],
-      "tags": []
+      "tags": [],
+      "snapshots": [
+        "satyrographos-snapshot-develop.0.0.5",
+        "satyrographos-snapshot-stable.0.0.4",
+        "satyrographos-snapshot-stable.0.0.5"
+      ]
     },
     {
       "name": "fonts-junicode",
@@ -498,7 +579,11 @@
         "FoulisGreek.ttf", "Junicode-Bold.ttf", "Junicode-BoldItalic.ttf",
         "Junicode-Italic.ttf", "Junicode.ttf"
       ],
-      "tags": []
+      "tags": [],
+      "snapshots": [
+        "satyrographos-snapshot-develop.0.0.5",
+        "satyrographos-snapshot-stable.0.0.5"
+      ]
     },
     {
       "name": "fonts-noto-emoji",
@@ -522,7 +607,12 @@
         "./docs/fonts-noto-emoji-doc/doc-fonts-emoji-serif.pdf"
       ],
       "fonts": [ "NotoColorEmoji.ttf", "NotoEmoji-Regular.ttf" ],
-      "tags": []
+      "tags": [],
+      "snapshots": [
+        "satyrographos-snapshot-develop.0.0.5",
+        "satyrographos-snapshot-stable.0.0.4",
+        "satyrographos-snapshot-stable.0.0.5"
+      ]
     },
     {
       "name": "fonts-noto-sans",
@@ -601,7 +691,12 @@
         "NotoSans-SemiCondensedThinItalic.ttf", "NotoSans-Thin.ttf",
         "NotoSans-ThinItalic.ttf"
       ],
-      "tags": []
+      "tags": [],
+      "snapshots": [
+        "satyrographos-snapshot-develop.0.0.5",
+        "satyrographos-snapshot-stable.0.0.4",
+        "satyrographos-snapshot-stable.0.0.5"
+      ]
     },
     {
       "name": "fonts-noto-sans-cjk-jp",
@@ -632,7 +727,12 @@
         "NotoSansCJKjp-Thin.otf", "NotoSansMonoCJKjp-Bold.otf",
         "NotoSansMonoCJKjp-Regular.otf"
       ],
-      "tags": []
+      "tags": [],
+      "snapshots": [
+        "satyrographos-snapshot-develop.0.0.5",
+        "satyrographos-snapshot-stable.0.0.4",
+        "satyrographos-snapshot-stable.0.0.5"
+      ]
     },
     {
       "name": "fonts-noto-sans-cjk-sc",
@@ -655,7 +755,8 @@
       "has_docpkg": true,
       "documents": [],
       "fonts": [],
-      "tags": []
+      "tags": [],
+      "snapshots": []
     },
     {
       "name": "fonts-noto-serif",
@@ -735,7 +836,12 @@
         "NotoSerif-SemiCondensedThinItalic.ttf", "NotoSerif-Thin.ttf",
         "NotoSerif-ThinItalic.ttf"
       ],
-      "tags": []
+      "tags": [],
+      "snapshots": [
+        "satyrographos-snapshot-develop.0.0.5",
+        "satyrographos-snapshot-stable.0.0.4",
+        "satyrographos-snapshot-stable.0.0.5"
+      ]
     },
     {
       "name": "fonts-noto-serif-cjk-jp",
@@ -765,7 +871,12 @@
         "NotoSerifCJKjp-Medium.otf", "NotoSerifCJKjp-Regular.otf",
         "NotoSerifCJKjp-SemiBold.otf"
       ],
-      "tags": []
+      "tags": [],
+      "snapshots": [
+        "satyrographos-snapshot-develop.0.0.5",
+        "satyrographos-snapshot-stable.0.0.4",
+        "satyrographos-snapshot-stable.0.0.5"
+      ]
     },
     {
       "name": "fonts-theano",
@@ -791,7 +902,12 @@
         "TheanoDidot-Regular.otf", "TheanoModern-Regular.otf",
         "TheanoOldStyle-Regular.otf"
       ],
-      "tags": []
+      "tags": [],
+      "snapshots": [
+        "satyrographos-snapshot-develop.0.0.5",
+        "satyrographos-snapshot-stable.0.0.4",
+        "satyrographos-snapshot-stable.0.0.5"
+      ]
     },
     {
       "name": "fss",
@@ -811,7 +927,11 @@
       "has_docpkg": true,
       "documents": [ "./docs/fss-doc/doc-fss-ja.pdf" ],
       "fonts": [],
-      "tags": []
+      "tags": [],
+      "snapshots": [
+        "satyrographos-snapshot-develop.0.0.5",
+        "satyrographos-snapshot-stable.0.0.5"
+      ]
     },
     {
       "name": "grcnum",
@@ -832,7 +952,12 @@
       "has_docpkg": true,
       "documents": [ "./docs/grcnum-doc/doc-grcnum-ja.pdf" ],
       "fonts": [],
-      "tags": []
+      "tags": [],
+      "snapshots": [
+        "satyrographos-snapshot-develop.0.0.5",
+        "satyrographos-snapshot-stable.0.0.4",
+        "satyrographos-snapshot-stable.0.0.5"
+      ]
     },
     {
       "name": "karnaugh",
@@ -857,7 +982,12 @@
         "./docs/karnaugh-doc/local.satyh"
       ],
       "fonts": [],
-      "tags": []
+      "tags": [],
+      "snapshots": [
+        "satyrographos-snapshot-develop.0.0.5",
+        "satyrographos-snapshot-stable.0.0.4",
+        "satyrographos-snapshot-stable.0.0.5"
+      ]
     },
     {
       "name": "lib",
@@ -879,7 +1009,8 @@
       "has_docpkg": true,
       "documents": [],
       "fonts": [],
-      "tags": []
+      "tags": [],
+      "snapshots": []
     },
     {
       "name": "lib-dist",
@@ -899,7 +1030,8 @@
       "has_docpkg": false,
       "documents": [],
       "fonts": [],
-      "tags": []
+      "tags": [],
+      "snapshots": []
     },
     {
       "name": "lipsum",
@@ -913,13 +1045,18 @@
       "bug_reports": "https://github.com/puripuri2100/SATySFi-lipsum/issues",
       "latest_version": "0.2.0",
       "dependencies":
-        "\"satysfi\" {>= \"0.0.4\" & < \"0.0.6\"}, \"satyrographos\" {>= \"0.0.2\" & < \"0.0.3\"}, satysfi-dist",
+        "\"satysfi\" {>= \"0.0.4\" & < \"0.0.6\"}, \"satyrographos\" {>= \"0.0.2\" & < \"0.0.3\"}, \"satysfi-dist\"",
       "last_update": "1597910468",
       "first_published": "1597910468",
       "has_docpkg": false,
       "documents": [],
       "fonts": [],
-      "tags": []
+      "tags": [],
+      "snapshots": [
+        "satyrographos-snapshot-develop.0.0.5",
+        "satyrographos-snapshot-stable.0.0.4",
+        "satyrographos-snapshot-stable.0.0.5"
+      ]
     },
     {
       "name": "make-html",
@@ -940,7 +1077,12 @@
       "has_docpkg": false,
       "documents": [],
       "fonts": [],
-      "tags": []
+      "tags": [],
+      "snapshots": [
+        "satyrographos-snapshot-develop.0.0.5",
+        "satyrographos-snapshot-stable.0.0.4",
+        "satyrographos-snapshot-stable.0.0.5"
+      ]
     },
     {
       "name": "make-markdown",
@@ -961,7 +1103,12 @@
       "has_docpkg": false,
       "documents": [],
       "fonts": [],
-      "tags": []
+      "tags": [],
+      "snapshots": [
+        "satyrographos-snapshot-develop.0.0.5",
+        "satyrographos-snapshot-stable.0.0.4",
+        "satyrographos-snapshot-stable.0.0.5"
+      ]
     },
     {
       "name": "matrix",
@@ -988,7 +1135,12 @@
         "./docs/matrix-doc/example/main.saty"
       ],
       "fonts": [],
-      "tags": []
+      "tags": [],
+      "snapshots": [
+        "satyrographos-snapshot-develop.0.0.5",
+        "satyrographos-snapshot-stable.0.0.4",
+        "satyrographos-snapshot-stable.0.0.5"
+      ]
     },
     {
       "name": "musikui",
@@ -1009,7 +1161,12 @@
       "has_docpkg": false,
       "documents": [],
       "fonts": [],
-      "tags": []
+      "tags": [],
+      "snapshots": [
+        "satyrographos-snapshot-develop.0.0.5",
+        "satyrographos-snapshot-stable.0.0.4",
+        "satyrographos-snapshot-stable.0.0.5"
+      ]
     },
     {
       "name": "ncsq",
@@ -1033,7 +1190,11 @@
         "./docs/ncsq-doc/ncsq-example.saty", "./docs/ncsq-doc/ncsq-notes.pdf"
       ],
       "fonts": [],
-      "tags": []
+      "tags": [],
+      "snapshots": [
+        "satyrographos-snapshot-develop.0.0.5",
+        "satyrographos-snapshot-stable.0.0.5"
+      ]
     },
     {
       "name": "num-conversion",
@@ -1054,7 +1215,11 @@
       "has_docpkg": false,
       "documents": [],
       "fonts": [],
-      "tags": []
+      "tags": [],
+      "snapshots": [
+        "satyrographos-snapshot-develop.0.0.5",
+        "satyrographos-snapshot-stable.0.0.5"
+      ]
     },
     {
       "name": "ruby",
@@ -1068,13 +1233,18 @@
       "bug_reports": "https://github.com/puripuri2100/SATySFi-ruby/issues",
       "latest_version": "0.1.2",
       "dependencies":
-        "\"satysfi\" {>= \"0.0.1\" & < \"0.0.6\"}, \"satyrographos\" {>= \"0.0.2\" & < \"0.0.3\"}, satysfi-dist",
+        "\"satysfi\" {>= \"0.0.1\" & < \"0.0.6\"}, \"satyrographos\" {>= \"0.0.2\" & < \"0.0.3\"}, \"satysfi-dist\"",
       "last_update": "1601470013",
       "first_published": "1601223800",
       "has_docpkg": true,
       "documents": [ "./docs/ruby-doc/ruby-ja.pdf" ],
       "fonts": [],
-      "tags": []
+      "tags": [],
+      "snapshots": [
+        "satyrographos-snapshot-develop.0.0.5",
+        "satyrographos-snapshot-stable.0.0.4",
+        "satyrographos-snapshot-stable.0.0.5"
+      ]
     },
     {
       "name": "simple-itemize",
@@ -1095,7 +1265,12 @@
       "has_docpkg": false,
       "documents": [],
       "fonts": [],
-      "tags": []
+      "tags": [],
+      "snapshots": [
+        "satyrographos-snapshot-develop.0.0.5",
+        "satyrographos-snapshot-stable.0.0.4",
+        "satyrographos-snapshot-stable.0.0.5"
+      ]
     },
     {
       "name": "siunitx",
@@ -1116,7 +1291,12 @@
       "has_docpkg": false,
       "documents": [],
       "fonts": [],
-      "tags": []
+      "tags": [],
+      "snapshots": [
+        "satyrographos-snapshot-develop.0.0.5",
+        "satyrographos-snapshot-stable.0.0.4",
+        "satyrographos-snapshot-stable.0.0.5"
+      ]
     },
     {
       "name": "uline",
@@ -1136,7 +1316,12 @@
       "has_docpkg": false,
       "documents": [],
       "fonts": [],
-      "tags": []
+      "tags": [],
+      "snapshots": [
+        "satyrographos-snapshot-develop.0.0.5",
+        "satyrographos-snapshot-stable.0.0.4",
+        "satyrographos-snapshot-stable.0.0.5"
+      ]
     },
     {
       "name": "zrbase",
@@ -1157,7 +1342,12 @@
       "has_docpkg": false,
       "documents": [],
       "fonts": [],
-      "tags": []
+      "tags": [],
+      "snapshots": [
+        "satyrographos-snapshot-develop.0.0.5",
+        "satyrographos-snapshot-stable.0.0.4",
+        "satyrographos-snapshot-stable.0.0.5"
+      ]
     }
   ]
 }
