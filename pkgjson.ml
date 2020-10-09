@@ -53,7 +53,7 @@ let get_package_list () =
 let get_version_list name =
   let pkgname_part_len = String.length (name ^ ".") in
   let dirs = Sys.readdir (Filename.concat package_root name) |> Array.to_list in
-  List.map (remove_head pkgname_part_len) dirs |> List.sort (fun a b -> String.compare b a)
+  List.map (remove_head pkgname_part_len) dirs |> List.sort (fun a b -> OpamVersionCompare.compare b a)
 
 let get_package_type name =
   let open Str in
