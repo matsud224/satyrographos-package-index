@@ -34,7 +34,7 @@ jobs:
           eval $(opam env)
           opam update
           opam upgrade
-          opam install opam-file-format yojson core dune
+          opam install opam-file-format opam-core yojson core dune
           opam install satyrographos-snapshot-stable || true # workaround
           satyrographos install
           rm -rf docs
