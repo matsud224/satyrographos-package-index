@@ -753,10 +753,22 @@
       "last_update": "1601775186",
       "first_published": "1601775186",
       "has_docpkg": true,
-      "documents": [],
-      "fonts": [],
+      "documents": [
+        "./docs/fonts-noto-sans-cjk-sc-doc/doc-fonts-noto-sans-cjk-sc.pdf"
+      ],
+      "fonts": [
+        "NotoSansCJKsc-Black.otf", "NotoSansCJKsc-Bold.otf",
+        "NotoSansCJKsc-DemiLight.otf", "NotoSansCJKsc-Light.otf",
+        "NotoSansCJKsc-Medium.otf", "NotoSansCJKsc-Regular.otf",
+        "NotoSansCJKsc-Thin.otf", "NotoSansMonoCJKsc-Bold.otf",
+        "NotoSansMonoCJKsc-Regular.otf"
+      ],
       "tags": [],
-      "snapshots": []
+      "snapshots": [
+        "satyrographos-snapshot-develop.0.0.5",
+        "satyrographos-snapshot-stable.0.0.4",
+        "satyrographos-snapshot-stable.0.0.5"
+      ]
     },
     {
       "name": "fonts-noto-serif",
@@ -1141,6 +1153,27 @@
         "satyrographos-snapshot-stable.0.0.4",
         "satyrographos-snapshot-stable.0.0.5"
       ]
+    },
+    {
+      "name": "matrixcd",
+      "type": "Library",
+      "synopsis": "A package for SATySFi to draw commutative diagrams",
+      "description": "",
+      "maintainer": "Noriyuki Abe",
+      "authors": "Noriyuki Abe",
+      "license": "BSD-2-Clause-FreeBSD",
+      "homepage": "https://github.com/abenori/satysfi-matrixcd/",
+      "bug_reports": "https://github.com/abenori/satysfi-matrixcd/issues",
+      "latest_version": "0.0.1",
+      "dependencies":
+        "\"satysfi\" {>= \"0.0.4\" & < \"0.0.6\"}, \"satysfi-base\" {= \"1.3.0\"}, \"satyrographos\" {>= \"0.0.2.0\" & < \"0.0.3.0\"}",
+      "last_update": "1602163993",
+      "first_published": "1602163993",
+      "has_docpkg": false,
+      "documents": [],
+      "fonts": [],
+      "tags": [],
+      "snapshots": []
     },
     {
       "name": "musikui",
