@@ -31,7 +31,7 @@ oldinfo.each do |p|
   newinfo.each do |q|
     if p['name'] == q['name'] then
       if p['last_update'] != q['last_update'] then
-        updated.push(q)
+        updated.push([p,q])
       end
     end
   end
@@ -82,16 +82,18 @@ added.each do |p|
 end
 
 puts '[updated]'
-updated.each do |p|
+updated.each do |pair|
+  p_old, p = pair
   puts "\"#{p['name']}\""
 
   name = p['name']
-  version = p['latest_version']
+  old_version = p_old['latest_version']
+  new_version = p['latest_version']
   homepage = p['homepage']
   synopsis = p['synopsis']
   authors = p['authors']
 
-  pretext = ":exclamation: \"#{name}\" was updated to #{version}."
+  pretext = ":exclamation: \"#{name}\" was updated from #{old_version} to #{new_version}."
 
   attachments = {
     fallback: pretext,
