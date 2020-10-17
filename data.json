@@ -49,6 +49,28 @@
       ]
     },
     {
+      "name": "azmath",
+      "type": "Library",
+      "synopsis": "A SATySFi package containing A-to-Z mathematical commands",
+      "description":
+        "A SATySFi package containing A-to-Z mathematical commands.",
+      "maintainer": "Shinichi Mogami <mogassy@yahoo.co.jp>",
+      "authors": "Shinichi Mogami <mogassy@yahoo.co.jp>",
+      "license": "MIT",
+      "homepage": "https://github.com/monaqa/satysfi-azmath",
+      "bug_reports": "https://github.com/monaqa/satysfi-azmath/issues",
+      "latest_version": "0.0.1",
+      "dependencies":
+        "\"satysfi\" {>= \"0.0.5\" & < \"0.0.6\"}, \"satyrographos\" {>= \"0.0.2\" & < \"0.0.3\"}, \"satysfi-dist\", \"satysfi-base\"",
+      "last_update": "1602849568",
+      "first_published": "1602849568",
+      "has_docpkg": true,
+      "documents": [],
+      "fonts": [],
+      "tags": [],
+      "snapshots": []
+    },
+    {
       "name": "base",
       "type": "Library",
       "synopsis": "A collection of utility functions and modules for SATySFi",
