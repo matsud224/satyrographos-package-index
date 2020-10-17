@@ -65,10 +65,13 @@
       "last_update": "1602849568",
       "first_published": "1602849568",
       "has_docpkg": true,
-      "documents": [],
+      "documents": [ "./docs/azmath-doc/azmath.pdf" ],
       "fonts": [],
       "tags": [],
-      "snapshots": []
+      "snapshots": [
+        "satyrographos-snapshot-develop.0.0.5",
+        "satyrographos-snapshot-stable.0.0.5"
+      ]
     },
     {
       "name": "base",
