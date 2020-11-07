@@ -33,7 +33,6 @@ jobs:
           export HOME=/root
           eval $(opam env)
           opam update
-          opam install opam-file-format opam-core yojson core dune
           opam install satyrographos-snapshot-stable || true # workaround
           satyrographos install
           rm -rf docs
