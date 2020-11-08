@@ -59,10 +59,10 @@
       "license": "MIT",
       "homepage": "https://github.com/monaqa/satysfi-azmath",
       "bug_reports": "https://github.com/monaqa/satysfi-azmath/issues",
-      "latest_version": "0.0.1",
+      "latest_version": "0.0.3",
       "dependencies":
         "\"satysfi\" {>= \"0.0.5\" & < \"0.0.6\"}, \"satyrographos\" {>= \"0.0.2\" & < \"0.0.3\"}, \"satysfi-dist\", \"satysfi-base\"",
-      "last_update": "1602849568",
+      "last_update": "1604755725",
       "first_published": "1602849568",
       "has_docpkg": true,
       "documents": [ "./docs/azmath-doc/azmath.pdf" ],
