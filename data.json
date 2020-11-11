@@ -1366,10 +1366,10 @@
       "license": "MIT",
       "homepage": "https://github.com/puripuri2100/satysfi-tombo",
       "bug_reports": "https://github.com/puripuri2100/satysfi-tombo/issues",
-      "latest_version": "0.1.0",
+      "latest_version": "0.2.0",
       "dependencies":
         "\"satysfi\" {>= \"0.0.5\" & < \"0.0.6\"}, \"satyrographos\" {>= \"0.0.2.6\" & < \"0.0.3\"}, \"satysfi-dist\"",
-      "last_update": "1604742834",
+      "last_update": "1604934644",
       "first_published": "1604742834",
       "has_docpkg": true,
       "documents": [],
