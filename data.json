@@ -329,8 +329,8 @@
       "bug_reports": "https://github.com/monaqa/satysfi-easytable/issues",
       "latest_version": "1.0.0",
       "dependencies":
-        "\"satysfi\" {>= \"0.0.5\" & < \"0.0.6\"}, \"satyrographos\" {>= \"0.0.2\" & < \"0.0.3\"}, \"satysfi-dist\"",
-      "last_update": "1595143664",
+        "\"satysfi\" {>= \"0.0.5\" & < \"0.0.6\"}, \"satyrographos\" {>= \"0.0.2\" & < \"0.0.3\"}, \"satysfi-dist\", \"satysfi-base\"",
+      "last_update": "1605620406",
       "first_published": "1595143664",
       "has_docpkg": true,
       "documents": [ "./docs/easytable-doc/easytable.pdf" ],
