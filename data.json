@@ -1122,6 +1122,28 @@
       ]
     },
     {
+      "name": "make-latex",
+      "type": "Library",
+      "synopsis": "Outputting LaTeX file using SATySFi's text-mode",
+      "description": "Outputting LaTeX file using SATySFi's text-mode.",
+      "maintainer": "Naoki Kaneko <puripuri2100@gmail.com>",
+      "authors": "Naoki Kaneko <puripuri2100@gmail.com>",
+      "license": "MIT",
+      "homepage": "https://github.com/puripuri2100/SATySFi-make-latex",
+      "bug_reports":
+        "https://github.com/puripuri2100/SATySFi-make-latex/issues",
+      "latest_version": "0.2.0",
+      "dependencies":
+        "\"satysfi\" {>= \"0.0.5\" & < \"0.0.6\"}, \"satyrographos\" {>= \"0.0.2.6\" & < \"0.0.4\"}, \"satysfi-dist\"",
+      "last_update": "1605586025",
+      "first_published": "1605536807",
+      "has_docpkg": true,
+      "documents": [],
+      "fonts": [],
+      "tags": [],
+      "snapshots": []
+    },
+    {
       "name": "make-markdown",
       "type": "Library",
       "synopsis": "Outputting Markdown file using SATySFi's text-mode",
