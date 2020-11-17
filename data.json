@@ -1198,7 +1198,10 @@
       "documents": [],
       "fonts": [],
       "tags": [],
-      "snapshots": []
+      "snapshots": [
+        "satyrographos-snapshot-develop.0.0.5",
+        "satyrographos-snapshot-stable.0.0.5"
+      ]
     },
     {
       "name": "musikui",
@@ -1372,10 +1375,13 @@
       "last_update": "1604934644",
       "first_published": "1604742834",
       "has_docpkg": true,
-      "documents": [],
+      "documents": [ "./docs/tombo-doc/manual-ja.pdf" ],
       "fonts": [],
       "tags": [],
-      "snapshots": []
+      "snapshots": [
+        "satyrographos-snapshot-develop.0.0.5",
+        "satyrographos-snapshot-stable.0.0.5"
+      ]
     },
     {
       "name": "uline",
