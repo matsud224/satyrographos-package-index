@@ -305,7 +305,7 @@
       "bug_reports": "https://github.com/gfngfn/SATySFi/issues",
       "latest_version": "0.0.5+dev2020.09.05",
       "dependencies": "\"satysfi\" {= \"%{version}%\"}",
-      "last_update": "1603079062",
+      "last_update": "1607161888",
       "first_published": "1574164933",
       "has_docpkg": false,
       "documents": [],
