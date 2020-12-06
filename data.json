@@ -1138,10 +1138,13 @@
       "last_update": "1605586025",
       "first_published": "1605536807",
       "has_docpkg": true,
-      "documents": [],
+      "documents": [ "./docs/make-latex-doc/manual-ja.pdf" ],
       "fonts": [],
       "tags": [],
-      "snapshots": []
+      "snapshots": [
+        "satyrographos-snapshot-develop.0.0.5",
+        "satyrographos-snapshot-stable.0.0.5"
+      ]
     },
     {
       "name": "make-markdown",
@@ -1211,10 +1214,10 @@
       "license": "BSD-2-Clause-FreeBSD",
       "homepage": "https://github.com/abenori/satysfi-matrixcd/",
       "bug_reports": "https://github.com/abenori/satysfi-matrixcd/issues",
-      "latest_version": "0.0.1",
+      "latest_version": "0.0.2",
       "dependencies":
         "\"satysfi\" {>= \"0.0.4\" & < \"0.0.6\"}, \"satysfi-base\" {= \"1.3.0\"}, \"satyrographos\" {>= \"0.0.2.0\" & < \"0.0.3.0\"}",
-      "last_update": "1602163993",
+      "last_update": "1607244317",
       "first_published": "1602163993",
       "has_docpkg": false,
       "documents": [],
@@ -1397,10 +1400,13 @@
       "last_update": "1605607470",
       "first_published": "1605607470",
       "has_docpkg": true,
-      "documents": [],
+      "documents": [ "./docs/texlogo-doc/sample.pdf" ],
       "fonts": [],
       "tags": [],
-      "snapshots": []
+      "snapshots": [
+        "satyrographos-snapshot-develop.0.0.5",
+        "satyrographos-snapshot-stable.0.0.5"
+      ]
     },
     {
       "name": "tombo",
