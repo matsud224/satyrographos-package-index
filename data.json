@@ -956,10 +956,10 @@
       "license": "LGPL-3.0-or-later",
       "homepage": "https://github.com/na4zagin3/satysfi-fss",
       "bug_reports": "https://github.com/na4zagin3/satysfi-fss/issues",
-      "latest_version": "0.0.1",
+      "latest_version": "0.2.0",
       "dependencies":
         "\"satysfi\" {>= \"0.0.5\" & < \"0.0.6\"}, \"satyrographos\" {>= \"0.0.2.6\" & < \"0.0.3\"}, \"satysfi-base\" {>= \"1.3.0\" & < \"2\"}, \"satysfi-fonts-junicode\" {>= \"1\" & < \"2\"}",
-      "last_update": "1599918103",
+      "last_update": "1607687540",
       "first_published": "1599917178",
       "has_docpkg": true,
       "documents": [ "./docs/fss-doc/doc-fss-ja.pdf" ],
@@ -969,6 +969,27 @@
         "satyrographos-snapshot-develop.0.0.5",
         "satyrographos-snapshot-stable.0.0.5"
       ]
+    },
+    {
+      "name": "fss-fontset-bodoni-star",
+      "type": "Library",
+      "synopsis": "Fontset definition of satysfi-fonts-bodoni-star",
+      "description": "\nFontset definition of satysfi-fonts-bodoni-star\n",
+      "maintainer": "SAKAMOTO Noriaki <mrty.ityt.pt@gmail.com>",
+      "authors": "SAKAMOTO Noriaki <mrty.ityt.pt@gmail.com>",
+      "license": "ISC",
+      "homepage": "https://github.com/na4zagin3/satysfi-fss",
+      "bug_reports": "https://github.com/na4zagin3/satysfi-fss/issues",
+      "latest_version": "2.3",
+      "dependencies":
+        "\"satysfi\" {>= \"0.0.5\" & < \"0.0.6\"}, \"satyrographos\" {>= \"0.0.2.6\" & < \"0.0.3\"}, \"satysfi-fss\" {>= \"0.2.0\" & < \"0.3.0\"}, \"satysfi-fonts-bodoni-star\" {>= \"2.3\" & < \"2.4\"}",
+      "last_update": "1607706442",
+      "first_published": "1607687540",
+      "has_docpkg": false,
+      "documents": [],
+      "fonts": [],
+      "tags": [],
+      "snapshots": []
     },
     {
       "name": "grcnum",
