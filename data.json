@@ -303,9 +303,9 @@
       "license": "",
       "homepage": "https://github.com/gfngfn/SATySFi",
       "bug_reports": "https://github.com/gfngfn/SATySFi/issues",
-      "latest_version": "0.0.5+dev2020.09.05",
+      "latest_version": "0.0.5-59-g32f2525",
       "dependencies": "\"satysfi\" {= \"%{version}%\"}",
-      "last_update": "1607161888",
+      "last_update": "1608386137",
       "first_published": "1574164933",
       "has_docpkg": false,
       "documents": [],
@@ -962,7 +962,7 @@
       "last_update": "1607687540",
       "first_published": "1599917178",
       "has_docpkg": true,
-      "documents": [ "./docs/fss-doc/doc-fss-ja.pdf" ],
+      "documents": [ "./docs/fss-doc/doc-fss.ja.pdf" ],
       "fonts": [],
       "tags": [],
       "snapshots": [
@@ -989,7 +989,10 @@
       "documents": [],
       "fonts": [],
       "tags": [],
-      "snapshots": []
+      "snapshots": [
+        "satyrographos-snapshot-develop.0.0.5",
+        "satyrographos-snapshot-stable.0.0.5"
+      ]
     },
     {
       "name": "grcnum",
