@@ -1240,8 +1240,8 @@
       "bug_reports": "https://github.com/abenori/satysfi-matrixcd/issues",
       "latest_version": "0.0.2",
       "dependencies":
-        "\"satysfi\" {>= \"0.0.4\" & < \"0.0.6\"}, \"satysfi-base\" {= \"1.3.0\"}, \"satyrographos\" {>= \"0.0.2.0\" & < \"0.0.3.0\"}",
-      "last_update": "1607244317",
+        "\"satysfi\" {>= \"0.0.4\" & < \"0.0.6\"}, \"satysfi-base\" {>= \"1.3.0\" & < \"2.0.0\"}, \"satyrographos\" {>= \"0.0.2.0\" & < \"0.0.3.0\"}",
+      "last_update": "1609042841",
       "first_published": "1602163993",
       "has_docpkg": false,
       "documents": [],
