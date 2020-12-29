@@ -1288,6 +1288,7 @@
       "snapshots": [
         "satyrographos-snapshot-develop.0.0.5",
         "satyrographos-snapshot-develop.0.0.5-59-g32f2525",
+        "satyrographos-snapshot-stable.0.0.4",
         "satyrographos-snapshot-stable.0.0.5"
       ]
     },
