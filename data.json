@@ -21,8 +21,8 @@
       "fonts": [],
       "tags": [],
       "snapshots": [
-        "satyrographos-snapshot-develop.0.0.5-59-g32f2525",
-        "satyrographos-snapshot-develop.0.0.5"
+        "satyrographos-snapshot-develop.0.0.5",
+        "satyrographos-snapshot-develop.0.0.5-59-g32f2525"
       ]
     },
     {
@@ -46,10 +46,10 @@
       "fonts": [],
       "tags": [],
       "snapshots": [
+        "satyrographos-snapshot-develop.0.0.5",
         "satyrographos-snapshot-develop.0.0.5-59-g32f2525",
-        "satyrographos-snapshot-stable.0.0.5",
         "satyrographos-snapshot-stable.0.0.4",
-        "satyrographos-snapshot-develop.0.0.5"
+        "satyrographos-snapshot-stable.0.0.5"
       ]
     },
     {
@@ -73,9 +73,9 @@
       "fonts": [],
       "tags": [],
       "snapshots": [
+        "satyrographos-snapshot-develop.0.0.5",
         "satyrographos-snapshot-develop.0.0.5-59-g32f2525",
-        "satyrographos-snapshot-stable.0.0.5",
-        "satyrographos-snapshot-develop.0.0.5"
+        "satyrographos-snapshot-stable.0.0.5"
       ]
     },
     {
@@ -100,10 +100,10 @@
       "fonts": [],
       "tags": [],
       "snapshots": [
+        "satyrographos-snapshot-develop.0.0.5",
         "satyrographos-snapshot-develop.0.0.5-59-g32f2525",
-        "satyrographos-snapshot-stable.0.0.5",
         "satyrographos-snapshot-stable.0.0.4",
-        "satyrographos-snapshot-develop.0.0.5"
+        "satyrographos-snapshot-stable.0.0.5"
       ]
     },
     {
@@ -134,9 +134,9 @@
       "fonts": [],
       "tags": [],
       "snapshots": [
+        "satyrographos-snapshot-develop.0.0.5",
         "satyrographos-snapshot-develop.0.0.5-59-g32f2525",
-        "satyrographos-snapshot-stable.0.0.5",
-        "satyrographos-snapshot-develop.0.0.5"
+        "satyrographos-snapshot-stable.0.0.5"
       ]
     },
     {
@@ -160,10 +160,10 @@
       "fonts": [],
       "tags": [],
       "snapshots": [
+        "satyrographos-snapshot-develop.0.0.5",
         "satyrographos-snapshot-develop.0.0.5-59-g32f2525",
-        "satyrographos-snapshot-stable.0.0.5",
         "satyrographos-snapshot-stable.0.0.4",
-        "satyrographos-snapshot-develop.0.0.5"
+        "satyrographos-snapshot-stable.0.0.5"
       ]
     },
     {
@@ -186,10 +186,10 @@
       "fonts": [],
       "tags": [],
       "snapshots": [
+        "satyrographos-snapshot-develop.0.0.5",
         "satyrographos-snapshot-develop.0.0.5-59-g32f2525",
-        "satyrographos-snapshot-stable.0.0.5",
         "satyrographos-snapshot-stable.0.0.4",
-        "satyrographos-snapshot-develop.0.0.5"
+        "satyrographos-snapshot-stable.0.0.5"
       ]
     },
     {
@@ -214,10 +214,10 @@
       "fonts": [],
       "tags": [],
       "snapshots": [
+        "satyrographos-snapshot-develop.0.0.5",
         "satyrographos-snapshot-develop.0.0.5-59-g32f2525",
-        "satyrographos-snapshot-stable.0.0.5",
         "satyrographos-snapshot-stable.0.0.4",
-        "satyrographos-snapshot-develop.0.0.5"
+        "satyrographos-snapshot-stable.0.0.5"
       ]
     },
     {
@@ -244,10 +244,10 @@
       "fonts": [],
       "tags": [],
       "snapshots": [
+        "satyrographos-snapshot-develop.0.0.5",
         "satyrographos-snapshot-develop.0.0.5-59-g32f2525",
-        "satyrographos-snapshot-stable.0.0.5",
         "satyrographos-snapshot-stable.0.0.4",
-        "satyrographos-snapshot-develop.0.0.5"
+        "satyrographos-snapshot-stable.0.0.5"
       ]
     },
     {
@@ -273,10 +273,10 @@
       "fonts": [],
       "tags": [],
       "snapshots": [
+        "satyrographos-snapshot-develop.0.0.5",
         "satyrographos-snapshot-develop.0.0.5-59-g32f2525",
-        "satyrographos-snapshot-stable.0.0.5",
         "satyrographos-snapshot-stable.0.0.4",
-        "satyrographos-snapshot-develop.0.0.5"
+        "satyrographos-snapshot-stable.0.0.5"
       ]
     },
     {
@@ -300,10 +300,10 @@
       "fonts": [],
       "tags": [],
       "snapshots": [
+        "satyrographos-snapshot-develop.0.0.5",
         "satyrographos-snapshot-develop.0.0.5-59-g32f2525",
-        "satyrographos-snapshot-stable.0.0.5",
         "satyrographos-snapshot-stable.0.0.4",
-        "satyrographos-snapshot-develop.0.0.5"
+        "satyrographos-snapshot-stable.0.0.5"
       ]
     },
     {
@@ -349,10 +349,10 @@
       "fonts": [],
       "tags": [],
       "snapshots": [
+        "satyrographos-snapshot-develop.0.0.5",
         "satyrographos-snapshot-develop.0.0.5-59-g32f2525",
-        "satyrographos-snapshot-stable.0.0.5",
         "satyrographos-snapshot-stable.0.0.4",
-        "satyrographos-snapshot-develop.0.0.5"
+        "satyrographos-snapshot-stable.0.0.5"
       ]
     },
     {
@@ -375,9 +375,9 @@
       "fonts": [],
       "tags": [],
       "snapshots": [
+        "satyrographos-snapshot-develop.0.0.5",
         "satyrographos-snapshot-develop.0.0.5-59-g32f2525",
-        "satyrographos-snapshot-stable.0.0.5",
-        "satyrographos-snapshot-develop.0.0.5"
+        "satyrographos-snapshot-stable.0.0.5"
       ]
     },
     {
@@ -400,9 +400,9 @@
       "fonts": [],
       "tags": [],
       "snapshots": [
+        "satyrographos-snapshot-develop.0.0.5",
         "satyrographos-snapshot-develop.0.0.5-59-g32f2525",
-        "satyrographos-snapshot-stable.0.0.5",
-        "satyrographos-snapshot-develop.0.0.5"
+        "satyrographos-snapshot-stable.0.0.5"
       ]
     },
     {
@@ -427,10 +427,10 @@
       "fonts": [ "Asana-Math.otf" ],
       "tags": [],
       "snapshots": [
+        "satyrographos-snapshot-develop.0.0.5",
         "satyrographos-snapshot-develop.0.0.5-59-g32f2525",
-        "satyrographos-snapshot-stable.0.0.5",
         "satyrographos-snapshot-stable.0.0.4",
-        "satyrographos-snapshot-develop.0.0.5"
+        "satyrographos-snapshot-stable.0.0.5"
       ]
     },
     {
@@ -488,9 +488,9 @@
       ],
       "tags": [],
       "snapshots": [
+        "satyrographos-snapshot-develop.0.0.5",
         "satyrographos-snapshot-develop.0.0.5-59-g32f2525",
-        "satyrographos-snapshot-stable.0.0.5",
-        "satyrographos-snapshot-develop.0.0.5"
+        "satyrographos-snapshot-stable.0.0.5"
       ]
     },
     {
@@ -527,10 +527,10 @@
       ],
       "tags": [],
       "snapshots": [
+        "satyrographos-snapshot-develop.0.0.5",
         "satyrographos-snapshot-develop.0.0.5-59-g32f2525",
-        "satyrographos-snapshot-stable.0.0.5",
         "satyrographos-snapshot-stable.0.0.4",
-        "satyrographos-snapshot-develop.0.0.5"
+        "satyrographos-snapshot-stable.0.0.5"
       ]
     },
     {
@@ -579,9 +579,9 @@
       ],
       "tags": [],
       "snapshots": [
+        "satyrographos-snapshot-develop.0.0.5",
         "satyrographos-snapshot-develop.0.0.5-59-g32f2525",
-        "satyrographos-snapshot-stable.0.0.5",
-        "satyrographos-snapshot-develop.0.0.5"
+        "satyrographos-snapshot-stable.0.0.5"
       ]
     },
     {
@@ -620,10 +620,10 @@
       ],
       "tags": [],
       "snapshots": [
+        "satyrographos-snapshot-develop.0.0.5",
         "satyrographos-snapshot-develop.0.0.5-59-g32f2525",
-        "satyrographos-snapshot-stable.0.0.5",
         "satyrographos-snapshot-stable.0.0.4",
-        "satyrographos-snapshot-develop.0.0.5"
+        "satyrographos-snapshot-stable.0.0.5"
       ]
     },
     {
@@ -651,9 +651,9 @@
       ],
       "tags": [],
       "snapshots": [
+        "satyrographos-snapshot-develop.0.0.5",
         "satyrographos-snapshot-develop.0.0.5-59-g32f2525",
-        "satyrographos-snapshot-stable.0.0.5",
-        "satyrographos-snapshot-develop.0.0.5"
+        "satyrographos-snapshot-stable.0.0.5"
       ]
     },
     {
@@ -680,10 +680,10 @@
       "fonts": [ "NotoColorEmoji.ttf", "NotoEmoji-Regular.ttf" ],
       "tags": [],
       "snapshots": [
+        "satyrographos-snapshot-develop.0.0.5",
         "satyrographos-snapshot-develop.0.0.5-59-g32f2525",
-        "satyrographos-snapshot-stable.0.0.5",
         "satyrographos-snapshot-stable.0.0.4",
-        "satyrographos-snapshot-develop.0.0.5"
+        "satyrographos-snapshot-stable.0.0.5"
       ]
     },
     {
@@ -765,10 +765,10 @@
       ],
       "tags": [],
       "snapshots": [
+        "satyrographos-snapshot-develop.0.0.5",
         "satyrographos-snapshot-develop.0.0.5-59-g32f2525",
-        "satyrographos-snapshot-stable.0.0.5",
         "satyrographos-snapshot-stable.0.0.4",
-        "satyrographos-snapshot-develop.0.0.5"
+        "satyrographos-snapshot-stable.0.0.5"
       ]
     },
     {
@@ -802,10 +802,10 @@
       ],
       "tags": [],
       "snapshots": [
+        "satyrographos-snapshot-develop.0.0.5",
         "satyrographos-snapshot-develop.0.0.5-59-g32f2525",
-        "satyrographos-snapshot-stable.0.0.5",
         "satyrographos-snapshot-stable.0.0.4",
-        "satyrographos-snapshot-develop.0.0.5"
+        "satyrographos-snapshot-stable.0.0.5"
       ]
     },
     {
@@ -839,10 +839,10 @@
       ],
       "tags": [],
       "snapshots": [
+        "satyrographos-snapshot-develop.0.0.5",
         "satyrographos-snapshot-develop.0.0.5-59-g32f2525",
-        "satyrographos-snapshot-stable.0.0.5",
         "satyrographos-snapshot-stable.0.0.4",
-        "satyrographos-snapshot-develop.0.0.5"
+        "satyrographos-snapshot-stable.0.0.5"
       ]
     },
     {
@@ -925,10 +925,10 @@
       ],
       "tags": [],
       "snapshots": [
+        "satyrographos-snapshot-develop.0.0.5",
         "satyrographos-snapshot-develop.0.0.5-59-g32f2525",
-        "satyrographos-snapshot-stable.0.0.5",
         "satyrographos-snapshot-stable.0.0.4",
-        "satyrographos-snapshot-develop.0.0.5"
+        "satyrographos-snapshot-stable.0.0.5"
       ]
     },
     {
@@ -961,10 +961,10 @@
       ],
       "tags": [],
       "snapshots": [
+        "satyrographos-snapshot-develop.0.0.5",
         "satyrographos-snapshot-develop.0.0.5-59-g32f2525",
-        "satyrographos-snapshot-stable.0.0.5",
         "satyrographos-snapshot-stable.0.0.4",
-        "satyrographos-snapshot-develop.0.0.5"
+        "satyrographos-snapshot-stable.0.0.5"
       ]
     },
     {
@@ -993,10 +993,10 @@
       ],
       "tags": [],
       "snapshots": [
+        "satyrographos-snapshot-develop.0.0.5",
         "satyrographos-snapshot-develop.0.0.5-59-g32f2525",
-        "satyrographos-snapshot-stable.0.0.5",
         "satyrographos-snapshot-stable.0.0.4",
-        "satyrographos-snapshot-develop.0.0.5"
+        "satyrographos-snapshot-stable.0.0.5"
       ]
     },
     {
@@ -1019,9 +1019,9 @@
       "fonts": [],
       "tags": [],
       "snapshots": [
+        "satyrographos-snapshot-develop.0.0.5",
         "satyrographos-snapshot-develop.0.0.5-59-g32f2525",
-        "satyrographos-snapshot-stable.0.0.5",
-        "satyrographos-snapshot-develop.0.0.5"
+        "satyrographos-snapshot-stable.0.0.5"
       ]
     },
     {
@@ -1044,9 +1044,9 @@
       "fonts": [],
       "tags": [],
       "snapshots": [
+        "satyrographos-snapshot-develop.0.0.5",
         "satyrographos-snapshot-develop.0.0.5-59-g32f2525",
-        "satyrographos-snapshot-stable.0.0.5",
-        "satyrographos-snapshot-develop.0.0.5"
+        "satyrographos-snapshot-stable.0.0.5"
       ]
     },
     {
@@ -1070,10 +1070,10 @@
       "fonts": [],
       "tags": [],
       "snapshots": [
+        "satyrographos-snapshot-develop.0.0.5",
         "satyrographos-snapshot-develop.0.0.5-59-g32f2525",
-        "satyrographos-snapshot-stable.0.0.5",
         "satyrographos-snapshot-stable.0.0.4",
-        "satyrographos-snapshot-develop.0.0.5"
+        "satyrographos-snapshot-stable.0.0.5"
       ]
     },
     {
@@ -1101,10 +1101,10 @@
       "fonts": [],
       "tags": [],
       "snapshots": [
+        "satyrographos-snapshot-develop.0.0.5",
         "satyrographos-snapshot-develop.0.0.5-59-g32f2525",
-        "satyrographos-snapshot-stable.0.0.5",
         "satyrographos-snapshot-stable.0.0.4",
-        "satyrographos-snapshot-develop.0.0.5"
+        "satyrographos-snapshot-stable.0.0.5"
       ]
     },
     {
@@ -1171,10 +1171,10 @@
       "fonts": [],
       "tags": [],
       "snapshots": [
+        "satyrographos-snapshot-develop.0.0.5",
         "satyrographos-snapshot-develop.0.0.5-59-g32f2525",
-        "satyrographos-snapshot-stable.0.0.5",
         "satyrographos-snapshot-stable.0.0.4",
-        "satyrographos-snapshot-develop.0.0.5"
+        "satyrographos-snapshot-stable.0.0.5"
       ]
     },
     {
@@ -1198,10 +1198,10 @@
       "fonts": [],
       "tags": [],
       "snapshots": [
+        "satyrographos-snapshot-develop.0.0.5",
         "satyrographos-snapshot-develop.0.0.5-59-g32f2525",
-        "satyrographos-snapshot-stable.0.0.5",
         "satyrographos-snapshot-stable.0.0.4",
-        "satyrographos-snapshot-develop.0.0.5"
+        "satyrographos-snapshot-stable.0.0.5"
       ]
     },
     {
@@ -1225,9 +1225,9 @@
       "fonts": [],
       "tags": [],
       "snapshots": [
+        "satyrographos-snapshot-develop.0.0.5",
         "satyrographos-snapshot-develop.0.0.5-59-g32f2525",
-        "satyrographos-snapshot-stable.0.0.5",
-        "satyrographos-snapshot-develop.0.0.5"
+        "satyrographos-snapshot-stable.0.0.5"
       ]
     },
     {
@@ -1251,10 +1251,10 @@
       "fonts": [],
       "tags": [],
       "snapshots": [
+        "satyrographos-snapshot-develop.0.0.5",
         "satyrographos-snapshot-develop.0.0.5-59-g32f2525",
-        "satyrographos-snapshot-stable.0.0.5",
         "satyrographos-snapshot-stable.0.0.4",
-        "satyrographos-snapshot-develop.0.0.5"
+        "satyrographos-snapshot-stable.0.0.5"
       ]
     },
     {
@@ -1284,10 +1284,10 @@
       "fonts": [],
       "tags": [],
       "snapshots": [
+        "satyrographos-snapshot-develop.0.0.5",
         "satyrographos-snapshot-develop.0.0.5-59-g32f2525",
-        "satyrographos-snapshot-stable.0.0.5",
         "satyrographos-snapshot-stable.0.0.4",
-        "satyrographos-snapshot-develop.0.0.5"
+        "satyrographos-snapshot-stable.0.0.5"
       ]
     },
     {
@@ -1310,10 +1310,10 @@
       "fonts": [],
       "tags": [],
       "snapshots": [
+        "satyrographos-snapshot-develop.0.0.5",
         "satyrographos-snapshot-develop.0.0.5-59-g32f2525",
-        "satyrographos-snapshot-stable.0.0.5",
         "satyrographos-snapshot-stable.0.0.4",
-        "satyrographos-snapshot-develop.0.0.5"
+        "satyrographos-snapshot-stable.0.0.5"
       ]
     },
     {
@@ -1337,10 +1337,10 @@
       "fonts": [],
       "tags": [],
       "snapshots": [
+        "satyrographos-snapshot-develop.0.0.5",
         "satyrographos-snapshot-develop.0.0.5-59-g32f2525",
-        "satyrographos-snapshot-stable.0.0.5",
         "satyrographos-snapshot-stable.0.0.4",
-        "satyrographos-snapshot-develop.0.0.5"
+        "satyrographos-snapshot-stable.0.0.5"
       ]
     },
     {
@@ -1367,9 +1367,9 @@
       "fonts": [],
       "tags": [],
       "snapshots": [
+        "satyrographos-snapshot-develop.0.0.5",
         "satyrographos-snapshot-develop.0.0.5-59-g32f2525",
-        "satyrographos-snapshot-stable.0.0.5",
-        "satyrographos-snapshot-develop.0.0.5"
+        "satyrographos-snapshot-stable.0.0.5"
       ]
     },
     {
@@ -1393,9 +1393,9 @@
       "fonts": [],
       "tags": [],
       "snapshots": [
+        "satyrographos-snapshot-develop.0.0.5",
         "satyrographos-snapshot-develop.0.0.5-59-g32f2525",
-        "satyrographos-snapshot-stable.0.0.5",
-        "satyrographos-snapshot-develop.0.0.5"
+        "satyrographos-snapshot-stable.0.0.5"
       ]
     },
     {
@@ -1418,10 +1418,10 @@
       "fonts": [],
       "tags": [],
       "snapshots": [
+        "satyrographos-snapshot-develop.0.0.5",
         "satyrographos-snapshot-develop.0.0.5-59-g32f2525",
-        "satyrographos-snapshot-stable.0.0.5",
         "satyrographos-snapshot-stable.0.0.4",
-        "satyrographos-snapshot-develop.0.0.5"
+        "satyrographos-snapshot-stable.0.0.5"
       ]
     },
     {
@@ -1445,10 +1445,10 @@
       "fonts": [],
       "tags": [],
       "snapshots": [
+        "satyrographos-snapshot-develop.0.0.5",
         "satyrographos-snapshot-develop.0.0.5-59-g32f2525",
-        "satyrographos-snapshot-stable.0.0.5",
         "satyrographos-snapshot-stable.0.0.4",
-        "satyrographos-snapshot-develop.0.0.5"
+        "satyrographos-snapshot-stable.0.0.5"
       ]
     },
     {
@@ -1472,10 +1472,10 @@
       "fonts": [],
       "tags": [],
       "snapshots": [
+        "satyrographos-snapshot-develop.0.0.5",
         "satyrographos-snapshot-develop.0.0.5-59-g32f2525",
-        "satyrographos-snapshot-stable.0.0.5",
         "satyrographos-snapshot-stable.0.0.4",
-        "satyrographos-snapshot-develop.0.0.5"
+        "satyrographos-snapshot-stable.0.0.5"
       ]
     },
     {
@@ -1498,9 +1498,9 @@
       "fonts": [],
       "tags": [],
       "snapshots": [
+        "satyrographos-snapshot-develop.0.0.5",
         "satyrographos-snapshot-develop.0.0.5-59-g32f2525",
-        "satyrographos-snapshot-stable.0.0.5",
-        "satyrographos-snapshot-develop.0.0.5"
+        "satyrographos-snapshot-stable.0.0.5"
       ]
     },
     {
@@ -1523,9 +1523,9 @@
       "fonts": [],
       "tags": [],
       "snapshots": [
+        "satyrographos-snapshot-develop.0.0.5",
         "satyrographos-snapshot-develop.0.0.5-59-g32f2525",
-        "satyrographos-snapshot-stable.0.0.5",
-        "satyrographos-snapshot-develop.0.0.5"
+        "satyrographos-snapshot-stable.0.0.5"
       ]
     },
     {
@@ -1548,10 +1548,10 @@
       "fonts": [],
       "tags": [],
       "snapshots": [
+        "satyrographos-snapshot-develop.0.0.5",
         "satyrographos-snapshot-develop.0.0.5-59-g32f2525",
-        "satyrographos-snapshot-stable.0.0.5",
         "satyrographos-snapshot-stable.0.0.4",
-        "satyrographos-snapshot-develop.0.0.5"
+        "satyrographos-snapshot-stable.0.0.5"
       ]
     },
     {
@@ -1575,10 +1575,10 @@
       "fonts": [],
       "tags": [],
       "snapshots": [
+        "satyrographos-snapshot-develop.0.0.5",
         "satyrographos-snapshot-develop.0.0.5-59-g32f2525",
-        "satyrographos-snapshot-stable.0.0.5",
         "satyrographos-snapshot-stable.0.0.4",
-        "satyrographos-snapshot-develop.0.0.5"
+        "satyrographos-snapshot-stable.0.0.5"
       ]
     }
   ]
