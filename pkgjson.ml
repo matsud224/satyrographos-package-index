@@ -221,7 +221,7 @@ let get_contained_snapshots ssinfo pkgname =
   )
   |> List.map (fun (ssname, _) -> ssname)
   |> List.map (fun ssname -> List.hd (split (regexp "\\+") ssname))
-  |> List.sort String.compare |> Core.List.remove_consecutive_duplicates ~equal:(fun a b -> a = b)
+  |> List.sort (fun a b -> OpamVersionCompare.compare b a) |> Core.List.remove_consecutive_duplicates ~equal:(fun a b -> a = b)
 
 let () =
   let out_file = Sys.argv.(1) in
