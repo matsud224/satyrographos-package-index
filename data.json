@@ -1399,6 +1399,28 @@
       ]
     },
     {
+      "name": "quotation",
+      "type": "Library",
+      "synopsis": "A SATySFi package of quoting",
+      "description": "\nA SATySFi package of quoting.\n",
+      "maintainer": "Naoki Kaneko <puripuri2100@gmail.com>",
+      "authors": "Naoki Kaneko <puripuri2100@gmail.com>",
+      "license": "MIT",
+      "homepage": "https://github.com/puripuri2100/SATySFi-quotation",
+      "bug_reports":
+        "https://github.com/puripuri2100/SATySFi-quotation/issues",
+      "latest_version": "0.1.0",
+      "dependencies":
+        "\"satysfi\" {>= \"0.0.4\" & < \"0.0.6\"}, \"satyrographos\" {>= \"0.0.2.6\" & < \"0.0.3\"}, \"satysfi-dist\"",
+      "last_update": "1609424217",
+      "first_published": "1609424217",
+      "has_docpkg": true,
+      "documents": [],
+      "fonts": [],
+      "tags": [],
+      "snapshots": []
+    },
+    {
       "name": "ruby",
       "type": "Library",
       "synopsis": "Japanese-style ruby in SATySFi",
