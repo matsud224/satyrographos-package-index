@@ -1409,10 +1409,10 @@
       "homepage": "https://github.com/puripuri2100/SATySFi-quotation",
       "bug_reports":
         "https://github.com/puripuri2100/SATySFi-quotation/issues",
-      "latest_version": "0.1.0",
+      "latest_version": "0.2.0",
       "dependencies":
         "\"satysfi\" {>= \"0.0.4\" & < \"0.0.6\"}, \"satyrographos\" {>= \"0.0.2.6\" & < \"0.0.3\"}, \"satysfi-dist\"",
-      "last_update": "1609424217",
+      "last_update": "1611218557",
       "first_published": "1609424217",
       "has_docpkg": true,
       "documents": [],
