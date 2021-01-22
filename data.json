@@ -494,6 +494,29 @@
       ]
     },
     {
+      "name": "fonts-charis-sil",
+      "type": "Font",
+      "synopsis": "SATySFi Font Package for Charis SIL",
+      "description":
+        "\nSATySFi Font Package for Charis SIL\n\nThis package installs fonts from https://software.sil.org/charis/.\n",
+      "maintainer": "Yu Shimura <mail@yuhr.org>",
+      "authors": "Yu Shimura <mail@yuhr.org>",
+      "license": "OFL-1.0",
+      "homepage": "https://github.com/yuhr/satysfi-fonts-charis-sil",
+      "bug_reports":
+        "https://github.com/yuhr/satysfi-fonts-charis-sil/issues",
+      "latest_version": "1.0.0",
+      "dependencies":
+        "\"satysfi\" {>= \"0.0.5\" & < \"0.0.6\"}, \"satyrographos\" {>= \"0.0.2.6\" & < \"0.0.3\"}",
+      "last_update": "1611158271",
+      "first_published": "1611051342",
+      "has_docpkg": true,
+      "documents": [],
+      "fonts": [],
+      "tags": [],
+      "snapshots": []
+    },
+    {
       "name": "fonts-computer-modern-unicode",
       "type": "Font",
       "synopsis": "SATySFi Font Package for Computer Modern Unicode fonts",
