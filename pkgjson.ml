@@ -78,7 +78,7 @@ let get_package_type name =
   iter regexp_type_pair
 
 let find_variable_in_opamfile ofile name =
-  let open OpamParserTypes in
+  let open OpamParserTypes.FullPos in
   let rec iter ilst =
     match ilst with
     | [] -> None
@@ -92,17 +92,17 @@ let find_variable_in_opamfile ofile name =
   iter ofile.file_contents
 
 let find_string_variable_in_opamfile ofile name =
-  let open OpamParserTypes in
+  let open OpamParserTypes.FullPos in
   match find_variable_in_opamfile ofile name with
   | Some(String(_, strval)) -> Some(strval)
   | _                       -> None
 
 let find_string_list_variable_in_opamfile ?(use_opamprinter=false) ofile name =
-  let open OpamParserTypes in
+  let open OpamParserTypes.FullPos in
   match find_variable_in_opamfile ofile name with
   | Some(String(_, strval)) -> Some([strval])
   | Some(List(_, vallst))   -> Some(List.map (function String(_, s) as v ->
-      if use_opamprinter then OpamPrinter.value v else s | v -> OpamPrinter.value v) vallst)
+      if use_opamprinter then OpamPrinter.FullPos.value v else s | v -> OpamPrinter.FullPos.value v) vallst)
   | _                       -> None
 
 let json_of_package_info info =
@@ -207,7 +207,7 @@ let get_snapshot_info_list pkglst =
     get_version_list name |> List.map (fun version ->
       let full_name = name ^ "." ^ version in
       let opamfile_path = List.fold_left Filename.concat package_root [name; full_name; "opam"] in
-      let ofile = OpamParser.file opamfile_path in
+      let ofile = OpamParser.FullPos.file opamfile_path in
       let depends = Option.get (find_string_list_variable_in_opamfile ofile "depends" ~use_opamprinter:true) in
         (full_name, String.concat ", " depends)
     )
@@ -231,7 +231,7 @@ let () =
     let version_list = get_version_list name in
     let latest_version = List.hd version_list in
     let opamfile_path = List.fold_left Filename.concat package_root [name; name ^ "." ^ latest_version; "opam"] in
-    let ofile = OpamParser.file opamfile_path in
+    let ofile = OpamParser.FullPos.file opamfile_path in
     let get_str_variable nm default = Option.value (find_string_variable_in_opamfile ofile nm) ~default:default in
     let get_strlist_variable ?(use_opamprinter=false) nm default =
       match find_string_list_variable_in_opamfile ofile nm ~use_opamprinter:use_opamprinter with
