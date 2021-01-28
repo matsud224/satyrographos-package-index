@@ -179,6 +179,7 @@ $(document).ready(function() {
   var table = $('#main-table').DataTable({
     lengthMenu: [ [50, 100, -1], [50, 100, "All"] ],
     ajax: "./data.json",
+    processing: true,
     language: {
       "info":           "Showing _START_ to _END_ of _TOTAL_ packages",
       "infoEmpty":      "Showing 0 to 0 of 0 packages",
