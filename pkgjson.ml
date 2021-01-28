@@ -79,12 +79,12 @@ let get_package_type name =
 
 let find_variable_in_opamfile ofile name =
   let open OpamParserTypes.FullPos in
-  let rec iter ilst =
+  let rec iter (ilst : opamfile_item list) =
     match ilst with
     | [] -> None
-    | Variable(_, nm, value) :: rest ->
-        if String.compare nm name == 0 then
-          Some(value)
+    | { pelem = Variable(nm_withpos, value); _ } :: rest ->
+        if String.compare nm_withpos.pelem name == 0 then
+          Some(value.pelem)
         else
           iter rest
     | _ :: rest -> iter rest
@@ -94,15 +94,15 @@ let find_variable_in_opamfile ofile name =
 let find_string_variable_in_opamfile ofile name =
   let open OpamParserTypes.FullPos in
   match find_variable_in_opamfile ofile name with
-  | Some(String(_, strval)) -> Some(strval)
+  | Some(String(strval)) -> Some(strval)
   | _                       -> None
 
 let find_string_list_variable_in_opamfile ?(use_opamprinter=false) ofile name =
   let open OpamParserTypes.FullPos in
   match find_variable_in_opamfile ofile name with
-  | Some(String(_, strval)) -> Some([strval])
-  | Some(List(_, vallst))   -> Some(List.map (function String(_, s) as v ->
-      if use_opamprinter then OpamPrinter.FullPos.value v else s | v -> OpamPrinter.FullPos.value v) vallst)
+  | Some(String(strval)) -> Some([strval])
+  | Some(List(vallst))   -> Some(List.map (function { pelem = String(s); _ } as v ->
+      if use_opamprinter then OpamPrinter.FullPos.value v else s | v -> OpamPrinter.FullPos.value v) vallst.pelem)
   | _                       -> None
 
 let json_of_package_info info =
